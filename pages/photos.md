@@ -3,6 +3,7 @@ layout: page
 title: Photos
 description: A personal photo feed by Alexander Huth.
 permalink: /photos/
+theme: sand
 ---
 
 # Photos

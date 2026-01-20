@@ -15,6 +15,11 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <script>
     (function () {
+      var forcedTheme = "{{ page.theme }}";
+      if (forcedTheme) {
+        document.documentElement.classList.add(forcedTheme);
+        return;
+      }
       var themes = ["sand", "amber", "seaglass", "coral", "dawn", "royal", "forest", "ruby", "sky", "fireball"];
       document.documentElement.classList.add(themes[Math.random() * themes.length | 0]);
     })();

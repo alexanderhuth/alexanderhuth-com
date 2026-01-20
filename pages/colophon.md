@@ -17,4 +17,4 @@ The slash page itself is inspired by [slashpages.net](https://slashpages.net). W
 
 A single handmade stylesheet (`assets/style.css`) handles everything. An inline snippet randomly applies one of the theme classes (`sand`, `amber`, `seaglass` etc.) to rotate background colors. There are no external fonts, client-side frameworks, or build steps for CSS/JS.
 
-Built in Visual Studio Code with a little help from Codex, previewed locally with Jekyll, versioned on GitHub, and published as static HTML to GitHub Pages.
+Cobbled together in Visual Studio Code and Micro, with a little help from Codex. Built locally with Jekyll, versioned on GitHub, and published as static HTML to GitHub Pages.

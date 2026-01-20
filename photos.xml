@@ -1,0 +1,29 @@
+---
+layout: null
+permalink: /photos.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }} Photos</title>
+  <id>{{ "/photos/" | absolute_url }}</id>
+  <link href="{{ "/photos.xml" | absolute_url }}" rel="self" />
+  <link href="{{ "/photos/" | absolute_url }}" />
+  <author>
+    <name>{{ site.author }}</name>
+  </author>
+  {% assign photos = site.data.photos | sort: "date" | reverse %}
+  {% if photos and photos.size > 0 %}
+    <updated>{{ photos[0].date | date_to_xmlschema }}</updated>
+  {% else %}
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+  {% endif %}
+  {% for photo in photos %}
+    <entry>
+      <title>{{ photo.title | escape }}</title>
+      <id>{{ photo.full | absolute_url }}</id>
+      <link href="{{ photo.full | absolute_url }}" />
+      <updated>{{ photo.date | date_to_xmlschema }}</updated>
+      <summary>{{ photo.alt | escape }}{% if photo.location %} — {{ photo.location | escape }}{% endif %}</summary>
+    </entry>
+  {% endfor %}
+</feed>

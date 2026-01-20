@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-01-19",
+    "title": "Green aurora",
+    "alt": "Green aurora streaks across a dark night sky.",
+    "thumb": "/photos/small/aurora-green.jpg",
+    "full": "/photos/aurora-green.jpg",
+    "location": "Kleiner Wannsee"
+  },
+  {
+    "date": "2026-01-19",
+    "title": "Red aurora",
+    "alt": "Red aurora bands glowing against a dark night sky.",
+    "thumb": "/photos/small/aurora-red.jpg",
+    "full": "/photos/aurora-red.jpg",
+    "location": "Kleiner Wannsee"
+  }
+]

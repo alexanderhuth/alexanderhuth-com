@@ -393,3 +393,56 @@ main {
 .site-footer a:focus {
   color: var(--text-color);
 }
+
+.photo-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.photo-card {
+  margin: 0;
+}
+
+.photo-link {
+  width: calc(100% + 3rem);
+  max-width: calc(72ch + 3rem);
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.photo-link img {
+  width: 100%;
+}
+
+.photo-meta {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.9rem;
+  color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
+}
+
+.photo-title {
+  font-weight: 600;
+}
+
+.photo-description {
+  font-style: italic;
+}
+
+.photo-date-link {
+  text-decoration: none;
+}
+
+.photo-date-link:hover,
+.photo-date-link:focus {
+  text-decoration: underline;
+}
+
+.photo-empty {
+  margin-top: 1.5rem;
+  color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
+}

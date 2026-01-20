@@ -9,11 +9,18 @@ permalink: /now/
 
 What I’m doing or focused on right now.
 
-- ⚡️ [Making it through the longest power outage in post-war Berlin](https://de.wikipedia.org/wiki/Anschlag_auf_das_Berliner_Stromnetz)
-- 🎅🏼 Recovering from Christmas (and a cold)
+- 🌃 Hunting auroras
+- 🏈 Playoffs, baby!
 - 🎓 Teaching Search Marketing at XU in Potsdam
 - 🌍 Tinkering with this little website
-- 📋 Making year-end lists
+- 💻 Running Omarchy on an old ThinkPad E14
 - 🌳 Exploring Düppeler Forst on a mountain bike
 - 💡 Working on making our home smarter
+{: .emoji-list}
+
+## Then
+
+- ⚡️ Making it through the [longest power outage in post-war Berlin](https://de.wikipedia.org/wiki/Anschlag_auf_das_Berliner_Stromnetz)
+- 📋 Writing [year-end lists](/posts/2025-in-lists/)
+- 🎅 Recovering from Christmas (and a nasty cold)
 {: .emoji-list}

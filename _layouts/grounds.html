@@ -1,0 +1,24 @@
+{% include html-start.html %}
+  {% include html-head.html %}
+  <body>
+    {% include header.html %}
+    <main role="main">
+      {{ content }}
+      {% for section in site.data.grounds %}
+        <h2>{{ section.label }}</h2>
+        {% if section.note %}
+          <p>{{ section.note }}</p>
+        {% else %}
+          {% for item in section.items %}
+            <p>
+              {{ item.emoji }} <strong>{{ item.venue }} in {{ item.city }} on {{ item.date | date: "%b %-d" }}</strong><br>
+              {{ item.match }}<br>
+              <em>{{ item.competition }}</em>
+            </p>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </main>
+    {% include footer.html %}
+  </body>
+{% include html-end.html %}

@@ -2,7 +2,7 @@
   {
     "date": "2026-01-19",
     "title": "Green aurora",
-    "alt": "Green aurora streaks across a dark night sky.",
+    "alt": "A green aurora streaks across the dark night sky over Kleiner Wannsee.",
     "thumb": "/photos/small/aurora-green.jpg",
     "full": "/photos/aurora-green.jpg",
     "location": "Kleiner Wannsee"
@@ -10,9 +10,17 @@
   {
     "date": "2026-01-19",
     "title": "Red aurora",
-    "alt": "Red aurora bands glowing against a dark night sky.",
+    "alt": "Red aurora bands glowing against the dark Wannsee  night sky.",
     "thumb": "/photos/small/aurora-red.jpg",
     "full": "/photos/aurora-red.jpg",
     "location": "Kleiner Wannsee"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Bauhaus-Archiv",
+    "alt": "Berlin's Bauhaus-Archiv in the morning sun, surrounded by other Westberlin buildings.",
+    "thumb": "/photos/small/bauhaus-archiv.jpg",
+    "full": "/photos/bauhaus-archiv.jpg",
+    "location": "Hiroshimasteg"
   }
 ]

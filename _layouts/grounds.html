@@ -9,10 +9,11 @@
         {% if section.note %}
           <p>{{ section.note }}</p>
         {% else %}
-          {% for item in section.items %}
+          {% assign sorted_items = section.items | sort: "date" | reverse %}
+          {% for item in sorted_items %}
             <p>
               {{ item.emoji }} <strong>{{ item.venue }} in {{ item.city }} on {{ item.date | date: "%b %-d" }}</strong><br>
-              {{ item.match }}<br>
+              {{ item.match | newline_to_br }}<br>
               <em>{{ item.competition }}</em>
             </p>
           {% endfor %}

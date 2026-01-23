@@ -11,20 +11,20 @@
         "competition": "Bundesliga"
       },
       {
-        "emoji": "🏉",
-        "venue": "Principality Stadium",
-        "city": "Cardiff",
-        "date": "2025-05-10",
-        "match": "Bristol Bears 36 – 14 Bath Rugby",
-        "competition": "Gallagher Prem, Bristol Bears' Big Day Out"
-      },
-      {
         "emoji": "⚽️",
         "venue": "Stadion an der Alten Försterei",
         "city": "Berlin",
         "date": "2025-09-25",
         "match": "Union Berlin 0 – 0 Hamburger SV",
         "competition": "Bundesliga"
+      },
+      {
+        "emoji": "🏉",
+        "venue": "Principality Stadium",
+        "city": "Cardiff",
+        "date": "2025-05-10",
+        "match": "Bristol Bears 36 – 14 Bath Rugby",
+        "competition": "Premiership Rugby, Bristol Bears' Big Day Out"
       },
       {
         "emoji": "🏀",
@@ -105,7 +105,7 @@
       },
       {
         "emoji": "🏀",
-        "venue": "Uber Arena",
+        "venue": "Mercedes-Benz Arena (now Uber Arena)",
         "city": "Berlin",
         "date": "2024-02-04",
         "match": "Alba Berlin 98 – 88 Ratiopharm Ulm",
@@ -114,8 +114,265 @@
     ]
   },
   {
-    "label": "2015 - 2023",
-    "note": "tbd."
+    "label": "2023",
+    "items": [
+      {
+        "emoji": "🏉",
+        "venue": "Ashton Gate",
+        "city": "Bristol",
+        "date": "2023-12-29",
+        "match": "Bristol Bears 14 – 24 Exeter Chiefs",
+        "competition": "Premiership Rugby"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Ullevi",
+        "city": "Gothenburg",
+        "date": "2023-11-30",
+        "match": "BK Häcken 0 – 2 Bayer 04 Leverkusen",
+        "competition": "Europa League, Group Stage"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Friedrich-Ludwig-Jahn-Sportpark",
+        "city": "Berlin",
+        "date": "2023-07-07",
+        "match": "BFC Dynamo 0 – 2 Hertha BSC",
+        "competition": "Friendly"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "BayArena",
+        "city": "Leverkusen",
+        "date": "2023-05-18",
+        "match": "Bayer 04 Leverkusen 0 – 0 AS Roma",
+        "competition": "Europa League, Semi Final 😢"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Ashton Gate",
+        "city": "Bristol",
+        "date": "2023-04-22",
+        "match": "Bristol City 2 – 1 Rotherham United",
+        "competition": "Championship"
+      },
+      {
+        "emoji": "🏉",
+        "venue": "Ashton Gate",
+        "city": "Bristol",
+        "date": "2023-04-14",
+        "match": "Bristol Bears 20 – 36 Sale Sharks",
+        "competition": "Premiership Rugby"
+      }
+    ]
+  },
+  {
+    "label": "2022",
+    "items": [
+      {
+        "emoji": "⚽️",
+        "venue": "Friedrich-Ludwig-Jahn-Sportpark",
+        "city": "Berlin",
+        "date": "2022-07-30",
+        "match": "FC Viktoria 1889 Berlin 0 – 3 VfL Bochum",
+        "competition": "DFB-Pokal"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "date": "2022-05-19",
+        "match": "Hertha BSC 0 – 1 Hamburger SV",
+        "competition": "Bundesliga Relegation"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Friedrich-Ludwig-Jahn-Sportpark",
+        "city": "Berlin",
+        "date": "2022-04-29",
+        "match": "FC Viktoria 1889 Berlin 2 – 1 1. FC Saarbrücken",
+        "competition": "3. Liga"
+      },
+      {
+        "emoji": "🏉",
+        "venue": "Ashton Gate",
+        "city": "Bristol",
+        "date": "2022-02-11",
+        "match": "Bristol Bears 32 – 49 London Irish",
+        "competition": "Premiership Rugby"
+      }
+    ]
+  },
+  {
+    "label": "2021",
+    "items": [
+      {
+        "emoji": "⚽️",
+        "venue": "Celtic Park",
+        "city": "Glasgow",
+        "date": "2021-09-30",
+        "match": "Celtic FC 0 – 4 Bayer 04 Leverkusen",
+        "competition": "Europa League, Group Stage"
+      }
+    ]
+  },
+  {
+    "label": "2020",
+    "items": [
+      {
+        "emoji": "⚽️",
+        "venue": "Estádio do Dragão",
+        "city": "Porto",
+        "date": "2020-02-27",
+        "match": "FC Porto 1 – 3 Bayer 04 Leverkusen",
+        "competition": "Europa League, Group Stage"
+      }
+    ]
+  },
+  {
+    "label": "2019",
+    "items": [
+      {
+        "emoji": "🏀",
+        "venue": "Madison Square Garden",
+        "city": "New York City",
+        "date": "2019-11-14",
+        "match": "Dallas Mavericks 103 – 106 New York Knicks",
+        "competition": "NBA"
+      },
+      {
+        "emoji": "🏈",
+        "venue": "MetLife Stadium",
+        "city": "East Rutherford",
+        "date": "2019-11-10",
+        "match": "New York Jets 34 – 27 New York Giants",
+        "competition": "NFL"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Cívitas Metropolitano",
+        "city": "Madrid",
+        "date": "2019-10-22",
+        "match": "Atlético de Madrid 1 – 0 Bayer 04 Leverkusen",
+        "competition": "Champions League, Group Stage"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "date": "2019-05-18",
+        "match": "Hertha BSC 1 – 5 Bayer 04 Leverkusen",
+        "competition": "Bundesliga"
+      }
+    ]
+  },
+  {
+    "label": "2018",
+    "items": [
+      {
+        "emoji": "⚽️",
+        "venue": "Estádio da Luz",
+        "city": "Lisbon",
+        "date": "2018-11-22",
+        "match": "SL Benfica 2 – 1 FC Arouca",
+        "competition": "Taça de Portugal"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Stadion an der Alten Försterei",
+        "city": "Berlin",
+        "date": "2018-08-05",
+        "match": "FC Union Berlin 1 – 0 Erzgebirge Aue",
+        "competition": "2. Bundesliga"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "BayArena",
+        "city": "Leverkusen",
+        "date": "2018-04-17",
+        "match": "Bayer 04 Leverkusen 2 – 6 FC Bayern München",
+        "competition": "DFB-Pokal, Semi Final 😢"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Red Bull Arena",
+        "city": "Leipzig",
+        "date": "2018-04-09",
+        "match": "RB Leipzig 1 – 4 Bayer 04 Leverkusen",
+        "competition": "Bundesliga"
+      }
+    ]
+  },
+  {
+    "label": "2017",
+    "items": [
+      {
+        "emoji": "⚽️",
+        "venue": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "date": "2017-09-20",
+        "match": "Hertha BSC 2 – 1 Bayer 04 Leverkusen",
+        "competition": "Bundesliga"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Stadion an der Alten Försterei",
+        "city": "Berlin",
+        "date": "2017-08-04",
+        "match": "FC Union Berlin 4 – 3 Holstein Kiel",
+        "competition": "2. Bundesliga"
+      }
+    ]
+  },
+  {
+    "label": "2016",
+    "items": [
+      {
+        "emoji": "⚽️",
+        "venue": "Orange Stade Vélodrome",
+        "city": "Marseille",
+        "date": "2016-07-07",
+        "match": "Deutschland 0 – 2 Frankreich",
+        "competition": "UEFA Euro 2016, Semi Final 😢"
+      }
+    ]
+  },
+  {
+    "label": "2015",
+    "items": [
+      {
+        "emoji": "⚽️",
+        "venue": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "date": "2015-12-05",
+        "match": "Hertha BSC 2 – 1 Bayer 04 Leverkusen",
+        "competition": "Bundesliga"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Stadio Olimpico",
+        "city": "Rome",
+        "date": "2015-11-04",
+        "match": "AS Roma 3 – 2 Bayer 04 Leverkusen",
+        "competition": "Champions League, Group Stage"
+      },
+      {
+        "emoji": "🏀",
+        "venue": "Mercedes-Benz Arena (now Uber Arena)",
+        "city": "Berlin",
+        "date": "2015-09-08",
+        "match": "Germany 75 – 80 Turkey",
+        "competition": "EuroBasket 2015, Group Stage"
+      },
+      {
+        "emoji": "⚽️",
+        "venue": "Estadio Vicente Calderón",
+        "city": "Madrid",
+        "date": "2015-03-17",
+        "match": "Atlético de Madrid 3 – 2 Bayer 04 Leverkusen",
+        "competition": "Champions League, Round of 16 😢"
+      }
+    ]
   },
   {
     "label": "2013",
@@ -127,6 +384,14 @@
         "date": "2013-11-23",
         "match": "Hertha BSC 0 – 1 Bayer 04 Leverkusen",
         "competition": "Bundesliga"
+      },
+      {
+        "emoji": "🏈",
+        "venue": "Friedrich-Ludwig-Jahn-Sportpark",
+        "city": "Berlin",
+        "date": "2013-10-12",
+        "match": "New Yorker Lions 35 – 34 Dresden Monarchs",
+        "competition": "German Bowl XXXV"
       },
       {
         "emoji": "⚽️",
@@ -187,12 +452,33 @@
         "competition": "Friendly"
       },
       {
+        "emoji": "🏀",
+        "venue": "O2 World (now Uber Arena)",
+        "city": "Berlin",
+        "date": "2011-03-26",
+        "match": "Alba Berlin 93 – 97 Brose Baskets Bamberg",
+        "competition": "Basketball-Bundesliga (BBL)"
+      },
+      {
         "emoji": "⚽️",
         "venue": "Olympiastadion Berlin",
         "city": "Berlin",
         "date": "2011-02-05",
         "match": "Hertha BSC 1 – 2 Union Berlin",
         "competition": "2. Bundesliga"
+      }
+    ]
+  },
+  {
+    "label": "2009",
+    "items": [
+      {
+        "emoji": "🏃‍♂️",
+        "venue": "Olympiastadion Berlin",
+        "city": "Berlin",
+        "date": "2009-08-16",
+        "match": "Men's 100m Final, Usain Bolt winning in world record time ⚡️\nWomen's Heptathlon Final\nWomen's Shot Put Final",
+        "competition": "2009 World Championships in Athletics"
       }
     ]
   },

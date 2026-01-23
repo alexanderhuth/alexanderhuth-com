@@ -15,7 +15,9 @@ theme: sand
       <figure class="photo-card" role="listitem">
         <div class="photo-link" aria-hidden="true">
           <img
-            src="{{ photo.thumb | relative_url }}"
+            src="{{ photo.full | relative_url }}"
+            srcset="{{ photo.thumb | relative_url }} 800w, {{ photo.full | relative_url }} 1600w"
+            sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"
             alt="{{ photo.alt | escape }}"
             loading="lazy"
           >
@@ -23,9 +25,6 @@ theme: sand
         <figcaption class="photo-meta">
           {% if photo.title %}
             <span class="photo-title">{{ photo.title | escape }}</span>
-          {% endif %}
-          {% if photo.alt %}
-            <em class="photo-description">{{ photo.alt | escape }}</em>
           {% endif %}
           <span class="photo-date-line">
             <a class="photo-date-link" href="{{ photo.full | relative_url }}"><time datetime="{{ photo.date }}">{{ photo.date | date: "%B %d, %Y" }}</time></a>

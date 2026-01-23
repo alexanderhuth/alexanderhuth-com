@@ -9,7 +9,7 @@ permalink: /uses/
 Tools, gear, and software I rely on. Inspired by [uses.tech](https://uses.tech).
 
 ## Coffee
-- Grinder: Baratza Encore
+- Grinder: Baratza Encore with M2 burr
 - Manual espresso machine: ROK Espresso GC
 - Pourovers etc.
     - Hario V60 Size 02

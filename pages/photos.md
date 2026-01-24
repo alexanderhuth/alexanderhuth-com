@@ -35,7 +35,7 @@ theme: sand
           {% endif %}
           <span class="photo-date-line">
             <a class="photo-link" href="{{ photo.full | relative_url }}"><time datetime="{{ photo.date }}">{{ photo.date | date: "%B %d, %Y" }}</time></a>
-            {% if photo.location %}/ <span class="photo-location">{{ photo.location | escape }}</span>{% endif %}
+            {% if photo.location %} / <span class="photo-location">{{ photo.location | escape }}</span>{% endif %}
           </span>
         </figcaption>
       </figure>

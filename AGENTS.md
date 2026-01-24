@@ -241,8 +241,8 @@ permalink: /about/
 ### Photos Feed
 - Page: `pages/photos.md` (`/photos/`) uses `theme: sand` to force the lightest background.
 - Data: `_data/photos.json` (array sorted by date, newest first; the page slices to 50 items).
-- Images: store full-size files in `/photos/` and thumbs in `/photos/small/`.
-- Fields per entry: `date`, `title`, `alt`, `thumb`, `full`, optional `location`.
+- Images: store full-size files in `/photos/` and smalls in `/photos/small/`.
+- Fields per entry: `date`, `title`, `alt`, `small`, `full`, `width`, `height`, optional `location`.
 - Date links to full-size image; alt text is shown as an italic description.
 - Feed: root-level Atom feed at `/photos.xml` (linked in the global `<head>`).
 

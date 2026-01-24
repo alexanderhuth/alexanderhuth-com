@@ -4,7 +4,7 @@ permalink: /photos.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ site.title }} Photos</title>
+  <title>{{ site.title }}'s Photos</title>
   <id>{{ "/photos/" | absolute_url }}</id>
   <link href="{{ "/photos.xml" | absolute_url }}" rel="self" />
   <link href="{{ "/photos/" | absolute_url }}" />
@@ -18,12 +18,17 @@ permalink: /photos.xml
     <updated>{{ site.time | date_to_xmlschema }}</updated>
   {% endif %}
   {% for photo in photos %}
+    {% assign photo_id = photo.full | split: "/" | last | split: "." | first %}
     <entry>
       <title>{{ photo.title | escape }}</title>
       <id>{{ photo.full | absolute_url }}</id>
+      <link href="{{ "/photos/#" | append: photo_id | absolute_url }}" rel="alternate" type="text/html" />
       <link href="{{ photo.full | absolute_url }}" />
       <updated>{{ photo.date | date_to_xmlschema }}</updated>
-      <summary>{{ photo.alt | escape }}{% if photo.location %} — {{ photo.location | escape }}{% endif %}</summary>
+      <summary>{{ photo.alt | escape }}</summary>
+      <content type="html">
+        <![CDATA[<p><img src="{{ photo.small | absolute_url }}" alt="{{ photo.alt | escape }}" style="max-width:100%; height:auto;"></p>]]>
+      </content>
     </entry>
   {% endfor %}
 </feed>

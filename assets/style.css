@@ -405,14 +405,14 @@ main {
   margin: 0;
 }
 
-.photo-link {
+.photo-media {
   width: calc(100% + 3rem);
   max-width: calc(72ch + 3rem);
   margin-left: -1.5rem;
   margin-right: -1.5rem;
 }
 
-.photo-link img {
+.photo-media img {
   width: 100%;
 }
 
@@ -429,16 +429,12 @@ main {
   font-weight: 600;
 }
 
-.photo-description {
-  font-style: italic;
-}
-
-.photo-date-link {
+.photo-link {
   text-decoration: none;
 }
 
-.photo-date-link:hover,
-.photo-date-link:focus {
+.photo-link:hover,
+.photo-link:focus {
   text-decoration: underline;
 }
 

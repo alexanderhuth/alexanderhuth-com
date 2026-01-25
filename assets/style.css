@@ -429,15 +429,6 @@ main {
   font-weight: 600;
 }
 
-.photo-link {
-  text-decoration: none;
-}
-
-.photo-link:hover,
-.photo-link:focus {
-  text-decoration: underline;
-}
-
 .photo-empty {
   margin-top: 1.5rem;
   color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);

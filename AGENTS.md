@@ -241,9 +241,9 @@ permalink: /about/
 ### Photos Feed
 - Page: `pages/photos.md` (`/photos/`) uses `theme: sand` to force the lightest background.
 - Data: `_data/photos.json` (array sorted by date, newest first; the page slices to 50 items).
-- Images: store 1440px feed max/full files in `/photos/`, and responsive variants in `/photos/960/`, `/photos/720/`, `/photos/480/`.
+- Images: store 1280px feed max/full files in `/photos/`, and responsive variants in `/photos/960/`, `/photos/720/`, `/photos/480/`.
 - Fields per entry: `date`, `title`, `alt`, `full`, `width`, `height`, optional `location`.
-- Responsive images: `srcset` uses 480/720/960/1440 with `sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"`.
+- Responsive images: `srcset` uses 480/720/960/1280 with `sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"`.
 - Loading behavior: first image uses `loading="eager"` + `fetchpriority="high"`; others are `loading="lazy"`, all use `decoding="async"`.
 - Date links to full-size image; image itself is not linked.
 - Feed: root-level Atom feed at `/photos.xml` (linked in the global `<head>`), embeds the 720px variant.

@@ -4,8 +4,8 @@
     "title": "Green aurora",
     "alt": "A green aurora streaks across the dark night sky over Kleiner Wannsee.",
     "full": "/photos/aurora-green.jpg",
-    "width": 1080,
-    "height": 1440,
+    "width": 960,
+    "height": 1280,
     "location": "Kleiner Wannsee"
   },
   {
@@ -13,8 +13,8 @@
     "title": "Red aurora",
     "alt": "Red aurora bands glowing against the dark Wannsee  night sky.",
     "full": "/photos/aurora-red.jpg",
-    "width": 1440,
-    "height": 960,
+    "width": 1280,
+    "height": 853,
     "location": "Kleiner Wannsee"
   },
   {
@@ -22,8 +22,8 @@
     "title": "Bauhaus-Archiv",
     "alt": "Berlin's Bauhaus-Archiv in the morning sun, surrounded by other Westberlin buildings.",
     "full": "/photos/bauhaus-archiv.jpg",
-    "width": 960,
-    "height": 1440,
+    "width": 853,
+    "height": 1280,
     "location": "Hiroshimasteg"
   }
 ]

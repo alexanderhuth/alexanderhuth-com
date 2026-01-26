@@ -26,7 +26,7 @@ permalink: /photos.xml
       <updated>{{ photo.date | date_to_xmlschema }}</updated>
       <summary>{{ photo.alt | escape }}</summary>
       <content type="html">
-        <![CDATA[<p><img src="{{ "/photos/720/" | append: photo_filename | absolute_url }}" alt="{{ photo.alt | escape }}" style="max-width:100%; height:auto;"></p>]]>
+        <![CDATA[<p><img src="{{ "/photos/720/" | append: photo_filename | absolute_url }}" alt="{{ photo.alt | escape }}" style="max-width:100%; height:auto;"></p><p>{{ photo.alt | escape }}{% if photo.location %} / {{ photo.location | escape }}{% endif %}</p>]]>
       </content>
     </entry>
   {% endfor %}

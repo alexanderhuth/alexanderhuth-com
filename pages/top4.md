@@ -40,7 +40,7 @@ Ranked by [my personal filmography score](https://letterboxd.com/alexanderh/list
 
 ## Top 4 Holidays
 1. **Canadian Rockies and Vancouver Island** with Kate
-2. **New York City** with my boys
+2. **New York City** with the Nizza boys
 3. **Bergen and Tromsø** with Kate
 4. **California** with the Colbestraße boys
 {: .inline-ol}

@@ -1,7 +1,16 @@
 [
   {
+    "date": "2026-01-26",
+    "title": "Icicles on Evergreen Leaves",
+    "alt": "Dark green evergreen leaves forming a hedge, with thin clear icicles hanging from the leaf edges against a pale, overcast winter sky.",
+    "full": "/photos/icicles.jpg",
+    "width": 853,
+    "height": 1280,
+    "location": "Bismarckstraße (Wannsee)"
+  },
+  {
     "date": "2026-01-19",
-    "title": "Green aurora",
+    "title": "Green Aurora",
     "alt": "A green aurora streaks across the dark night sky over Kleiner Wannsee.",
     "full": "/photos/aurora-green.jpg",
     "width": 960,
@@ -10,7 +19,7 @@
   },
   {
     "date": "2026-01-19",
-    "title": "Red aurora",
+    "title": "Red Aurora",
     "alt": "Red aurora bands glowing against the dark Wannsee  night sky.",
     "full": "/photos/aurora-red.jpg",
     "width": 1280,

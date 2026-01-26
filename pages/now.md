@@ -9,7 +9,6 @@ permalink: /now/
 
 What I’m doing or focused on right now.
 
-- 🌃 Hunting auroras
 - 🏈 Playoffs, baby!
 - 🎓 Teaching Search Marketing at XU in Potsdam
 - 🌍 Tinkering with this little website
@@ -20,6 +19,7 @@ What I’m doing or focused on right now.
 
 ## Then
 
+- 🌃 Hunting auroras
 - ⚡️ Making it through the [longest power outage in post-war Berlin](https://de.wikipedia.org/wiki/Anschlag_auf_das_Berliner_Stromnetz)
 - 📋 Writing [year-end lists](/posts/2025-in-lists/)
 - 🎅 Recovering from Christmas (and a nasty cold)

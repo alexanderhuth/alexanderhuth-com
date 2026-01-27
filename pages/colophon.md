@@ -13,7 +13,7 @@ No tracking, no cookies.
 
 Content is written in Markdown. Layouts and includes live alongside the pages and posts. The [concerts page](/concerts/) reads structured data from `_data/concerts.json`, while [/slashes/](/slashes/) auto-lists non-post pages.
 
-The [/photos/](/photos/) feed is built from `_data/photos.json` plus image files in `/photos/`, with a dedicated Atom feed at [/photos.xml](/photos.xml).
+The [/photos/](/photos/) feed is built from the `_photos/` collection plus image files in `/images/`, with a dedicated Atom feed at [/photos.xml](/photos.xml).
 
 The slash page itself is inspired by [slashpages.net](https://slashpages.net). Will keep adding slashes over time.
 

@@ -416,17 +416,47 @@ main {
   width: 100%;
 }
 
+.photo-page .photo-media {
+  width: calc(100% + 3rem);
+  max-width: calc(72ch + 3rem);
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.photo-page .photo-media img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.photo-page-meta {
+  margin-top: 0.9rem;
+}
+
+.photo-page .photo-description {
+  font-style: italic;
+}
+
 .photo-meta {
   margin-top: 0.6rem;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  font-size: 0.9rem;
   color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
 }
 
 .photo-title {
   font-weight: 600;
+}
+
+.photo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.photo-link:hover,
+.photo-link:focus {
+  text-decoration: underline;
 }
 
 .photo-empty {

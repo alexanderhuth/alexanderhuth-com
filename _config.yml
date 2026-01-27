@@ -14,6 +14,20 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+# --- Collections ---
+collections:
+  photos:
+    output: true
+    permalink: /photos/:name/
+
+# --- Defaults ---
+defaults:
+  - scope:
+      path: ""
+      type: photos
+    values:
+      theme: sand
+
 # --- Exclude from build ---
 exclude:
   - Gemfile

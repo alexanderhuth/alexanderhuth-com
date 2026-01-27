@@ -43,6 +43,7 @@ This project has no automated tests. Manual testing involves:
 ### Deployment
 - GitHub Pages automatically builds from the main branch
 - No CI/CD configuration needed (uses GitHub Pages default)
+- Feeds: `/feed.xml` is a hand-rolled Atom feed (no `jekyll-feed` plugin).
 
 ## Code Style Guidelines
 
@@ -240,13 +241,14 @@ permalink: /about/
 
 ### Photos Feed
 - Page: `pages/photos.md` (`/photos/`) uses `theme: sand` to force the lightest background.
-- Data: `_data/photos.json` (array sorted by date, newest first; the page slices to 50 items).
-- Images: store 1280px feed max/full files in `/photos/`, and responsive variants in `/photos/960/`, `/photos/720/`, `/photos/480/`.
-- Fields per entry: `date`, `title`, `alt`, `full`, `width`, `height`, optional `location`.
-- Responsive images: `srcset` uses 480/720/960/1280 with `sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"`.
+- Data: photos collection in `_photos/` (sorted by date + time; the page slices to 50 items).
+- Images: store 1920px detail files in `/images/`, 1280px feed files in `/images/1280/`, and responsive variants in `/images/960/`, `/images/720/`, `/images/480/`.
+- Fields per entry: `date`, `time`, `title`, `alt`, `image`, `width`, `height`, optional `location`, `robots`.
+- Responsive images (feed): `srcset` uses 480/720/960/1280 with `sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"`.
 - Loading behavior: first image uses `loading="eager"` + `fetchpriority="high"`; others are `loading="lazy"`, all use `decoding="async"`.
-- Date links to full-size image; image itself is not linked.
+- Date links to the photo detail page; image itself is not linked.
 - Feed: root-level Atom feed at `/photos.xml` (linked in the global `<head>`), embeds the 720px variant.
+- Photo pages: generated from the `photos` collection in `_photos/`, use `_layouts/photo.html`, default to `theme: sand` via `_config.yml` defaults, and set `robots: noindex`.
 
 ### Adding a Blog Post
 1. Create file in `_posts/` with format `YYYY-MM-DD-title.md`

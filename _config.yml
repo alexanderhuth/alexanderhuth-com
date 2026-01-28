@@ -4,7 +4,6 @@ description: Personal website of Alexander Huth
 author: Alexander Huth
 url: "https://alexanderhuth.com"
 baseurl: ""   # must remain empty for user sites + custom domains
-repository: alexanderhuth/alexanderhuth.github.io
 
 # --- Localization ---
 timezone: Europe/Berlin

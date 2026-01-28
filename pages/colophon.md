@@ -7,7 +7,7 @@ permalink: /colophon/
 # Colophon
 Notes on how this site is made and served.
 
-Static site powered by Jekyll (via the `github-pages` gem), deployed to GitHub Pages with a custom domain name. There’s no CDN layer, server-side logic, or third-party embeds.  
+Static site powered by Jekyll, built on statichost.eu from a GitHub repo via webhook. There’s no CDN layer, server-side logic, or third-party embeds.  
 
 No tracking, no cookies.  
 
@@ -19,4 +19,4 @@ The slash page itself is inspired by [slashpages.net](https://slashpages.net). W
 
 A single handmade stylesheet (`assets/style.css`) handles everything. An inline snippet randomly applies one of the theme classes (`sand`, `amber`, `seaglass` etc.) to rotate background colors. There are no external fonts, client-side frameworks, or build steps for CSS/JS.
 
-Cobbled together in Visual Studio Code and Micro, with a little help from Codex. Built locally with Jekyll, versioned on GitHub, and published as static HTML to GitHub Pages.
+Cobbled together in Visual Studio Code and Micro, with a little help from Codex. Built locally with Jekyll, versioned on GitHub, and published as static HTML on statichost.eu.

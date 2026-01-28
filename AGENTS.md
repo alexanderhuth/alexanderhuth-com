@@ -6,7 +6,7 @@ This file contains development guidelines and commands for agentic coding assist
 
 ## Project Overview
 
-This is a Jekyll static site hosted on GitHub Pages. It's a personal website/blog with a minimal design and random color theme selector.
+This is a Jekyll static site hosted on statichost.eu (repo on GitHub with a webhook-triggered pull/build). It's a personal website/blog with a minimal design and random color theme selector.
 
 **Key Technologies:**
 - Jekyll (Ruby static site generator)
@@ -32,6 +32,8 @@ bundle exec jekyll build
 bundle exec jekyll clean
 ```
 
+Ruby version: 3.4.x (match statichost.eu build image).
+
 ### Testing
 This project has no automated tests. Manual testing involves:
 1. Run `bundle exec jekyll serve` locally
@@ -41,8 +43,8 @@ This project has no automated tests. Manual testing involves:
 5. Check that all links work correctly
 
 ### Deployment
-- GitHub Pages automatically builds from the main branch
-- No CI/CD configuration needed (uses GitHub Pages default)
+- statichost.eu pulls from the GitHub repo via webhook and builds the site
+- No CI/CD configuration needed
 - Feeds: `/feed.xml` is a hand-rolled Atom feed (no `jekyll-feed` plugin).
 
 ## Code Style Guidelines
@@ -279,15 +281,15 @@ permalink: /about/
 ## Git Workflow
 
 - Main branch: `main`
-- GitHub Pages auto-deploys from main
+- statichost.eu pulls and builds from `main` via webhook
 - No pull request requirements (personal project)
 - Commit messages should be descriptive and concise
 
 ## Dependencies
 
 ### Ruby Gems
-- `github-pages`: Ensures GitHub Pages compatibility
-- `erb`: For embedded Ruby templates
+- `jekyll`: Static site generator
+- `webrick`: Required for local `jekyll serve` on modern Ruby
 
 ### No External Dependencies
 - No JavaScript libraries/frameworks
@@ -306,7 +308,7 @@ permalink: /about/
 - No user input processing
 - No server-side code beyond Jekyll
 - No external API calls
-- GitHub Pages handles security/SSL
+- statichost.eu handles security/SSL
 
 ## Performance
 

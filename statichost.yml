@@ -1,0 +1,6 @@
+# Docker image to use for building
+image: ruby:3.4
+# Build command
+command: gem install jekyll bundler && bundle install && bundle exec jekyll build
+# Public directory
+public: _site

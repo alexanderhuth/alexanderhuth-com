@@ -15,7 +15,7 @@ With a proven track record of building, leading, and supporting high-performing 
 
 I work with in-house SEO teams and leadership, venture capital firms, investors, and boards, as well as agencies and consulting firms — adapting my approach to each organisation’s capabilities, needs, and ambitions.
 
-**Want to learn more? Let's [jump on a call]({{ site.socials.calendly }})!**
+**Want to learn more? Let's [jump on a call](/meet/)!**
 
 ## How I Help
 
@@ -53,4 +53,4 @@ Optimise your SEO function with structured strategy, measurable goals, effective
 - Strengthen team structures to support sustainable delivery and growth
 {: .consulting-list}
 
-{% include cta-calendly.html %}
+{% include cta-meet.html %}

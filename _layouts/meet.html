@@ -1,0 +1,20 @@
+{% include html-start.html %}
+  {% include html-head.html %}
+  <body>
+    {% include header.html %}
+    <main role="main">
+      <div class="meet">
+        <script type="application/json" id="meet-config">{{ site.meet | jsonify }}</script>
+        <script type="application/json" id="meet-config-override">{{ page.meet | jsonify }}</script>
+        <script type="application/json" id="meet-duration">{{ page.meet_duration | jsonify }}</script>
+        {{ content }}
+        {% include meet-ui.html %}
+      </div>
+    </main>
+    {% include footer.html %}
+    {% if site.meet.turnstile_site_key and site.meet.turnstile_site_key != "" %}
+      <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    {% endif %}
+    <script src="/assets/meet.js" defer></script>
+  </body>
+{% include html-end.html %}

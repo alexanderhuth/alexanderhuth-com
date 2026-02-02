@@ -1,0 +1,66 @@
+{% assign show_duration = true %}
+{% if page.meet_duration %}
+  {% assign show_duration = false %}
+{% endif %}
+{% if show_duration %}
+  {% assign step_slot = 2 %}
+  {% assign step_confirm = 3 %}
+{% else %}
+  {% assign step_slot = 1 %}
+  {% assign step_confirm = 2 %}
+{% endif %}
+
+{% if show_duration %}
+  <section aria-label="Choose a length">
+    <h2>1. Choose a length</h2>
+    <div class="meet-duration" role="radiogroup" aria-label="Meeting duration">
+      {% for d in site.meet.durations %}
+        <label>
+          <input type="radio" name="duration-choice" value="{{ d.actual }}" data-display="{{ d.display }}" {% if forloop.first %}checked{% endif %} />
+          {{ d.display }} min
+        </label>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
+
+  <section class="meet-availability" aria-label="Choose a slot">
+    <h2>{{ step_slot }}. Choose a slot</h2>
+    <form class="meet-slot-form" aria-label="Pick a time">
+      <fieldset>
+        <legend class="meet-muted">Select a time</legend>
+        <div id="slot-days"></div>
+      </fieldset>
+    </form>
+    <p class="meet-muted meet-note">Availability for the next 10 working days. Slots displayed in your timezone.</p>
+  </section>
+
+  <section aria-label="Confirm the booking">
+    <h2>{{ step_confirm }}. Confirm the booking</h2>
+    <div class="meet-selection-summary" data-summary>Select a time above</div>
+    <form class="meet-form">
+      <input type="hidden" id="selected-duration" name="duration" value="" />
+      <input type="hidden" id="selected-slot" name="slot" value="" />
+      <input type="hidden" id="slot-token" name="slot_token" value="" />
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Your email address" required />
+      </div>
+      <div>
+        <label for="notes">Anything you would want me to know</label>
+        <textarea id="notes" placeholder="Optional context"></textarea>
+      </div>
+      {% if site.meet.turnstile_site_key and site.meet.turnstile_site_key != "" %}
+        <div class="meet-turnstile">
+          <div class="cf-turnstile" data-sitekey="{{ site.meet.turnstile_site_key }}" data-callback="onTurnstile"></div>
+          <input type="hidden" id="turnstile-token" name="turnstile_token" value="" />
+        </div>
+      {% endif %}
+      <button class="cta-button" type="submit" disabled>Book meeting</button>
+      <p class="meet-muted" data-status></p>
+    </form>
+  </section>

@@ -241,6 +241,24 @@ permalink: /about/
 3. Write content in Markdown
 4. Test locally
 
+### Meet Booking System
+- Layout: `_layouts/meet.html` (wraps content and injects meet config + `assets/meet.js`)
+- Shared UI include: `_includes/meet-ui.html` (slots + booking form)
+- Script: `assets/meet.js` (availability fetch, slot rendering, booking POST, validation)
+- Global config: `_config.yml` under `meet:` (working hours, blocks, notice window, durations, buffer)
+- Public config endpoint: `/meet-config.json` (generated from `meet-config.json`, used by n8n as source of truth)
+- Turnstile site key: `_config.yml` under `meet.turnstile_site_key` (leave empty to disable widget)
+- Per-page overrides: front matter keys `meet_duration` and optional `meet_copy_*`
+- Pages:
+  - `pages/meet.md` (main page with duration selector)
+  - `pages/meet-15.md`, `pages/meet-30.md`, `pages/meet-60.md` (fixed duration, `robots: noindex`)
+- Slashes list excludes `/meet/15/`, `/meet/30/`, `/meet/60/` in `pages/slashes.md`
+
+#### Meet Security Notes
+- Do not put shared secrets in `assets/meet.js` or HTML.
+- Availability returns `start_iso`/`end_iso` + `slot_token`; booking must send those ISO values.
+- n8n should enforce min notice, slot validity, and rate limiting server-side.
+
 ### Photos Feed
 - Page: `pages/photos.md` (`/photos/`) uses `theme: sand` to force the lightest background.
 - Data: photos collection in `_photos/` (sorted by date + time; the page slices to 50 items).

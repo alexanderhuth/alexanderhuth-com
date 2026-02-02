@@ -9,7 +9,7 @@ permalink: /links/
 Find me here:
 
 - 💼 Alexander on [LinkedIn]({{ site.socials.linkedin }}).
-- 📆 Book a meeting: [Calendly]({{ site.socials.calendly }}).
+- 📆 Book a meeting: [alexanderhuth.com/meet](/meet/).
 - 🐙 My [GitHub]({{ site.socials.github }}) profile.
 - 🍿 Addicted to [Letterboxd]({{ site.socials.letterboxd }}).
 - 📺 Tracking TV shows on [Serializd]({{ site.socials.serializd }}).

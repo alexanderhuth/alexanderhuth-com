@@ -1,0 +1,13 @@
+---
+layout: meet
+title: Meet 15
+seo_title: Meet 15
+description: Book a 15 minute meeting with Alexander
+permalink: /meet/15/
+robots: noindex
+meet_duration: 15
+---
+
+# Let's find a {{ page.meet_duration }}-minute time.
+
+This page is fixed to a {{ page.meet_duration }} minute slot.

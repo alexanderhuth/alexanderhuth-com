@@ -13,7 +13,8 @@ Find me here:
 - 🐙 My [GitHub]({{ site.socials.github }}) profile.
 - 🍿 Addicted to [Letterboxd]({{ site.socials.letterboxd }}).
 - 📺 Tracking TV shows on [Serializd]({{ site.socials.serializd }}).
-- 🎧 On rotation: [record.club]({{ site.socials.recordclub }}).
+- 🎧 Scrobbling again with [last.fm]({{ site.socials.lastfm }}).
+- 🎶 Ranking and rating albums: [record.club]({{ site.socials.recordclub }}).
 - 💿 My [Discogs]({{ site.socials.discogs }}) profile.
 - 🎸 Concert diary on [setlist.fm]({{ site.socials.setlist }}).
 - 🚴 [Strava]({{ site.socials.strava }}) or it didn't happen.

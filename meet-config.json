@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /meet-config.json
+---
+{{ site.meet | jsonify }}

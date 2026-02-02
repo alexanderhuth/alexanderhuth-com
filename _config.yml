@@ -48,3 +48,37 @@ socials:
   strava: https://www.strava.com/athletes/15011993
   discogs: https://www.discogs.com/user/alexanderhuth
   instagram: https://www.instagram.com/alexanderhuth/
+  lastfm: https://www.last.fm/user/lxndrrr
+
+# --- Meet booking defaults ---
+meet:
+  timezone: Europe/Berlin
+  working_hours:
+    start: "10:00"
+    end: "18:00"
+    days: [1, 2, 3, 4, 5]
+  min_notice_hours: 12
+  window_workdays: 10
+  slot_interval_minutes: 30
+  meet_buffer_minutes: 5
+  turnstile_site_key: "0x4AAAAAACWsE8ylD-AMJv-s"
+  durations:
+    - actual: 10
+      display: 15
+    - actual: 25
+      display: 30
+    - actual: 55
+      display: 60
+  blocks:
+    - name: Daily break
+      days: [1, 2, 3, 4, 5]
+      start: "12:00"
+      end: "14:00"
+    - name: Monday block
+      days: [1]
+      start: "10:00"
+      end: "12:00"
+    - name: Friday block
+      days: [5]
+      start: "14:00"
+      end: "18:00"

@@ -3,6 +3,7 @@ layout: meet
 title: Meet
 description: Book a meeting with Alexander
 permalink: /meet/
+robots: noindex
 ---
 
 # Book a meeting with me

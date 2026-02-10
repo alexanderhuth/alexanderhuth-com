@@ -1,5 +1,27 @@
 [
   {
+    "setlist_id": "2b4a5cea",
+    "date": "2026-02-09",
+    "artist": "Wednesday",
+    "venue": "Festsaal Kreuzberg",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/wednesday/2026/festsaal-kreuzberg-berlin-germany-2b4a5cea.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "334a5cf1",
+    "date": "2026-02-09",
+    "artist": "Bleary Eyed",
+    "venue": "Festsaal Kreuzberg",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/bleary-eyed/2026/festsaal-kreuzberg-berlin-germany-334a5cf1.html",
+    "festival_parent": null
+  },
+  {
     "setlist_id": "340c9c7",
     "date": "2025-12-09",
     "artist": "Radiohead",

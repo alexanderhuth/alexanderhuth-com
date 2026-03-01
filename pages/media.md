@@ -1,0 +1,142 @@
+---
+layout: page
+title: Media
+description: Things I am watching, reading, and listening to.
+permalink: /media/
+---
+
+# My Media Diet
+
+## February 2026
+
+- 🎬 **Sorry, Baby** (2025) · dir. Eva Victor · Feb 21
+- 🎬 **Honey Don't!** (2025) · dir. Ethan Coen · Feb 21
+- 🎬 **The Great Ecstasy of Woodcarver Steiner** (1974) · dir. Werner Herzog · Feb 21
+- 🎬 **Josephine** (2026) · dir. Beth de Araujo · Feb 20
+- 💿 **Songs to Scream at the Sun** (2008) · Have Heart · Feb 20
+- 🎬 **A New Dawn** (2026) · dir. Yoshitoshi Shinomiya · Feb 19
+- 🎬 **Home Stories** (2026) · dir. Eva Trobisch · Feb 19
+- 💿 **Songs to Scream at the Sun** (2008) · Have Heart · Feb 19
+- 💿 **Songs to Scream at the Sun** (2008) · Have Heart · Feb 19
+- 💿 **Songs to Scream at the Sun** (2008) · Have Heart · Feb 19
+- 💿 **The Things We Carry** (2006) · Have Heart · Feb 19
+- 🎬 **The Weight** (2026) · dir. Padraic McKinley · Feb 18
+- 💿 **American Football EP** (1998) · American Football · Feb 18
+- 💿 **KNOWER FOREVER** (2023) · KNOWER · Feb 18
+- 💿 **Alan Sparhawk With Trampled by Turtles** (2025) · Alan Sparhawk with Trampled by Turtles · Feb 18
+- 🎬 **Heysel 85** (2026) · dir. Teodora Ana Mihai · Feb 17
+- 🎬 **Sad Girlz** (2026) · dir. Fernanda Tovar · Feb 17
+- 💿 **Purple** (1994) · Stone Temple Pilots · Feb 17
+- 💿 **Beach Party** (1981) · Marine Girls · Feb 16
+- 💿 **Lazy Ways** (1983) · Marine Girls · Feb 16
+- 💿 **Heaven** (2024) · Softcult · Feb 16
+- 💿 **When A Flower Doesn't Grow** (2026) · Softcult · Feb 16
+- 💿 **Dear You** (1995) · Jawbreaker · Feb 16
+- 💿 **Dear You** (1995) · Jawbreaker · Feb 16
+- 🎬 **The Ballad of Judas Priest** (2026) · dir. Sam Dunn and Tom Morello · Feb 15
+- 💿 **Dear You** (1995) · Jawbreaker · Feb 15
+- 💿 **We Will Always Love You** (2020) · The Avalanches · Feb 15
+- 💿 **A Song for You** (1972) · Carpenters · Feb 15
+- 🎬 **Song Sung Blue** (2025) · dir. Craig Brewer · Feb 14
+- 💿 **Joyce Manor** (2011) · Joyce Manor · Feb 14
+- 💿 **I Used to Go to This Bar** (2026) · Joyce Manor · Feb 14
+- 💿 **24 Hour Revenge Therapy** (1994) · Jawbreaker · Feb 13
+- 📺 **Hijack** (Season 2, Episode 5) · Outage · Feb 12
+- 💿 **Bivouac** (1992) · Jawbreaker · Feb 12
+- 💿 **Unfun** (1990) · Jawbreaker · Feb 12
+- 💿 **Dreams** (2006) · The Whitest Boy Alive · Feb 9
+- 📺 **Hijack** (Season 2, Episode 3) · Baggage · Feb 7
+- 📺 **Hijack** (Season 2, Episode 4) · Switch · Feb 7
+- 💿 **Of All Things I Will Soon Grow Tired** (2012) · Joyce Manor · Feb 7
+- 💿 **Sunday at the Village Vanguard** (1961) · Bill Evans Trio featuring Scott LaFaro · Feb 6
+- 💿 **With Love and Squalor** (2005) · We Are Scientists · Feb 6
+- 💿 **how i'm feeling now** (2020) · Charli XCX · Feb 5
+- 🎬 **One Battle After Another** (2025) · dir. Paul Thomas Anderson · Feb 4
+- 💿 **Treasure** (1984) · Cocteau Twins · Feb 4
+- 💿 **Pink Moon** (1972) · Nick Drake · Feb 4
+- 💿 **Music Has the Right to Children** (1998) · Boards of Canada · Feb 4
+- 💿 **Animals** (1977) · Pink Floyd · Feb 4
+- 💿 **Isn't It Now?** (2023) · Animal Collective · Feb 3
+- 📺 **The Night Manager** (Season 2, Episode 6) · Episode 6 · Feb 1
+- 💿 **The Magnolia Electric Co.** (2003) · Songs: Ohia · Feb 1
+{: .emoji-list}
+
+## January 2026
+
+- 🎬 **Hamnet** (2025) · dir. Chloé Zhao · Jan 31
+- 💿 **Avantdale Bowling Club** (2018) · Avantdale Bowling Club · Jan 31
+- 🎬 **Wicked: For Good** (2025) · dir. Jon M. Chu · Jan 30
+- 💿 **You Come in Seasons and Depart Through Windy Gusts and Blowing Leaves** (2026) · Manderley · Jan 30
+- 💿 **Projector** (2021) · Geese · Jan 30
+- 💿 **Heavy Metal** (2024) · Cameron Winter · Jan 30
+- 💿 **Getting Killed** (2025) · Geese · Jan 30
+- 💿 **Death in the Business of Whaling** (2026) · Searows · Jan 30
+- 💿 **I Used to Go to This Bar** (2026) · Joyce Manor · Jan 30
+- 💿 **I Used to Go to This Bar** (2026) · Joyce Manor · Jan 30
+- 📺 **The Night Manager** (Season 2, Episode 5) · Episode 5 · Jan 29
+- 💿 **Paper Canyon** (2009) · Codes in the Clouds · Jan 29
+- 💿 **As the Spirit Wanes** (2011) · Codes in the Clouds · Jan 29
+- 💿 **Something to Consume** (2025) · Die Spitz · Jan 29
+- 💿 **Veckatimest** (2009) · Grizzly Bear · Jan 29
+- 💿 **Madvillainy Demos** (2004) · Madvillain · Jan 28
+- 💿 **Secret Love** (2026) · Dry Cleaning · Jan 28
+- 💿 **FLYING BEAGLE** (1987) · Himiko Kikuchi · Jan 28
+- 💿 **Depression Cherry** (2015) · Beach House · Jan 27
+- 💿 **Boiled Alive** (2026) · DIIV · Jan 27
+- 🎬 **28 Years Later: The Bone Temple** (2026) · dir. Nia DaCosta · Jan 26
+- 💿 **Twin Plagues** (2021) · Wednesday · Jan 26
+- 💿 **Rat Saw God** (2023) · Wednesday · Jan 25
+- 💿 **Colour It In** (2007) · The Maccabees · Jan 24
+- 📺 **The Traitors** (Season 4, Episode 12) · The Final · Jan 23
+- 📺 **The Traitors** (Season 4, Episode 11) · Episode 11 · Jan 23
+- 🎬 **La Soufrière: Waiting for an Inevitable Catastrophe** (1977) · dir. Werner Herzog · Jan 23
+- 💿 **Stay Safe, Little One.** (2026) · Wait, What Did You Say? · Jan 23
+- 📺 **The Traitors** (Season 4, Episode 10) · Episode 10 · Jan 22
+- 💿 **Boys and Girls in America** (2006) · The Hold Steady · Jan 22
+- 💿 **Separation Sunday** (2005) · The Hold Steady · Jan 22
+- 💿 **Parklife** (1994) · Blur · Jan 22
+- 📺 **Hijack** (Season 2, Episode 2) · Control · Jan 21
+- 📺 **Hijack** (Season 2, Episode 1) · Signal · Jan 21
+- 💿 **Copper Blue** (1992) · Sugar · Jan 21
+- 🎬 **The Clock** (2010) · dir. Christian Marclay · Jan 20
+- 📺 **The Night Manager** (Season 2, Episode 4) · Episode 4 · Jan 20
+- 💿 **Talulah’s Tape** (2025) · good flying birds · Jan 20
+- 💿 **LONG SEASON** (1996) · Fishmans · Jan 19
+- 📺 **The Traitors** (Season 4, Episode 9) · Episode 9 · Jan 18
+- 📺 **The Traitors** (Season 4, Episode 8) · Episode 8 · Jan 18
+- 🎬 **Predators** (2025) · dir. David Osit · Jan 18
+- 🎬 **Roofman** (2025) · dir. Derek Cianfrance · Jan 17
+- 🎬 **The Rip** (2026) · dir. Joe Carnahan · Jan 16
+- 💿 **Secret Love** (2026) · Dry Cleaning · Jan 16
+- 📺 **The Traitors** (Season 4, Episode 7) · Episode 7 · Jan 15
+- 💿 **Different Class** (1995) · Pulp · Jan 15
+- 🎬 **It Was Just an Accident** (2025) · dir. Jafar Panahi · Jan 14
+- 💿 **Secret Love** (2026) · Dry Cleaning · Jan 14
+- 📺 **The Night Manager** (Season 2, Episode 3) · Episode 3 · Jan 13
+- 🎬 **Downhill Racer** (1969) · dir. Michael Ritchie · Jan 12
+- 📺 **The Night Manager** (Season 2, Episode 2) · Episode 2 · Jan 12
+- 📺 **The Night Manager** (Season 2, Episode 1) · Episode 1 · Jan 11
+- 🎬 **Nuremberg** (2025) · dir. James Vanderbilt · Jan 10
+- 📺 **The Traitors** (Season 4, Episode 6) · Episode 6 · Jan 10
+- 📺 **The Traitors** (Season 4, Episode 5) · Episode 5 · Jan 10
+- 📺 **The Traitors** (Season 4, Episode 4) · Episode 4 · Jan 10
+- 📺 **The Traitors** (Season 4, Episode 3) · Episode 3 · Jan 10
+- 📺 **The Traitors** (Season 4, Episode 2) · Episode 2 · Jan 9
+- 📺 **The Traitors** (Season 4, Episode 1) · Episode 1 · Jan 9
+- 💿 **Secret Love** (2026) · Dry Cleaning · Jan 9
+- 📺 **The Traitors** (Season 3, Episode 12) · The Final · Jan 8
+- 📺 **The Traitors** (Season 3, Episode 11) · Episode 11 · Jan 8
+- 📺 **The Traitors** (Season 3, Episode 10) · Episode 10 · Jan 8
+- 📺 **The Traitors** (Season 3, Episode 9) · Episode 9 · Jan 7
+- 📺 **The Traitors** (Season 3, Episode 8) · Episode 8 · Jan 7
+- 📺 **The Traitors** (Season 3, Episode 7) · Episode 7 · Jan 6
+- 📺 **The Traitors** (Season 3, Episode 6) · Episode 6 · Jan 6
+- 📺 **The Traitors** (Season 3, Episode 5) · Episode 5 · Jan 5
+- 📺 **The Traitors** (Season 3, Episode 4) · Episode 4 · Jan 5
+- 📺 **The Traitors** (Season 3, Episode 3) · Episode 3 · Jan 5
+- 📺 **The Traitors** (Season 3, Episode 2) · Episode 2 · Jan 4
+- 📺 **The Traitors** (Season 3, Episode 1) · Episode 1 · Jan 4
+- 🎬 **Contra** (2020) · dir. Sönke Wortmann · Jan 2
+- 🎬 **The Ballad of Wallis Island** (2025) · dir. James Griffiths · Jan 1
+- 🎬 **Stranger Things 5: The Finale** (2025) · dir. The Duffer Brothers · Jan 1
+{: .emoji-list}

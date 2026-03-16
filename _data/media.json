@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "date": "2026-03-15",
+      "date_display": "Mar 15",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 8)",
+      "meta": "2:00 P.M."
+    },
+    {
+      "date": "2026-03-15",
+      "date_display": "Mar 15",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 7)",
+      "meta": "1:00 P.M."
+    },
+    {
       "guid": "lastfm-album-set-mbid|0bf006ce-45a5-4963-89cb-cd285fd768bb|1773567496|1773569834",
       "source": "lastfm",
       "type": "music",
@@ -43,6 +61,24 @@
       "set_end_uts": 1773483004
     },
     {
+      "date": "2026-03-13",
+      "date_display": "Mar 13",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 4)",
+      "meta": "10:00 A.M."
+    },
+    {
+      "date": "2026-03-13",
+      "date_display": "Mar 13",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 5)",
+      "meta": "11:00 A.M."
+    },
+    {
       "guid": "letterboxd-watch-1238751225",
       "source": "letterboxd",
       "type": "film",
@@ -51,8 +87,26 @@
       "date_display": "Mar 13",
       "month": "March 2026",
       "lead": "**The Alphabet** (1969)",
-      "meta": null,
+      "meta": "dir. David Lynch",
       "url": "https://letterboxd.com/alexanderh/film/the-alphabet/"
+    },
+    {
+      "date": "2026-03-13",
+      "date_display": "Mar 13",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 3)",
+      "meta": "9:00 A.M."
+    },
+    {
+      "date": "2026-03-13",
+      "date_display": "Mar 13",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 6)",
+      "meta": "12:00 P.M."
     },
     {
       "guid": "lastfm-album-set-mbid|876f4c16-f0e1-40db-8586-87884d49b70d|1773423063|1773426837",
@@ -139,6 +193,24 @@
       "set_end_uts": 1773270045
     },
     {
+      "date": "2026-03-10",
+      "date_display": "Mar 10",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 1)",
+      "meta": "7:00 A.M."
+    },
+    {
+      "date": "2026-03-10",
+      "date_display": "Mar 10",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 2)",
+      "meta": "8:00 A.M."
+    },
+    {
       "guid": "lastfm-album-set-mbid|f183b31e-edfb-47b0-bd51-ba36e5d2cf3d|1773161723|1773163523",
       "source": "lastfm",
       "type": "music",
@@ -203,8 +275,30 @@
       "date_display": "Mar 9",
       "month": "March 2026",
       "lead": "**Hoppers** (2026)",
-      "meta": null,
-      "url": "https://letterboxd.com/alexanderh/film/hoppers/"
+      "meta": "dir. Daniel Chong",
+      "url": "https://letterboxd.com/alexanderh/film/hoppers/",
+      "director": "Daniel Chong",
+      "director_source": "wikidata",
+      "director_source_url": "https://www.wikidata.org/wiki/Q128798957",
+      "director_match": "certain"
+    },
+    {
+      "date": "2026-03-09",
+      "date_display": "Mar 9",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**Hijack** (Season 2, Episode 7)",
+      "meta": "Contact"
+    },
+    {
+      "date": "2026-03-09",
+      "date_display": "Mar 9",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**Hijack** (Season 2, Episode 8)",
+      "meta": "Terminal"
     },
     {
       "guid": "lastfm-album-set-mbid|01d12847-43bc-3c48-8938-125e5545e355|1773064806|1773070101",
@@ -247,6 +341,24 @@
       "set_track_count": 8,
       "set_start_uts": 1773051860,
       "set_end_uts": 1773054602
+    },
+    {
+      "date": "2026-03-08",
+      "date_display": "Mar 8",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**Queer Eye** (Season 10, Episode 5)",
+      "meta": "Queer Eye-Eye, Captain"
+    },
+    {
+      "date": "2026-03-08",
+      "date_display": "Mar 8",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**Queer Eye** (Season 10, Episode 4)",
+      "meta": "Finding Father"
     },
     {
       "guid": "lastfm-album-set-mbid|01ad8c74-de8b-40f7-a7ad-e21ed3149e39|1772992295|1772996475",
@@ -314,7 +426,11 @@
       "month": "March 2026",
       "lead": "**F1** (2025)",
       "meta": "dir. Joseph Kosinski",
-      "url": "https://letterboxd.com/alexanderh/film/f1/"
+      "url": "https://letterboxd.com/alexanderh/film/f1/",
+      "director": "Joseph Kosinski",
+      "director_source": "wikidata",
+      "director_source_url": "https://www.wikidata.org/wiki/Q114246242",
+      "director_match": "certain"
     },
     {
       "guid": "letterboxd-watch-1229388896",
@@ -325,8 +441,12 @@
       "date_display": "Mar 6",
       "month": "March 2026",
       "lead": "**Yellow Letters** (2026)",
-      "meta": null,
-      "url": "https://letterboxd.com/alexanderh/film/yellow-letters/"
+      "meta": "dir. İlker Çatak",
+      "url": "https://letterboxd.com/alexanderh/film/yellow-letters/",
+      "director": "İlker Çatak",
+      "director_source": "wikidata",
+      "director_source_url": "https://www.wikidata.org/wiki/Q136163095",
+      "director_match": "uncertain"
     },
     {
       "guid": "lastfm-album-set-mbid|a3f2d3df-ab2f-489a-a205-b93302fdc5f5|1772798540|1772800369",
@@ -369,6 +489,15 @@
       "set_track_count": 10,
       "set_start_uts": 1772789803,
       "set_end_uts": 1772792091
+    },
+    {
+      "date": "2026-03-05",
+      "date_display": "Mar 5",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**Hijack** (Season 2, Episode 6)",
+      "meta": "Junction"
     },
     {
       "guid": "lastfm-album-set-mbid|65c45a70-b218-46d0-8dfc-4983b2babf96|1772714909|1772716709",
@@ -436,7 +565,11 @@
       "month": "March 2026",
       "lead": "**Sicario** (2015)",
       "meta": "dir. Denis Villeneuve",
-      "url": "https://letterboxd.com/alexanderh/film/sicario-2015/4/"
+      "url": "https://letterboxd.com/alexanderh/film/sicario-2015/4/",
+      "director": "Denis Villeneuve",
+      "director_source": "wikidata",
+      "director_source_url": "https://www.wikidata.org/wiki/Q17337292",
+      "director_match": "certain"
     },
     {
       "guid": "letterboxd-watch-1226227549",
@@ -448,7 +581,11 @@
       "month": "March 2026",
       "lead": "**The Fantastic 4: First Steps** (2025)",
       "meta": "dir. Matt Shakman",
-      "url": "https://letterboxd.com/alexanderh/film/the-fantastic-4-first-steps/"
+      "url": "https://letterboxd.com/alexanderh/film/the-fantastic-4-first-steps/",
+      "director": "Michael Shanks",
+      "director_source": "wikidata",
+      "director_source_url": "https://www.wikidata.org/wiki/Q131870558",
+      "director_match": "uncertain"
     },
     {
       "guid": "lastfm-album-set-mbid|12c4d585-ae20-43ff-8876-bbb4eadd545a|1772472022|1772474866",
@@ -540,8 +677,8 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Sorry, Baby** (2025)",
-      "meta": "dir. Eva Victor"
+      "lead": "**The Great Ecstasy of Woodcarver Steiner** (1974)",
+      "meta": "dir. Werner Herzog"
     },
     {
       "date": "2026-02-21",
@@ -549,8 +686,8 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**The Great Ecstasy of Woodcarver Steiner** (1974)",
-      "meta": "dir. Werner Herzog"
+      "lead": "**Sorry, Baby** (2025)",
+      "meta": "dir. Eva Victor"
     },
     {
       "date": "2026-02-21",
@@ -601,15 +738,6 @@
       "date": "2026-02-19",
       "date_display": "Feb 19",
       "month": "February 2026",
-      "emoji": "🎬",
-      "type": "film",
-      "lead": "**Home Stories** (2026)",
-      "meta": "dir. Eva Trobisch"
-    },
-    {
-      "date": "2026-02-19",
-      "date_display": "Feb 19",
-      "month": "February 2026",
       "emoji": "💿",
       "type": "music",
       "lead": "**Songs to Scream at the Sun** (2008)",
@@ -619,10 +747,10 @@
       "date": "2026-02-19",
       "date_display": "Feb 19",
       "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**The Things We Carry** (2006)",
-      "meta": "Have Heart"
+      "emoji": "🎬",
+      "type": "film",
+      "lead": "**Home Stories** (2026)",
+      "meta": "dir. Eva Trobisch"
     },
     {
       "date": "2026-02-19",
@@ -634,6 +762,15 @@
       "meta": "dir. Yoshitoshi Shinomiya"
     },
     {
+      "date": "2026-02-19",
+      "date_display": "Feb 19",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**The Things We Carry** (2006)",
+      "meta": "Have Heart"
+    },
+    {
       "date": "2026-02-18",
       "date_display": "Feb 18",
       "month": "February 2026",
@@ -641,6 +778,15 @@
       "type": "music",
       "lead": "**Alan Sparhawk With Trampled by Turtles** (2025)",
       "meta": "Alan Sparhawk with Trampled by Turtles"
+    },
+    {
+      "date": "2026-02-18",
+      "date_display": "Feb 18",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**KNOWER FOREVER** (2023)",
+      "meta": "KNOWER"
     },
     {
       "date": "2026-02-18",
@@ -661,15 +807,6 @@
       "meta": "American Football"
     },
     {
-      "date": "2026-02-18",
-      "date_display": "Feb 18",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**KNOWER FOREVER** (2023)",
-      "meta": "KNOWER"
-    },
-    {
       "date": "2026-02-17",
       "date_display": "Feb 17",
       "month": "February 2026",
@@ -684,8 +821,8 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Heysel 85** (2026)",
-      "meta": "dir. Teodora Ana Mihai"
+      "lead": "**Sad Girlz** (2026)",
+      "meta": "dir. Fernanda Tovar"
     },
     {
       "date": "2026-02-17",
@@ -693,8 +830,17 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Sad Girlz** (2026)",
-      "meta": "dir. Fernanda Tovar"
+      "lead": "**Heysel 85** (2026)",
+      "meta": "dir. Teodora Ana Mihai"
+    },
+    {
+      "date": "2026-02-16",
+      "date_display": "Feb 16",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**Lazy Ways** (1983)",
+      "meta": "Marine Girls"
     },
     {
       "date": "2026-02-16",
@@ -704,24 +850,6 @@
       "type": "music",
       "lead": "**Dear You** (1995)",
       "meta": "Jawbreaker"
-    },
-    {
-      "date": "2026-02-16",
-      "date_display": "Feb 16",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Heaven** (2024)",
-      "meta": "Softcult"
-    },
-    {
-      "date": "2026-02-16",
-      "date_display": "Feb 16",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Beach Party** (1981)",
-      "meta": "Marine Girls"
     },
     {
       "date": "2026-02-16",
@@ -747,17 +875,17 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Lazy Ways** (1983)",
-      "meta": "Marine Girls"
+      "lead": "**Heaven** (2024)",
+      "meta": "Softcult"
     },
     {
-      "date": "2026-02-15",
-      "date_display": "Feb 15",
+      "date": "2026-02-16",
+      "date_display": "Feb 16",
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Dear You** (1995)",
-      "meta": "Jawbreaker"
+      "lead": "**Beach Party** (1981)",
+      "meta": "Marine Girls"
     },
     {
       "date": "2026-02-15",
@@ -767,6 +895,15 @@
       "type": "music",
       "lead": "**We Will Always Love You** (2020)",
       "meta": "The Avalanches"
+    },
+    {
+      "date": "2026-02-15",
+      "date_display": "Feb 15",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**Dear You** (1995)",
+      "meta": "Jawbreaker"
     },
     {
       "date": "2026-02-15",
@@ -792,7 +929,7 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Joyce Manor** (2011)",
+      "lead": "**I Used to Go to This Bar** (2026)",
       "meta": "Joyce Manor"
     },
     {
@@ -801,8 +938,17 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**I Used to Go to This Bar** (2026)",
+      "lead": "**Joyce Manor** (2011)",
       "meta": "Joyce Manor"
+    },
+    {
+      "date": "2026-02-14",
+      "date_display": "Feb 14",
+      "month": "February 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**Queer Eye** (Season 10, Episode 1)",
+      "meta": "Coming In Hot"
     },
     {
       "date": "2026-02-14",
@@ -817,9 +963,36 @@
       "date": "2026-02-13",
       "date_display": "Feb 13",
       "month": "February 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**Queer Eye** (Season 10, Episode 2)",
+      "meta": "Back to School Burnout"
+    },
+    {
+      "date": "2026-02-13",
+      "date_display": "Feb 13",
+      "month": "February 2026",
       "emoji": "💿",
       "type": "music",
       "lead": "**24 Hour Revenge Therapy** (1994)",
+      "meta": "Jawbreaker"
+    },
+    {
+      "date": "2026-02-13",
+      "date_display": "Feb 13",
+      "month": "February 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**Queer Eye** (Season 10, Episode 3)",
+      "meta": "Sister, You Are Welcome Here"
+    },
+    {
+      "date": "2026-02-12",
+      "date_display": "Feb 12",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**Bivouac** (1992)",
       "meta": "Jawbreaker"
     },
     {
@@ -841,15 +1014,6 @@
       "meta": "Outage"
     },
     {
-      "date": "2026-02-12",
-      "date_display": "Feb 12",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Bivouac** (1992)",
-      "meta": "Jawbreaker"
-    },
-    {
       "date": "2026-02-09",
       "date_display": "Feb 9",
       "month": "February 2026",
@@ -864,8 +1028,8 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 3)",
-      "meta": "Baggage"
+      "lead": "**Hijack** (Season 2, Episode 4)",
+      "meta": "Switch"
     },
     {
       "date": "2026-02-07",
@@ -882,17 +1046,8 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 4)",
-      "meta": "Switch"
-    },
-    {
-      "date": "2026-02-06",
-      "date_display": "Feb 6",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**With Love and Squalor** (2005)",
-      "meta": "We Are Scientists"
+      "lead": "**Hijack** (Season 2, Episode 3)",
+      "meta": "Baggage"
     },
     {
       "date": "2026-02-06",
@@ -902,6 +1057,15 @@
       "type": "music",
       "lead": "**Sunday at the Village Vanguard** (1961)",
       "meta": "Bill Evans Trio featuring Scott LaFaro"
+    },
+    {
+      "date": "2026-02-06",
+      "date_display": "Feb 6",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**With Love and Squalor** (2005)",
+      "meta": "We Are Scientists"
     },
     {
       "date": "2026-02-05",
@@ -916,19 +1080,10 @@
       "date": "2026-02-04",
       "date_display": "Feb 4",
       "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Pink Moon** (1972)",
-      "meta": "Nick Drake"
-    },
-    {
-      "date": "2026-02-04",
-      "date_display": "Feb 4",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Treasure** (1984)",
-      "meta": "Cocteau Twins"
+      "emoji": "🎬",
+      "type": "film",
+      "lead": "**One Battle After Another** (2025)",
+      "meta": "dir. Paul Thomas Anderson"
     },
     {
       "date": "2026-02-04",
@@ -945,6 +1100,15 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
+      "lead": "**Pink Moon** (1972)",
+      "meta": "Nick Drake"
+    },
+    {
+      "date": "2026-02-04",
+      "date_display": "Feb 4",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
       "lead": "**Animals** (1977)",
       "meta": "Pink Floyd"
     },
@@ -952,10 +1116,10 @@
       "date": "2026-02-04",
       "date_display": "Feb 4",
       "month": "February 2026",
-      "emoji": "🎬",
-      "type": "film",
-      "lead": "**One Battle After Another** (2025)",
-      "meta": "dir. Paul Thomas Anderson"
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**Treasure** (1984)",
+      "meta": "Cocteau Twins"
     },
     {
       "date": "2026-02-03",
@@ -1080,15 +1244,6 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**As the Spirit Wanes** (2011)",
-      "meta": "Codes in the Clouds"
-    },
-    {
-      "date": "2026-01-29",
-      "date_display": "Jan 29",
-      "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
       "lead": "**Paper Canyon** (2009)",
       "meta": "Codes in the Clouds"
     },
@@ -1120,13 +1275,22 @@
       "meta": "Episode 5"
     },
     {
+      "date": "2026-01-29",
+      "date_display": "Jan 29",
+      "month": "January 2026",
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**As the Spirit Wanes** (2011)",
+      "meta": "Codes in the Clouds"
+    },
+    {
       "date": "2026-01-28",
       "date_display": "Jan 28",
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**FLYING BEAGLE** (1987)",
-      "meta": "Himiko Kikuchi"
+      "lead": "**Madvillainy Demos** (2004)",
+      "meta": "Madvillain"
     },
     {
       "date": "2026-01-28",
@@ -1143,8 +1307,8 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Madvillainy Demos** (2004)",
-      "meta": "Madvillain"
+      "lead": "**FLYING BEAGLE** (1987)",
+      "meta": "Himiko Kikuchi"
     },
     {
       "date": "2026-01-27",
@@ -1206,15 +1370,6 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 12)",
-      "meta": "The Final"
-    },
-    {
-      "date": "2026-01-23",
-      "date_display": "Jan 23",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
       "lead": "**The Traitors** (Season 4, Episode 11)",
       "meta": "Episode 11"
     },
@@ -1237,13 +1392,13 @@
       "meta": "Wait, What Did You Say?"
     },
     {
-      "date": "2026-01-22",
-      "date_display": "Jan 22",
+      "date": "2026-01-23",
+      "date_display": "Jan 23",
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 10)",
-      "meta": "Episode 10"
+      "lead": "**The Traitors** (Season 4, Episode 12)",
+      "meta": "The Final"
     },
     {
       "date": "2026-01-22",
@@ -1251,7 +1406,7 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Boys and Girls in America** (2006)",
+      "lead": "**Separation Sunday** (2005)",
       "meta": "The Hold Steady"
     },
     {
@@ -1267,9 +1422,18 @@
       "date": "2026-01-22",
       "date_display": "Jan 22",
       "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Traitors** (Season 4, Episode 10)",
+      "meta": "Episode 10"
+    },
+    {
+      "date": "2026-01-22",
+      "date_display": "Jan 22",
+      "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Separation Sunday** (2005)",
+      "lead": "**Boys and Girls in America** (2006)",
       "meta": "The Hold Steady"
     },
     {
@@ -1303,6 +1467,15 @@
       "date": "2026-01-20",
       "date_display": "Jan 20",
       "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Night Manager** (Season 2, Episode 4)",
+      "meta": "Episode 4"
+    },
+    {
+      "date": "2026-01-20",
+      "date_display": "Jan 20",
+      "month": "January 2026",
       "emoji": "💿",
       "type": "music",
       "lead": "**Talulah’s Tape** (2025)",
@@ -1318,15 +1491,6 @@
       "meta": "dir. Christian Marclay"
     },
     {
-      "date": "2026-01-20",
-      "date_display": "Jan 20",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Night Manager** (Season 2, Episode 4)",
-      "meta": "Episode 4"
-    },
-    {
       "date": "2026-01-19",
       "date_display": "Jan 19",
       "month": "January 2026",
@@ -1334,15 +1498,6 @@
       "type": "music",
       "lead": "**LONG SEASON** (1996)",
       "meta": "Fishmans"
-    },
-    {
-      "date": "2026-01-18",
-      "date_display": "Jan 18",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 9)",
-      "meta": "Episode 9"
     },
     {
       "date": "2026-01-18",
@@ -1361,6 +1516,15 @@
       "type": "tv",
       "lead": "**The Traitors** (Season 4, Episode 8)",
       "meta": "Episode 8"
+    },
+    {
+      "date": "2026-01-18",
+      "date_display": "Jan 18",
+      "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Traitors** (Season 4, Episode 9)",
+      "meta": "Episode 9"
     },
     {
       "date": "2026-01-17",
@@ -1411,19 +1575,19 @@
       "date": "2026-01-14",
       "date_display": "Jan 14",
       "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Secret Love** (2026)",
-      "meta": "Dry Cleaning"
+      "emoji": "🎬",
+      "type": "film",
+      "lead": "**It Was Just an Accident** (2025)",
+      "meta": "dir. Jafar Panahi"
     },
     {
       "date": "2026-01-14",
       "date_display": "Jan 14",
       "month": "January 2026",
-      "emoji": "🎬",
-      "type": "film",
-      "lead": "**It Was Just an Accident** (2025)",
-      "meta": "dir. Jafar Panahi"
+      "emoji": "💿",
+      "type": "music",
+      "lead": "**Secret Love** (2026)",
+      "meta": "Dry Cleaning"
     },
     {
       "date": "2026-01-13",
@@ -1474,10 +1638,10 @@
       "date": "2026-01-10",
       "date_display": "Jan 10",
       "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 3)",
-      "meta": "Episode 3"
+      "emoji": "🎬",
+      "type": "film",
+      "lead": "**Nuremberg** (2025)",
+      "meta": "dir. James Vanderbilt"
     },
     {
       "date": "2026-01-10",
@@ -1492,10 +1656,10 @@
       "date": "2026-01-10",
       "date_display": "Jan 10",
       "month": "January 2026",
-      "emoji": "🎬",
-      "type": "film",
-      "lead": "**Nuremberg** (2025)",
-      "meta": "dir. James Vanderbilt"
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Traitors** (Season 4, Episode 3)",
+      "meta": "Episode 3"
     },
     {
       "date": "2026-01-10",
@@ -1505,6 +1669,15 @@
       "type": "tv",
       "lead": "**The Traitors** (Season 4, Episode 4)",
       "meta": "Episode 4"
+    },
+    {
+      "date": "2026-01-09",
+      "date_display": "Jan 9",
+      "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Traitors** (Season 4, Episode 2)",
+      "meta": "Episode 2"
     },
     {
       "date": "2026-01-09",
@@ -1525,22 +1698,13 @@
       "meta": "Dry Cleaning"
     },
     {
-      "date": "2026-01-09",
-      "date_display": "Jan 9",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 2)",
-      "meta": "Episode 2"
-    },
-    {
       "date": "2026-01-08",
       "date_display": "Jan 8",
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 10)",
-      "meta": "Episode 10"
+      "lead": "**The Traitors** (Season 3, Episode 12)",
+      "meta": "The Final"
     },
     {
       "date": "2026-01-08",
@@ -1557,17 +1721,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 12)",
-      "meta": "The Final"
-    },
-    {
-      "date": "2026-01-07",
-      "date_display": "Jan 7",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 8)",
-      "meta": "Episode 8"
+      "lead": "**The Traitors** (Season 3, Episode 10)",
+      "meta": "Episode 10"
     },
     {
       "date": "2026-01-07",
@@ -1577,6 +1732,15 @@
       "type": "tv",
       "lead": "**The Traitors** (Season 3, Episode 9)",
       "meta": "Episode 9"
+    },
+    {
+      "date": "2026-01-07",
+      "date_display": "Jan 7",
+      "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Traitors** (Season 3, Episode 8)",
+      "meta": "Episode 8"
     },
     {
       "date": "2026-01-06",
@@ -1611,8 +1775,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 3)",
-      "meta": "Episode 3"
+      "lead": "**The Traitors** (Season 3, Episode 5)",
+      "meta": "Episode 5"
     },
     {
       "date": "2026-01-05",
@@ -1620,8 +1784,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 5)",
-      "meta": "Episode 5"
+      "lead": "**The Traitors** (Season 3, Episode 3)",
+      "meta": "Episode 3"
     },
     {
       "date": "2026-01-04",
@@ -1656,8 +1820,8 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**The Ballad of Wallis Island** (2025)",
-      "meta": "dir. James Griffiths"
+      "lead": "**Stranger Things 5: The Finale** (2025)",
+      "meta": "dir. The Duffer Brothers"
     },
     {
       "date": "2026-01-01",
@@ -1665,8 +1829,8 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Stranger Things 5: The Finale** (2025)",
-      "meta": "dir. The Duffer Brothers"
+      "lead": "**The Ballad of Wallis Island** (2025)",
+      "meta": "dir. James Griffiths"
     }
   ]
 }

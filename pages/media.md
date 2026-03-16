@@ -13,11 +13,12 @@ permalink: /media/
 {% for month in months %}
 ## {{ month }}
 
+<ul class="emoji-list">
 {% for entry in entries %}
 {% if entry.month == month %}
-- {{ entry.emoji }} {{ entry.lead }}{% if entry.meta %} · {{ entry.meta }}{% endif %} · {{ entry.date_display }}
+  <li>{{ entry.emoji }} {{ entry.lead | markdownify | remove: '<p>' | remove: '</p>' }}{% if entry.meta %} · {{ entry.meta }}{% endif %} · {{ entry.date_display }}</li>
 {% endif %}
 {% endfor %}
-{: .emoji-list}
+</ul>
 
 {% endfor %}

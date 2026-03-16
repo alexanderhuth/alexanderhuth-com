@@ -1,5 +1,49 @@
 [
   {
+    "setlist_id": "b4f3d6a",
+    "date": "2026-03-15",
+    "artist": "Westside Cowboy",
+    "venue": "Astra",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/westside-cowboy/2026/astra-berlin-germany-b4f3d6a.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "2b40a0de",
+    "date": "2026-03-15",
+    "artist": "Geese",
+    "venue": "Astra",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/geese/2026/astra-berlin-germany-2b40a0de.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "1b40dddc",
+    "date": "2026-03-12",
+    "artist": "Maxïmo Park",
+    "venue": "Huxleys Neue Welt",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/maximo-park/2026/huxleys-neue-welt-berlin-germany-1b40dddc.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "4b49bbca",
+    "date": "2026-03-12",
+    "artist": "Art Brut",
+    "venue": "Huxleys Neue Welt",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/art-brut/2026/huxleys-neue-welt-berlin-germany-4b49bbca.html",
+    "festival_parent": null
+  },
+  {
     "setlist_id": "2b4a5cea",
     "date": "2026-02-09",
     "artist": "Wednesday",

@@ -26,7 +26,7 @@
       "date": "2026-03-15",
       "date_display": "Mar 15",
       "month": "March 2026",
-      "lead": "**Getting Killed**",
+      "lead": "**Getting Killed** (2025)",
       "meta": "Geese",
       "set_track_count": 11,
       "set_start_uts": 1773567496,
@@ -40,7 +40,7 @@
       "date": "2026-03-14",
       "date_display": "Mar 14",
       "month": "March 2026",
-      "lead": "**Boat Songs**",
+      "lead": "**Boat Songs** (2022)",
       "meta": "MJ Lenderman",
       "set_track_count": 10,
       "set_start_uts": 1773498509,
@@ -54,7 +54,7 @@
       "date": "2026-03-14",
       "date_display": "Mar 14",
       "month": "March 2026",
-      "lead": "**Abbey Road**",
+      "lead": "**Abbey Road** (1969)",
       "meta": "The Beatles",
       "set_track_count": 16,
       "set_start_uts": 1773478504,
@@ -66,8 +66,8 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 4)",
-      "meta": "10:00 A.M."
+      "lead": "**The Pitt** (Season 2, Episode 6)",
+      "meta": "12:00 P.M."
     },
     {
       "date": "2026-03-13",
@@ -88,7 +88,20 @@
       "month": "March 2026",
       "lead": "**The Alphabet** (1969)",
       "meta": "dir. David Lynch",
-      "url": "https://letterboxd.com/alexanderh/film/the-alphabet/"
+      "url": "https://letterboxd.com/alexanderh/film/the-alphabet/",
+      "director": "David Lynch",
+      "director_source": "wikipedia",
+      "director_source_url": "https://en.wikipedia.org/wiki/The_Short_Films_of_David_Lynch",
+      "director_match": "uncertain"
+    },
+    {
+      "date": "2026-03-13",
+      "date_display": "Mar 13",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "lead": "**The Pitt** (Season 2, Episode 4)",
+      "meta": "10:00 A.M."
     },
     {
       "date": "2026-03-13",
@@ -100,15 +113,6 @@
       "meta": "9:00 A.M."
     },
     {
-      "date": "2026-03-13",
-      "date_display": "Mar 13",
-      "month": "March 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 6)",
-      "meta": "12:00 P.M."
-    },
-    {
       "guid": "lastfm-album-set-mbid|876f4c16-f0e1-40db-8586-87884d49b70d|1773423063|1773426837",
       "source": "lastfm",
       "type": "music",
@@ -116,7 +120,7 @@
       "date": "2026-03-13",
       "date_display": "Mar 13",
       "month": "March 2026",
-      "lead": "**Only Built 4 Cuban Linx...**",
+      "lead": "**Only Built 4 Cuban Linx...** (1995)",
       "meta": "Raekwon",
       "set_track_count": 17,
       "set_start_uts": 1773423063,
@@ -130,7 +134,7 @@
       "date": "2026-03-13",
       "date_display": "Mar 13",
       "month": "March 2026",
-      "lead": "**Strictly 4 The Scythe**",
+      "lead": "**Strictly 4 The Scythe** (2026)",
       "meta": "Denzel Curry",
       "set_track_count": 8,
       "set_start_uts": 1773418970,
@@ -144,7 +148,7 @@
       "date": "2026-03-13",
       "date_display": "Mar 13",
       "month": "March 2026",
-      "lead": "**Strictly 4 The Scythe**",
+      "lead": "**Strictly 4 The Scythe** (2026)",
       "meta": "Denzel Curry",
       "set_track_count": 8,
       "set_start_uts": 1773395338,
@@ -158,7 +162,7 @@
       "date": "2026-03-12",
       "date_display": "Mar 12",
       "month": "March 2026",
-      "lead": "**A Certain Trigger**",
+      "lead": "**A Certain Trigger** (2005)",
       "meta": "Maxïmo Park",
       "set_track_count": 13,
       "set_start_uts": 1773334603,
@@ -172,7 +176,7 @@
       "date": "2026-03-12",
       "date_display": "Mar 12",
       "month": "March 2026",
-      "lead": "**Apiary**",
+      "lead": "**Apiary** (2025)",
       "meta": "GingerBee",
       "set_track_count": 6,
       "set_start_uts": 1773294980,
@@ -186,7 +190,7 @@
       "date": "2026-03-11",
       "date_display": "Mar 11",
       "month": "March 2026",
-      "lead": "**Singin' to an Empty Chair**",
+      "lead": "**Singin' to an Empty Chair** (2026)",
       "meta": "Ratboys",
       "set_track_count": 11,
       "set_start_uts": 1773268245,
@@ -198,8 +202,8 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 1)",
-      "meta": "7:00 A.M."
+      "lead": "**The Pitt** (Season 2, Episode 2)",
+      "meta": "8:00 A.M."
     },
     {
       "date": "2026-03-10",
@@ -207,8 +211,8 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 2)",
-      "meta": "8:00 A.M."
+      "lead": "**The Pitt** (Season 2, Episode 1)",
+      "meta": "7:00 A.M."
     },
     {
       "guid": "lastfm-album-set-mbid|f183b31e-edfb-47b0-bd51-ba36e5d2cf3d|1773161723|1773163523",
@@ -218,7 +222,7 @@
       "date": "2026-03-10",
       "date_display": "Mar 10",
       "month": "March 2026",
-      "lead": "**Singin' to an Empty Chair**",
+      "lead": "**Singin' to an Empty Chair** (2026)",
       "meta": "Ratboys",
       "set_track_count": 11,
       "set_start_uts": 1773161723,
@@ -232,7 +236,7 @@
       "date": "2026-03-10",
       "date_display": "Mar 10",
       "month": "March 2026",
-      "lead": "**Just Got Back from the Discomfort—We're Alright**",
+      "lead": "**Just Got Back from the Discomfort—We're Alright** (2010)",
       "meta": "The Brave Little Abacus",
       "set_track_count": 12,
       "set_start_uts": 1773158425,
@@ -246,7 +250,7 @@
       "date": "2026-03-10",
       "date_display": "Mar 10",
       "month": "March 2026",
-      "lead": "**Masked Dancers: concern in so many things you forget where you are**",
+      "lead": "**Masked Dancers: concern in so many things you forget where you are** (2009)",
       "meta": "The Brave Little Abacus",
       "set_track_count": 10,
       "set_start_uts": 1773153968,
@@ -260,7 +264,7 @@
       "date": "2026-03-10",
       "date_display": "Mar 10",
       "month": "March 2026",
-      "lead": "**Perfect Right Now: A Slumberland Collection 2008-2010**",
+      "lead": "**Perfect Right Now: A Slumberland Collection 2008-2010** (2025)",
       "meta": "The Pains of Being Pure at Heart",
       "set_track_count": 10,
       "set_start_uts": 1773150305,
@@ -288,8 +292,8 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 7)",
-      "meta": "Contact"
+      "lead": "**Hijack** (Season 2, Episode 8)",
+      "meta": "Terminal"
     },
     {
       "date": "2026-03-09",
@@ -297,8 +301,8 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 8)",
-      "meta": "Terminal"
+      "lead": "**Hijack** (Season 2, Episode 7)",
+      "meta": "Contact"
     },
     {
       "guid": "lastfm-album-set-mbid|01d12847-43bc-3c48-8938-125e5545e355|1773064806|1773070101",
@@ -308,7 +312,7 @@
       "date": "2026-03-09",
       "date_display": "Mar 9",
       "month": "March 2026",
-      "lead": "**Physical Graffiti**",
+      "lead": "**Physical Graffiti** (1975)",
       "meta": "Led Zeppelin",
       "set_track_count": 15,
       "set_start_uts": 1773064806,
@@ -322,7 +326,7 @@
       "date": "2026-03-09",
       "date_display": "Mar 9",
       "month": "March 2026",
-      "lead": "**Houses of the Holy**",
+      "lead": "**Houses of the Holy** (1973)",
       "meta": "Led Zeppelin",
       "set_track_count": 8,
       "set_start_uts": 1773056240,
@@ -336,7 +340,7 @@
       "date": "2026-03-09",
       "date_display": "Mar 9",
       "month": "March 2026",
-      "lead": "**Led Zeppelin IV**",
+      "lead": "**Led Zeppelin IV** (1971)",
       "meta": "Led Zeppelin",
       "set_track_count": 8,
       "set_start_uts": 1773051860,
@@ -368,7 +372,7 @@
       "date": "2026-03-08",
       "date_display": "Mar 8",
       "month": "March 2026",
-      "lead": "**Led Zeppelin III**",
+      "lead": "**Led Zeppelin III** (1970)",
       "meta": "Led Zeppelin",
       "set_track_count": 10,
       "set_start_uts": 1772992295,
@@ -382,7 +386,7 @@
       "date": "2026-03-08",
       "date_display": "Mar 8",
       "month": "March 2026",
-      "lead": "**Led Zeppelin II**",
+      "lead": "**Led Zeppelin II** (1969)",
       "meta": "Led Zeppelin",
       "set_track_count": 9,
       "set_start_uts": 1772985073,
@@ -396,7 +400,7 @@
       "date": "2026-03-08",
       "date_display": "Mar 8",
       "month": "March 2026",
-      "lead": "**Led Zeppelin**",
+      "lead": "**Led Zeppelin** (1969)",
       "meta": "Led Zeppelin",
       "set_track_count": 9,
       "set_start_uts": 1772974238,
@@ -410,7 +414,7 @@
       "date": "2026-03-08",
       "date_display": "Mar 8",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me**",
+      "lead": "**Nothing’s About to Happen to Me** (2026)",
       "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772966998,
@@ -456,7 +460,7 @@
       "date": "2026-03-06",
       "date_display": "Mar 6",
       "month": "March 2026",
-      "lead": "**Sounds From the Gulf Stream**",
+      "lead": "**Sounds From the Gulf Stream** (1999)",
       "meta": "Marine Research",
       "set_track_count": 10,
       "set_start_uts": 1772798540,
@@ -470,7 +474,7 @@
       "date": "2026-03-06",
       "date_display": "Mar 6",
       "month": "March 2026",
-      "lead": "**Highway To Heavenly**",
+      "lead": "**Highway To Heavenly** (2026)",
       "meta": "Heavenly",
       "set_track_count": 11,
       "set_start_uts": 1772793265,
@@ -484,7 +488,7 @@
       "date": "2026-03-06",
       "date_display": "Mar 6",
       "month": "March 2026",
-      "lead": "**Titanic Rising**",
+      "lead": "**Titanic Rising** (2019)",
       "meta": "Weyes Blood",
       "set_track_count": 10,
       "set_start_uts": 1772789803,
@@ -507,7 +511,7 @@
       "date": "2026-03-05",
       "date_display": "Mar 5",
       "month": "March 2026",
-      "lead": "**The Land Is Inhospitable and So Are We**",
+      "lead": "**The Land Is Inhospitable and So Are We** (2023)",
       "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772714909,
@@ -521,7 +525,7 @@
       "date": "2026-03-05",
       "date_display": "Mar 5",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me**",
+      "lead": "**Nothing’s About to Happen to Me** (2026)",
       "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772705860,
@@ -535,7 +539,7 @@
       "date": "2026-03-05",
       "date_display": "Mar 5",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me**",
+      "lead": "**Nothing’s About to Happen to Me** (2026)",
       "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772701736,
@@ -549,7 +553,7 @@
       "date": "2026-03-04",
       "date_display": "Mar 4",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me**",
+      "lead": "**Nothing’s About to Happen to Me** (2026)",
       "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772644418,
@@ -595,7 +599,7 @@
       "date": "2026-03-02",
       "date_display": "Mar 2",
       "month": "March 2026",
-      "lead": "**What's Your Pleasure?**",
+      "lead": "**What's Your Pleasure?** (2020)",
       "meta": "Jessie Ware",
       "set_track_count": 12,
       "set_start_uts": 1772472022,
@@ -609,7 +613,7 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**it's fine to dream**",
+      "lead": "**it's fine to dream** (2026)",
       "meta": "You Are An Angel",
       "set_track_count": 12,
       "set_start_uts": 1772379993,
@@ -623,7 +627,7 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**The Mountain**",
+      "lead": "**The Mountain** (2026)",
       "meta": "Gorillaz",
       "set_track_count": 15,
       "set_start_uts": 1772373643,
@@ -637,7 +641,7 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me**",
+      "lead": "**Nothing’s About to Happen to Me** (2026)",
       "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772370005,
@@ -651,7 +655,7 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**An Evening with Silk Sonic**",
+      "lead": "**An Evening with Silk Sonic** (2021)",
       "meta": "Silk Sonic",
       "set_track_count": 9,
       "set_start_uts": 1772367456,
@@ -665,7 +669,7 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**Yes Lawd!**",
+      "lead": "**Yes Lawd!** (2016)",
       "meta": "NxWorries",
       "set_track_count": 19,
       "set_start_uts": 1772363797,
@@ -965,8 +969,8 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Queer Eye** (Season 10, Episode 2)",
-      "meta": "Back to School Burnout"
+      "lead": "**Queer Eye** (Season 10, Episode 3)",
+      "meta": "Sister, You Are Welcome Here"
     },
     {
       "date": "2026-02-13",
@@ -983,8 +987,8 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Queer Eye** (Season 10, Episode 3)",
-      "meta": "Sister, You Are Welcome Here"
+      "lead": "**Queer Eye** (Season 10, Episode 2)",
+      "meta": "Back to School Burnout"
     },
     {
       "date": "2026-02-12",
@@ -1370,8 +1374,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 11)",
-      "meta": "Episode 11"
+      "lead": "**The Traitors** (Season 4, Episode 12)",
+      "meta": "The Final"
     },
     {
       "date": "2026-01-23",
@@ -1397,8 +1401,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 12)",
-      "meta": "The Final"
+      "lead": "**The Traitors** (Season 4, Episode 11)",
+      "meta": "Episode 11"
     },
     {
       "date": "2026-01-22",
@@ -1514,8 +1518,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 8)",
-      "meta": "Episode 8"
+      "lead": "**The Traitors** (Season 4, Episode 9)",
+      "meta": "Episode 9"
     },
     {
       "date": "2026-01-18",
@@ -1523,8 +1527,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 9)",
-      "meta": "Episode 9"
+      "lead": "**The Traitors** (Season 4, Episode 8)",
+      "meta": "Episode 8"
     },
     {
       "date": "2026-01-17",
@@ -1658,8 +1662,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 3)",
-      "meta": "Episode 3"
+      "lead": "**The Traitors** (Season 4, Episode 4)",
+      "meta": "Episode 4"
     },
     {
       "date": "2026-01-10",
@@ -1667,8 +1671,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 4)",
-      "meta": "Episode 4"
+      "lead": "**The Traitors** (Season 4, Episode 3)",
+      "meta": "Episode 3"
     },
     {
       "date": "2026-01-09",
@@ -1766,8 +1770,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 4)",
-      "meta": "Episode 4"
+      "lead": "**The Traitors** (Season 3, Episode 5)",
+      "meta": "Episode 5"
     },
     {
       "date": "2026-01-05",
@@ -1775,8 +1779,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 5)",
-      "meta": "Episode 5"
+      "lead": "**The Traitors** (Season 3, Episode 4)",
+      "meta": "Episode 4"
     },
     {
       "date": "2026-01-05",
@@ -1793,8 +1797,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 1)",
-      "meta": "Episode 1"
+      "lead": "**The Traitors** (Season 3, Episode 2)",
+      "meta": "Episode 2"
     },
     {
       "date": "2026-01-04",
@@ -1802,8 +1806,8 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 2)",
-      "meta": "Episode 2"
+      "lead": "**The Traitors** (Season 3, Episode 1)",
+      "meta": "Episode 1"
     },
     {
       "date": "2026-01-02",

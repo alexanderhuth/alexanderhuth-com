@@ -218,6 +218,62 @@ pre code {
   margin: 0 0 0.5rem;
 }
 
+.media-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 0 1.25rem;
+  table-layout: fixed;
+}
+
+.media-table tbody tr {
+  transition: background-color 120ms ease;
+}
+
+.media-table tbody tr:hover,
+.media-table tbody tr:focus-within {
+  background: color-mix(in srgb, currentColor 8%, transparent 92%);
+}
+
+.media-table td {
+  padding: 0.3rem 0;
+  vertical-align: top;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.media-table-emoji {
+  width: 1.75rem;
+  padding-right: 0.45rem;
+  line-height: 1.4;
+}
+
+.media-table-title {
+  width: auto;
+  min-width: 0;
+  padding-right: 1rem;
+}
+
+.media-table-meta {
+  width: min(28vw, 12rem);
+  padding-right: 1.5rem;
+  color: color-mix(in srgb, currentColor 72%, transparent 28%);
+}
+
+.media-table-date {
+  width: 3.75rem;
+  text-align: right;
+}
+
+@media (max-width: 42rem) {
+  .media-table-meta,
+  .media-table-date {
+    width: auto;
+  }
+}
+
 .concert-index {
   margin: 0 0 1rem;
 }

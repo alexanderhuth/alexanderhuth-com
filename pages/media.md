@@ -17,17 +17,27 @@ permalink: /media/
   <tbody>
   {% for entry in entries %}
   {% if entry.month == month %}
-    {% assign plain_lead = entry.lead | remove: '**' %}
-    {% assign entry_title = entry.lead | markdownify | remove: '<p>' | remove: '</p>' %}
-    {% assign entry_meta = entry.meta %}
-    {% if entry.type == 'film' and entry_meta %}
-      {% assign entry_meta = entry_meta | remove_first: 'dir. ' %}
+    {% assign entry_title = '' %}
+    {% assign entry_meta = '' %}
+    {% if entry.type == 'film' %}
+      {% capture film_title %}
+        <strong>{{ entry.title }}</strong>{% if entry.year %} ({{ entry.year }}){% endif %}
+      {% endcapture %}
+      {% assign entry_title = film_title | strip %}
+      {% assign entry_meta = entry.director | default: '' %}
+    {% endif %}
+    {% if entry.type == 'music' %}
+      {% capture music_title %}
+        <strong>{{ entry.album }}</strong>{% if entry.year %} ({{ entry.year }}){% endif %}
+      {% endcapture %}
+      {% assign entry_title = music_title | strip %}
+      {% assign entry_meta = entry.artist | default: '' %}
     {% endif %}
     {% if entry.type == 'tv' %}
-      {% assign show_title = entry.show_title | default: plain_lead | split: ' (' | first %}
-      {% assign episode_title = entry.episode_title | default: entry.meta %}
-      {% assign season_number = entry.season_number | default: plain_lead | split: 'Season ' | last | split: ',' | first | strip %}
-      {% assign episode_number = entry.episode_number | default: plain_lead | split: 'Episode ' | last | split: ')' | first | strip %}
+      {% assign show_title = entry.show_title %}
+      {% assign episode_title = entry.episode_title %}
+      {% assign season_number = entry.season_number %}
+      {% assign episode_number = entry.episode_number %}
       {% capture season_episode_code %}
         S{{ season_number | plus: 0 | prepend: '00' | slice: -2, 2 }} E{{ episode_number | plus: 0 | prepend: '00' | slice: -2, 2 }}
       {% endcapture %}

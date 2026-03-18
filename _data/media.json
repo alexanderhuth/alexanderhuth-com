@@ -1,13 +1,124 @@
 {
   "entries": [
     {
-      "date": "2026-03-15",
-      "date_display": "Mar 15",
+      "guid": "lastfm-album-set-mbid|48abe606-b4de-4377-9bbd-bfd03ad2ce9a|1773763670|1773766496",
+      "source": "lastfm",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-03-17",
+      "date_display": "Mar 17",
       "month": "March 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 8)",
-      "meta": "2:00 P.M."
+      "album": "Stardust",
+      "artist": "Danny Brown",
+      "year": 2025,
+      "set_track_count": 14,
+      "set_start_uts": 1773763670,
+      "set_end_uts": 1773766496
+    },
+    {
+      "guid": "lastfm-album-set-mbid|6870d07e-0118-420c-8d37-2a103b3fa24d|1773758219|1773759659",
+      "source": "lastfm",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-03-17",
+      "date_display": "Mar 17",
+      "month": "March 2026",
+      "album": "Songs To Break Up To",
+      "artist": "Ta-ku",
+      "year": 2013,
+      "set_track_count": 9,
+      "set_start_uts": 1773758219,
+      "set_end_uts": 1773759659
+    },
+    {
+      "guid": "lastfm-album-set-name|luv(sic) hexalogy|1773756340|1773757932",
+      "source": "lastfm",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-03-17",
+      "date_display": "Mar 17",
+      "month": "March 2026",
+      "album": "Luv(sic) hexalogy",
+      "artist": "Nujabes",
+      "year": 2015,
+      "set_track_count": 6,
+      "set_start_uts": 1773756340,
+      "set_end_uts": 1773757932
+    },
+    {
+      "guid": "lastfm-album-set-mbid|0e4b1bb9-5ff9-4b04-99fa-e5f4a083d780|1773752715|1773755318",
+      "source": "lastfm",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-03-17",
+      "date_display": "Mar 17",
+      "month": "March 2026",
+      "album": "Trying Times",
+      "artist": "James Blake",
+      "year": 2026,
+      "set_track_count": 13,
+      "set_start_uts": 1773752715,
+      "set_end_uts": 1773755318
+    },
+    {
+      "guid": "lastfm-album-set-mbid|59fe2bc7-b3f7-43e6-86d7-b679a3381f0c|1773745479|1773747279",
+      "source": "lastfm",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-03-17",
+      "date_display": "Mar 17",
+      "month": "March 2026",
+      "album": "Phonetics On and On",
+      "artist": "Horsegirl",
+      "year": 2025,
+      "set_track_count": 11,
+      "set_start_uts": 1773745479,
+      "set_end_uts": 1773747279
+    },
+    {
+      "guid": "lastfm-album-set-mbid|862d42f6-4943-4b6b-b3fa-0edf3d829b1a|1773741852|1773743431",
+      "source": "lastfm",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-03-17",
+      "date_display": "Mar 17",
+      "month": "March 2026",
+      "album": "Violence",
+      "artist": "truck violence",
+      "year": 2024,
+      "set_track_count": 8,
+      "set_start_uts": 1773741852,
+      "set_end_uts": 1773743431
+    },
+    {
+      "guid": "lastfm-album-set-mbid|32eace38-f6b5-477b-9b6a-6370775ebf7b|1773678775|1773681274",
+      "source": "lastfm",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-03-16",
+      "date_display": "Mar 16",
+      "month": "March 2026",
+      "set_track_count": 13,
+      "set_start_uts": 1773678775,
+      "set_end_uts": 1773681274,
+      "album": "A.M.",
+      "artist": "Wilco",
+      "year": 1995
+    },
+    {
+      "guid": "lastfm-album-set-mbid|312cb54d-9c3c-4181-8f13-1345d87f5810|1773673984|1773676990",
+      "source": "lastfm",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-03-16",
+      "date_display": "Mar 16",
+      "month": "March 2026",
+      "set_track_count": 14,
+      "set_start_uts": 1773673984,
+      "set_end_uts": 1773676990,
+      "album": "summerteeth",
+      "artist": "Wilco",
+      "year": 1999
     },
     {
       "date": "2026-03-15",
@@ -15,8 +126,21 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 7)",
-      "meta": "1:00 P.M."
+      "show_title": "The Pitt",
+      "season_number": 2,
+      "episode_number": 8,
+      "episode_title": "2:00 P.M."
+    },
+    {
+      "date": "2026-03-15",
+      "date_display": "Mar 15",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "The Pitt",
+      "season_number": 2,
+      "episode_number": 7,
+      "episode_title": "1:00 P.M."
     },
     {
       "guid": "lastfm-album-set-mbid|0bf006ce-45a5-4963-89cb-cd285fd768bb|1773567496|1773569834",
@@ -26,11 +150,12 @@
       "date": "2026-03-15",
       "date_display": "Mar 15",
       "month": "March 2026",
-      "lead": "**Getting Killed** (2025)",
-      "meta": "Geese",
       "set_track_count": 11,
       "set_start_uts": 1773567496,
-      "set_end_uts": 1773569834
+      "set_end_uts": 1773569834,
+      "album": "Getting Killed",
+      "artist": "Geese",
+      "year": 2025
     },
     {
       "guid": "lastfm-album-set-mbid|8c8edceb-5739-431b-a767-6d3798a469a9|1773498509|1773500243",
@@ -40,11 +165,12 @@
       "date": "2026-03-14",
       "date_display": "Mar 14",
       "month": "March 2026",
-      "lead": "**Boat Songs** (2022)",
-      "meta": "MJ Lenderman",
       "set_track_count": 10,
       "set_start_uts": 1773498509,
-      "set_end_uts": 1773500243
+      "set_end_uts": 1773500243,
+      "album": "Boat Songs",
+      "artist": "MJ Lenderman",
+      "year": 2022
     },
     {
       "guid": "lastfm-album-set-mbid|03437e02-835f-3a0a-a37c-48a36c2e852a|1773478504|1773483004",
@@ -54,11 +180,12 @@
       "date": "2026-03-14",
       "date_display": "Mar 14",
       "month": "March 2026",
-      "lead": "**Abbey Road** (1969)",
-      "meta": "The Beatles",
       "set_track_count": 16,
       "set_start_uts": 1773478504,
-      "set_end_uts": 1773483004
+      "set_end_uts": 1773483004,
+      "album": "Abbey Road",
+      "artist": "The Beatles",
+      "year": 1969
     },
     {
       "date": "2026-03-13",
@@ -66,8 +193,10 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 6)",
-      "meta": "12:00 P.M."
+      "show_title": "The Pitt",
+      "season_number": 2,
+      "episode_number": 5,
+      "episode_title": "11:00 A.M."
     },
     {
       "date": "2026-03-13",
@@ -75,8 +204,32 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 5)",
-      "meta": "11:00 A.M."
+      "show_title": "The Pitt",
+      "season_number": 2,
+      "episode_number": 4,
+      "episode_title": "10:00 A.M."
+    },
+    {
+      "date": "2026-03-13",
+      "date_display": "Mar 13",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "The Pitt",
+      "season_number": 2,
+      "episode_number": 6,
+      "episode_title": "12:00 P.M."
+    },
+    {
+      "date": "2026-03-13",
+      "date_display": "Mar 13",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "The Pitt",
+      "season_number": 2,
+      "episode_number": 3,
+      "episode_title": "9:00 A.M."
     },
     {
       "guid": "letterboxd-watch-1238751225",
@@ -86,31 +239,10 @@
       "date": "2026-03-13",
       "date_display": "Mar 13",
       "month": "March 2026",
-      "lead": "**The Alphabet** (1969)",
-      "meta": "dir. David Lynch",
       "url": "https://letterboxd.com/alexanderh/film/the-alphabet/",
       "director": "David Lynch",
-      "director_source": "wikipedia",
-      "director_source_url": "https://en.wikipedia.org/wiki/The_Short_Films_of_David_Lynch",
-      "director_match": "uncertain"
-    },
-    {
-      "date": "2026-03-13",
-      "date_display": "Mar 13",
-      "month": "March 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 4)",
-      "meta": "10:00 A.M."
-    },
-    {
-      "date": "2026-03-13",
-      "date_display": "Mar 13",
-      "month": "March 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 3)",
-      "meta": "9:00 A.M."
+      "title": "The Alphabet",
+      "year": 1969
     },
     {
       "guid": "lastfm-album-set-mbid|876f4c16-f0e1-40db-8586-87884d49b70d|1773423063|1773426837",
@@ -120,11 +252,12 @@
       "date": "2026-03-13",
       "date_display": "Mar 13",
       "month": "March 2026",
-      "lead": "**Only Built 4 Cuban Linx...** (1995)",
-      "meta": "Raekwon",
       "set_track_count": 17,
       "set_start_uts": 1773423063,
-      "set_end_uts": 1773426837
+      "set_end_uts": 1773426837,
+      "album": "Only Built 4 Cuban Linx...",
+      "artist": "Raekwon",
+      "year": 1995
     },
     {
       "guid": "lastfm-album-set-mbid|74810d06-6c4e-43ad-9b33-ce7fc70f3a60|1773418970|1773420572",
@@ -134,11 +267,12 @@
       "date": "2026-03-13",
       "date_display": "Mar 13",
       "month": "March 2026",
-      "lead": "**Strictly 4 The Scythe** (2026)",
-      "meta": "Denzel Curry",
       "set_track_count": 8,
       "set_start_uts": 1773418970,
-      "set_end_uts": 1773420572
+      "set_end_uts": 1773420572,
+      "album": "Strictly 4 The Scythe",
+      "artist": "Denzel Curry",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|74810d06-6c4e-43ad-9b33-ce7fc70f3a60|1773395338|1773396870",
@@ -148,11 +282,12 @@
       "date": "2026-03-13",
       "date_display": "Mar 13",
       "month": "March 2026",
-      "lead": "**Strictly 4 The Scythe** (2026)",
-      "meta": "Denzel Curry",
       "set_track_count": 8,
       "set_start_uts": 1773395338,
-      "set_end_uts": 1773396870
+      "set_end_uts": 1773396870,
+      "album": "Strictly 4 The Scythe",
+      "artist": "Denzel Curry",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|5a8fa583-2b56-3d92-9128-82c6ada1bc3a|1773334603|1773336854",
@@ -162,11 +297,12 @@
       "date": "2026-03-12",
       "date_display": "Mar 12",
       "month": "March 2026",
-      "lead": "**A Certain Trigger** (2005)",
-      "meta": "Maxïmo Park",
       "set_track_count": 13,
       "set_start_uts": 1773334603,
-      "set_end_uts": 1773336854
+      "set_end_uts": 1773336854,
+      "album": "A Certain Trigger",
+      "artist": "Maxïmo Park",
+      "year": 2005
     },
     {
       "guid": "lastfm-album-set-mbid|cf213244-df97-46c4-a30f-fb9d33749645|1773294980|1773296006",
@@ -176,11 +312,12 @@
       "date": "2026-03-12",
       "date_display": "Mar 12",
       "month": "March 2026",
-      "lead": "**Apiary** (2025)",
-      "meta": "GingerBee",
       "set_track_count": 6,
       "set_start_uts": 1773294980,
-      "set_end_uts": 1773296006
+      "set_end_uts": 1773296006,
+      "album": "Apiary",
+      "artist": "GingerBee",
+      "year": 2025
     },
     {
       "guid": "lastfm-album-set-mbid|f183b31e-edfb-47b0-bd51-ba36e5d2cf3d|1773268245|1773270045",
@@ -190,11 +327,12 @@
       "date": "2026-03-11",
       "date_display": "Mar 11",
       "month": "March 2026",
-      "lead": "**Singin' to an Empty Chair** (2026)",
-      "meta": "Ratboys",
       "set_track_count": 11,
       "set_start_uts": 1773268245,
-      "set_end_uts": 1773270045
+      "set_end_uts": 1773270045,
+      "album": "Singin' to an Empty Chair",
+      "artist": "Ratboys",
+      "year": 2026
     },
     {
       "date": "2026-03-10",
@@ -202,8 +340,10 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 2)",
-      "meta": "8:00 A.M."
+      "show_title": "The Pitt",
+      "season_number": 2,
+      "episode_number": 2,
+      "episode_title": "8:00 A.M."
     },
     {
       "date": "2026-03-10",
@@ -211,8 +351,10 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Pitt** (Season 2, Episode 1)",
-      "meta": "7:00 A.M."
+      "show_title": "The Pitt",
+      "season_number": 2,
+      "episode_number": 1,
+      "episode_title": "7:00 A.M."
     },
     {
       "guid": "lastfm-album-set-mbid|f183b31e-edfb-47b0-bd51-ba36e5d2cf3d|1773161723|1773163523",
@@ -222,11 +364,12 @@
       "date": "2026-03-10",
       "date_display": "Mar 10",
       "month": "March 2026",
-      "lead": "**Singin' to an Empty Chair** (2026)",
-      "meta": "Ratboys",
       "set_track_count": 11,
       "set_start_uts": 1773161723,
-      "set_end_uts": 1773163523
+      "set_end_uts": 1773163523,
+      "album": "Singin' to an Empty Chair",
+      "artist": "Ratboys",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|bcf32b46-c4c7-46e7-9503-2ca4e0133c00|1773158425|1773160965",
@@ -236,11 +379,12 @@
       "date": "2026-03-10",
       "date_display": "Mar 10",
       "month": "March 2026",
-      "lead": "**Just Got Back from the Discomfort—We're Alright** (2010)",
-      "meta": "The Brave Little Abacus",
       "set_track_count": 12,
       "set_start_uts": 1773158425,
-      "set_end_uts": 1773160965
+      "set_end_uts": 1773160965,
+      "album": "Just Got Back from the Discomfort—We're Alright",
+      "artist": "The Brave Little Abacus",
+      "year": 2010
     },
     {
       "guid": "lastfm-album-set-mbid|cadc6db0-51c7-4056-b738-4fb17a426219|1773153968|1773156696",
@@ -250,11 +394,12 @@
       "date": "2026-03-10",
       "date_display": "Mar 10",
       "month": "March 2026",
-      "lead": "**Masked Dancers: concern in so many things you forget where you are** (2009)",
-      "meta": "The Brave Little Abacus",
       "set_track_count": 10,
       "set_start_uts": 1773153968,
-      "set_end_uts": 1773156696
+      "set_end_uts": 1773156696,
+      "album": "Masked Dancers: concern in so many things you forget where you are",
+      "artist": "The Brave Little Abacus",
+      "year": 2009
     },
     {
       "guid": "lastfm-album-set-mbid|aed09a22-b6c3-4c29-a70a-d9b90ab89740|1773150305|1773151926",
@@ -264,11 +409,34 @@
       "date": "2026-03-10",
       "date_display": "Mar 10",
       "month": "March 2026",
-      "lead": "**Perfect Right Now: A Slumberland Collection 2008-2010** (2025)",
-      "meta": "The Pains of Being Pure at Heart",
       "set_track_count": 10,
       "set_start_uts": 1773150305,
-      "set_end_uts": 1773151926
+      "set_end_uts": 1773151926,
+      "album": "Perfect Right Now: A Slumberland Collection 2008-2010",
+      "artist": "The Pains of Being Pure at Heart",
+      "year": 2025
+    },
+    {
+      "date": "2026-03-09",
+      "date_display": "Mar 9",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "Hijack",
+      "season_number": 2,
+      "episode_number": 8,
+      "episode_title": "Terminal"
+    },
+    {
+      "date": "2026-03-09",
+      "date_display": "Mar 9",
+      "month": "March 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "Hijack",
+      "season_number": 2,
+      "episode_number": 7,
+      "episode_title": "Contact"
     },
     {
       "guid": "letterboxd-watch-1233250453",
@@ -278,31 +446,10 @@
       "date": "2026-03-09",
       "date_display": "Mar 9",
       "month": "March 2026",
-      "lead": "**Hoppers** (2026)",
-      "meta": "dir. Daniel Chong",
       "url": "https://letterboxd.com/alexanderh/film/hoppers/",
       "director": "Daniel Chong",
-      "director_source": "wikidata",
-      "director_source_url": "https://www.wikidata.org/wiki/Q128798957",
-      "director_match": "certain"
-    },
-    {
-      "date": "2026-03-09",
-      "date_display": "Mar 9",
-      "month": "March 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 8)",
-      "meta": "Terminal"
-    },
-    {
-      "date": "2026-03-09",
-      "date_display": "Mar 9",
-      "month": "March 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 7)",
-      "meta": "Contact"
+      "title": "Hoppers",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|01d12847-43bc-3c48-8938-125e5545e355|1773064806|1773070101",
@@ -312,11 +459,12 @@
       "date": "2026-03-09",
       "date_display": "Mar 9",
       "month": "March 2026",
-      "lead": "**Physical Graffiti** (1975)",
-      "meta": "Led Zeppelin",
       "set_track_count": 15,
       "set_start_uts": 1773064806,
-      "set_end_uts": 1773070101
+      "set_end_uts": 1773070101,
+      "album": "Physical Graffiti",
+      "artist": "Led Zeppelin",
+      "year": 1975
     },
     {
       "guid": "lastfm-album-set-mbid|048c8be5-c9ec-4add-8c30-85f81c9e43de|1773056240|1773059634",
@@ -326,11 +474,12 @@
       "date": "2026-03-09",
       "date_display": "Mar 9",
       "month": "March 2026",
-      "lead": "**Houses of the Holy** (1973)",
-      "meta": "Led Zeppelin",
       "set_track_count": 8,
       "set_start_uts": 1773056240,
-      "set_end_uts": 1773059634
+      "set_end_uts": 1773059634,
+      "album": "Houses of the Holy",
+      "artist": "Led Zeppelin",
+      "year": 1973
     },
     {
       "guid": "lastfm-album-set-mbid|97fd4094-7aa9-4e2c-b594-b0a2815c3d7c|1773051860|1773054602",
@@ -340,11 +489,12 @@
       "date": "2026-03-09",
       "date_display": "Mar 9",
       "month": "March 2026",
-      "lead": "**Led Zeppelin IV** (1971)",
-      "meta": "Led Zeppelin",
       "set_track_count": 8,
       "set_start_uts": 1773051860,
-      "set_end_uts": 1773054602
+      "set_end_uts": 1773054602,
+      "album": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "year": 1971
     },
     {
       "date": "2026-03-08",
@@ -352,8 +502,10 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Queer Eye** (Season 10, Episode 5)",
-      "meta": "Queer Eye-Eye, Captain"
+      "show_title": "Queer Eye",
+      "season_number": 10,
+      "episode_number": 5,
+      "episode_title": "Queer Eye-Eye, Captain"
     },
     {
       "date": "2026-03-08",
@@ -361,8 +513,10 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Queer Eye** (Season 10, Episode 4)",
-      "meta": "Finding Father"
+      "show_title": "Queer Eye",
+      "season_number": 10,
+      "episode_number": 4,
+      "episode_title": "Finding Father"
     },
     {
       "guid": "lastfm-album-set-mbid|01ad8c74-de8b-40f7-a7ad-e21ed3149e39|1772992295|1772996475",
@@ -372,11 +526,12 @@
       "date": "2026-03-08",
       "date_display": "Mar 8",
       "month": "March 2026",
-      "lead": "**Led Zeppelin III** (1970)",
-      "meta": "Led Zeppelin",
       "set_track_count": 10,
       "set_start_uts": 1772992295,
-      "set_end_uts": 1772996475
+      "set_end_uts": 1772996475,
+      "album": "Led Zeppelin III",
+      "artist": "Led Zeppelin",
+      "year": 1970
     },
     {
       "guid": "lastfm-album-set-mbid|04f0936c-1d0b-4901-872b-aad32826562f|1772985073|1772988031",
@@ -386,11 +541,12 @@
       "date": "2026-03-08",
       "date_display": "Mar 8",
       "month": "March 2026",
-      "lead": "**Led Zeppelin II** (1969)",
-      "meta": "Led Zeppelin",
       "set_track_count": 9,
       "set_start_uts": 1772985073,
-      "set_end_uts": 1772988031
+      "set_end_uts": 1772988031,
+      "album": "Led Zeppelin II",
+      "artist": "Led Zeppelin",
+      "year": 1969
     },
     {
       "guid": "lastfm-album-set-mbid|016516a6-c0bc-4636-b325-ec7db777458b|1772974238|1772977264",
@@ -400,11 +556,12 @@
       "date": "2026-03-08",
       "date_display": "Mar 8",
       "month": "March 2026",
-      "lead": "**Led Zeppelin** (1969)",
-      "meta": "Led Zeppelin",
       "set_track_count": 9,
       "set_start_uts": 1772974238,
-      "set_end_uts": 1772977264
+      "set_end_uts": 1772977264,
+      "album": "Led Zeppelin",
+      "artist": "Led Zeppelin",
+      "year": 1969
     },
     {
       "guid": "lastfm-album-set-mbid|2b4115a8-ce7f-4211-9533-06b2762e88c3|1772966998|1772968798",
@@ -414,11 +571,12 @@
       "date": "2026-03-08",
       "date_display": "Mar 8",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me** (2026)",
-      "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772966998,
-      "set_end_uts": 1772968798
+      "set_end_uts": 1772968798,
+      "album": "Nothing’s About to Happen to Me",
+      "artist": "Mitski",
+      "year": 2026
     },
     {
       "guid": "letterboxd-watch-1230505633",
@@ -428,13 +586,10 @@
       "date": "2026-03-07",
       "date_display": "Mar 7",
       "month": "March 2026",
-      "lead": "**F1** (2025)",
-      "meta": "dir. Joseph Kosinski",
       "url": "https://letterboxd.com/alexanderh/film/f1/",
       "director": "Joseph Kosinski",
-      "director_source": "wikidata",
-      "director_source_url": "https://www.wikidata.org/wiki/Q114246242",
-      "director_match": "certain"
+      "title": "F1",
+      "year": 2025
     },
     {
       "guid": "letterboxd-watch-1229388896",
@@ -444,13 +599,10 @@
       "date": "2026-03-06",
       "date_display": "Mar 6",
       "month": "March 2026",
-      "lead": "**Yellow Letters** (2026)",
-      "meta": "dir. İlker Çatak",
       "url": "https://letterboxd.com/alexanderh/film/yellow-letters/",
       "director": "İlker Çatak",
-      "director_source": "wikidata",
-      "director_source_url": "https://www.wikidata.org/wiki/Q136163095",
-      "director_match": "uncertain"
+      "title": "Yellow Letters",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|a3f2d3df-ab2f-489a-a205-b93302fdc5f5|1772798540|1772800369",
@@ -460,11 +612,12 @@
       "date": "2026-03-06",
       "date_display": "Mar 6",
       "month": "March 2026",
-      "lead": "**Sounds From the Gulf Stream** (1999)",
-      "meta": "Marine Research",
       "set_track_count": 10,
       "set_start_uts": 1772798540,
-      "set_end_uts": 1772800369
+      "set_end_uts": 1772800369,
+      "album": "Sounds From the Gulf Stream",
+      "artist": "Marine Research",
+      "year": 1999
     },
     {
       "guid": "lastfm-album-set-mbid|ba04ee14-d297-41c4-9ba5-f61e94ee1719|1772793265|1772795463",
@@ -474,11 +627,12 @@
       "date": "2026-03-06",
       "date_display": "Mar 6",
       "month": "March 2026",
-      "lead": "**Highway To Heavenly** (2026)",
-      "meta": "Heavenly",
       "set_track_count": 11,
       "set_start_uts": 1772793265,
-      "set_end_uts": 1772795463
+      "set_end_uts": 1772795463,
+      "album": "Highway To Heavenly",
+      "artist": "Heavenly",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|19e1586e-4324-45a4-af50-b95c08c8dd97|1772789803|1772792091",
@@ -488,11 +642,12 @@
       "date": "2026-03-06",
       "date_display": "Mar 6",
       "month": "March 2026",
-      "lead": "**Titanic Rising** (2019)",
-      "meta": "Weyes Blood",
       "set_track_count": 10,
       "set_start_uts": 1772789803,
-      "set_end_uts": 1772792091
+      "set_end_uts": 1772792091,
+      "album": "Titanic Rising",
+      "artist": "Weyes Blood",
+      "year": 2019
     },
     {
       "date": "2026-03-05",
@@ -500,8 +655,10 @@
       "month": "March 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 6)",
-      "meta": "Junction"
+      "show_title": "Hijack",
+      "season_number": 2,
+      "episode_number": 6,
+      "episode_title": "Junction"
     },
     {
       "guid": "lastfm-album-set-mbid|65c45a70-b218-46d0-8dfc-4983b2babf96|1772714909|1772716709",
@@ -511,11 +668,12 @@
       "date": "2026-03-05",
       "date_display": "Mar 5",
       "month": "March 2026",
-      "lead": "**The Land Is Inhospitable and So Are We** (2023)",
-      "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772714909,
-      "set_end_uts": 1772716709
+      "set_end_uts": 1772716709,
+      "album": "The Land Is Inhospitable and So Are We",
+      "artist": "Mitski",
+      "year": 2023
     },
     {
       "guid": "lastfm-album-set-mbid|2b4115a8-ce7f-4211-9533-06b2762e88c3|1772705860|1772707660",
@@ -525,11 +683,12 @@
       "date": "2026-03-05",
       "date_display": "Mar 5",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me** (2026)",
-      "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772705860,
-      "set_end_uts": 1772707660
+      "set_end_uts": 1772707660,
+      "album": "Nothing’s About to Happen to Me",
+      "artist": "Mitski",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|2b4115a8-ce7f-4211-9533-06b2762e88c3|1772701736|1772703536",
@@ -539,11 +698,12 @@
       "date": "2026-03-05",
       "date_display": "Mar 5",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me** (2026)",
-      "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772701736,
-      "set_end_uts": 1772703536
+      "set_end_uts": 1772703536,
+      "album": "Nothing’s About to Happen to Me",
+      "artist": "Mitski",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|2b4115a8-ce7f-4211-9533-06b2762e88c3|1772644418|1772646218",
@@ -553,27 +713,12 @@
       "date": "2026-03-04",
       "date_display": "Mar 4",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me** (2026)",
-      "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772644418,
-      "set_end_uts": 1772646218
-    },
-    {
-      "guid": "letterboxd-watch-1226227916",
-      "source": "letterboxd",
-      "type": "film",
-      "emoji": "🎬",
-      "date": "2026-03-03",
-      "date_display": "Mar 3",
-      "month": "March 2026",
-      "lead": "**Sicario** (2015)",
-      "meta": "dir. Denis Villeneuve",
-      "url": "https://letterboxd.com/alexanderh/film/sicario-2015/4/",
-      "director": "Denis Villeneuve",
-      "director_source": "wikidata",
-      "director_source_url": "https://www.wikidata.org/wiki/Q17337292",
-      "director_match": "certain"
+      "set_end_uts": 1772646218,
+      "album": "Nothing’s About to Happen to Me",
+      "artist": "Mitski",
+      "year": 2026
     },
     {
       "guid": "letterboxd-watch-1226227549",
@@ -583,13 +728,23 @@
       "date": "2026-03-03",
       "date_display": "Mar 3",
       "month": "March 2026",
-      "lead": "**The Fantastic 4: First Steps** (2025)",
-      "meta": "dir. Matt Shakman",
       "url": "https://letterboxd.com/alexanderh/film/the-fantastic-4-first-steps/",
-      "director": "Michael Shanks",
-      "director_source": "wikidata",
-      "director_source_url": "https://www.wikidata.org/wiki/Q131870558",
-      "director_match": "uncertain"
+      "director": "Matt Shakman",
+      "title": "The Fantastic 4: First Steps",
+      "year": 2025
+    },
+    {
+      "guid": "letterboxd-watch-1226227916",
+      "source": "letterboxd",
+      "type": "film",
+      "emoji": "🎬",
+      "date": "2026-03-03",
+      "date_display": "Mar 3",
+      "month": "March 2026",
+      "url": "https://letterboxd.com/alexanderh/film/sicario-2015/4/",
+      "director": "Denis Villeneuve",
+      "title": "Sicario",
+      "year": 2015
     },
     {
       "guid": "lastfm-album-set-mbid|12c4d585-ae20-43ff-8876-bbb4eadd545a|1772472022|1772474866",
@@ -599,11 +754,12 @@
       "date": "2026-03-02",
       "date_display": "Mar 2",
       "month": "March 2026",
-      "lead": "**What's Your Pleasure?** (2020)",
-      "meta": "Jessie Ware",
       "set_track_count": 12,
       "set_start_uts": 1772472022,
-      "set_end_uts": 1772474866
+      "set_end_uts": 1772474866,
+      "album": "What's Your Pleasure?",
+      "artist": "Jessie Ware",
+      "year": 2020
     },
     {
       "guid": "lastfm-album-set-mbid|70debe3b-a3b5-46b9-a60b-3525fbf3839f|1772379993|1772382478",
@@ -613,11 +769,12 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**it's fine to dream** (2026)",
-      "meta": "You Are An Angel",
       "set_track_count": 12,
       "set_start_uts": 1772379993,
-      "set_end_uts": 1772382478
+      "set_end_uts": 1772382478,
+      "album": "it's fine to dream",
+      "artist": "You Are An Angel",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|b5e62af8-78a5-4d0d-86dc-13b0f9cb4c85|1772373643|1772376163",
@@ -627,11 +784,12 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**The Mountain** (2026)",
-      "meta": "Gorillaz",
       "set_track_count": 15,
       "set_start_uts": 1772373643,
-      "set_end_uts": 1772376163
+      "set_end_uts": 1772376163,
+      "album": "The Mountain",
+      "artist": "Gorillaz",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|2b4115a8-ce7f-4211-9533-06b2762e88c3|1772370005|1772371805",
@@ -641,11 +799,12 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**Nothing’s About to Happen to Me** (2026)",
-      "meta": "Mitski",
       "set_track_count": 11,
       "set_start_uts": 1772370005,
-      "set_end_uts": 1772371805
+      "set_end_uts": 1772371805,
+      "album": "Nothing’s About to Happen to Me",
+      "artist": "Mitski",
+      "year": 2026
     },
     {
       "guid": "lastfm-album-set-mbid|98637992-bf58-4a3f-911e-59f1fa14ea74|1772367456|1772369049",
@@ -655,11 +814,12 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**An Evening with Silk Sonic** (2021)",
-      "meta": "Silk Sonic",
       "set_track_count": 9,
       "set_start_uts": 1772367456,
-      "set_end_uts": 1772369049
+      "set_end_uts": 1772369049,
+      "album": "An Evening with Silk Sonic",
+      "artist": "Silk Sonic",
+      "year": 2021
     },
     {
       "guid": "lastfm-album-set-mbid|0753a242-fe5f-4e26-a005-b5e7354434cf|1772363797|1772366595",
@@ -669,11 +829,12 @@
       "date": "2026-03-01",
       "date_display": "Mar 1",
       "month": "March 2026",
-      "lead": "**Yes Lawd!** (2016)",
-      "meta": "NxWorries",
       "set_track_count": 19,
       "set_start_uts": 1772363797,
-      "set_end_uts": 1772366595
+      "set_end_uts": 1772366595,
+      "album": "Yes Lawd!",
+      "artist": "NxWorries",
+      "year": 2016
     },
     {
       "date": "2026-02-21",
@@ -681,8 +842,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**The Great Ecstasy of Woodcarver Steiner** (1974)",
-      "meta": "dir. Werner Herzog"
+      "title": "The Great Ecstasy of Woodcarver Steiner",
+      "year": 1974,
+      "director": "Werner Herzog"
     },
     {
       "date": "2026-02-21",
@@ -690,8 +852,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Sorry, Baby** (2025)",
-      "meta": "dir. Eva Victor"
+      "title": "Sorry, Baby",
+      "year": 2025,
+      "director": "Eva Victor"
     },
     {
       "date": "2026-02-21",
@@ -699,8 +862,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Honey Don't!** (2025)",
-      "meta": "dir. Ethan Coen"
+      "title": "Honey Don't!",
+      "year": 2025,
+      "director": "Ethan Coen"
     },
     {
       "date": "2026-02-20",
@@ -708,8 +872,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Josephine** (2026)",
-      "meta": "dir. Beth de Araujo"
+      "title": "Josephine",
+      "year": 2026,
+      "director": "Beth de Araujo"
     },
     {
       "date": "2026-02-20",
@@ -717,35 +882,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Songs to Scream at the Sun** (2008)",
-      "meta": "Have Heart"
-    },
-    {
-      "date": "2026-02-19",
-      "date_display": "Feb 19",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Songs to Scream at the Sun** (2008)",
-      "meta": "Have Heart"
-    },
-    {
-      "date": "2026-02-19",
-      "date_display": "Feb 19",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Songs to Scream at the Sun** (2008)",
-      "meta": "Have Heart"
-    },
-    {
-      "date": "2026-02-19",
-      "date_display": "Feb 19",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Songs to Scream at the Sun** (2008)",
-      "meta": "Have Heart"
+      "album": "Songs to Scream at the Sun",
+      "artist": "Have Heart",
+      "year": 2008
     },
     {
       "date": "2026-02-19",
@@ -753,17 +892,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Home Stories** (2026)",
-      "meta": "dir. Eva Trobisch"
-    },
-    {
-      "date": "2026-02-19",
-      "date_display": "Feb 19",
-      "month": "February 2026",
-      "emoji": "🎬",
-      "type": "film",
-      "lead": "**A New Dawn** (2026)",
-      "meta": "dir. Yoshitoshi Shinomiya"
+      "title": "Home Stories",
+      "year": 2026,
+      "director": "Eva Trobisch"
     },
     {
       "date": "2026-02-19",
@@ -771,8 +902,49 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**The Things We Carry** (2006)",
-      "meta": "Have Heart"
+      "album": "Songs to Scream at the Sun",
+      "artist": "Have Heart",
+      "year": 2008
+    },
+    {
+      "date": "2026-02-19",
+      "date_display": "Feb 19",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "The Things We Carry",
+      "artist": "Have Heart",
+      "year": 2006
+    },
+    {
+      "date": "2026-02-19",
+      "date_display": "Feb 19",
+      "month": "February 2026",
+      "emoji": "🎬",
+      "type": "film",
+      "title": "A New Dawn",
+      "year": 2026,
+      "director": "Yoshitoshi Shinomiya"
+    },
+    {
+      "date": "2026-02-19",
+      "date_display": "Feb 19",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Songs to Scream at the Sun",
+      "artist": "Have Heart",
+      "year": 2008
+    },
+    {
+      "date": "2026-02-19",
+      "date_display": "Feb 19",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Songs to Scream at the Sun",
+      "artist": "Have Heart",
+      "year": 2008
     },
     {
       "date": "2026-02-18",
@@ -780,17 +952,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Alan Sparhawk With Trampled by Turtles** (2025)",
-      "meta": "Alan Sparhawk with Trampled by Turtles"
-    },
-    {
-      "date": "2026-02-18",
-      "date_display": "Feb 18",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**KNOWER FOREVER** (2023)",
-      "meta": "KNOWER"
+      "album": "Alan Sparhawk With Trampled by Turtles",
+      "artist": "Alan Sparhawk with Trampled by Turtles",
+      "year": 2025
     },
     {
       "date": "2026-02-18",
@@ -798,8 +962,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**The Weight** (2026)",
-      "meta": "dir. Padraic McKinley"
+      "title": "The Weight",
+      "year": 2026,
+      "director": "Padraic McKinley"
     },
     {
       "date": "2026-02-18",
@@ -807,26 +972,19 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**American Football EP** (1998)",
-      "meta": "American Football"
+      "album": "American Football EP",
+      "artist": "American Football",
+      "year": 1998
     },
     {
-      "date": "2026-02-17",
-      "date_display": "Feb 17",
+      "date": "2026-02-18",
+      "date_display": "Feb 18",
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Purple** (1994)",
-      "meta": "Stone Temple Pilots"
-    },
-    {
-      "date": "2026-02-17",
-      "date_display": "Feb 17",
-      "month": "February 2026",
-      "emoji": "🎬",
-      "type": "film",
-      "lead": "**Sad Girlz** (2026)",
-      "meta": "dir. Fernanda Tovar"
+      "album": "KNOWER FOREVER",
+      "artist": "KNOWER",
+      "year": 2023
     },
     {
       "date": "2026-02-17",
@@ -834,8 +992,29 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Heysel 85** (2026)",
-      "meta": "dir. Teodora Ana Mihai"
+      "title": "Sad Girlz",
+      "year": 2026,
+      "director": "Fernanda Tovar"
+    },
+    {
+      "date": "2026-02-17",
+      "date_display": "Feb 17",
+      "month": "February 2026",
+      "emoji": "🎬",
+      "type": "film",
+      "title": "Heysel 85",
+      "year": 2026,
+      "director": "Teodora Ana Mihai"
+    },
+    {
+      "date": "2026-02-17",
+      "date_display": "Feb 17",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Purple",
+      "artist": "Stone Temple Pilots",
+      "year": 1994
     },
     {
       "date": "2026-02-16",
@@ -843,8 +1022,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Lazy Ways** (1983)",
-      "meta": "Marine Girls"
+      "album": "Beach Party",
+      "artist": "Marine Girls",
+      "year": 1981
     },
     {
       "date": "2026-02-16",
@@ -852,8 +1032,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Dear You** (1995)",
-      "meta": "Jawbreaker"
+      "album": "Dear You",
+      "artist": "Jawbreaker",
+      "year": 1995
     },
     {
       "date": "2026-02-16",
@@ -861,8 +1042,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Dear You** (1995)",
-      "meta": "Jawbreaker"
+      "album": "When A Flower Doesn't Grow",
+      "artist": "Softcult",
+      "year": 2026
     },
     {
       "date": "2026-02-16",
@@ -870,8 +1052,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**When A Flower Doesn't Grow** (2026)",
-      "meta": "Softcult"
+      "album": "Dear You",
+      "artist": "Jawbreaker",
+      "year": 1995
     },
     {
       "date": "2026-02-16",
@@ -879,8 +1062,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Heaven** (2024)",
-      "meta": "Softcult"
+      "album": "Heaven",
+      "artist": "Softcult",
+      "year": 2024
     },
     {
       "date": "2026-02-16",
@@ -888,8 +1072,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Beach Party** (1981)",
-      "meta": "Marine Girls"
+      "album": "Lazy Ways",
+      "artist": "Marine Girls",
+      "year": 1983
     },
     {
       "date": "2026-02-15",
@@ -897,8 +1082,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**We Will Always Love You** (2020)",
-      "meta": "The Avalanches"
+      "album": "We Will Always Love You",
+      "artist": "The Avalanches",
+      "year": 2020
     },
     {
       "date": "2026-02-15",
@@ -906,8 +1092,19 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Dear You** (1995)",
-      "meta": "Jawbreaker"
+      "album": "A Song for You",
+      "artist": "Carpenters",
+      "year": 1972
+    },
+    {
+      "date": "2026-02-15",
+      "date_display": "Feb 15",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Dear You",
+      "artist": "Jawbreaker",
+      "year": 1995
     },
     {
       "date": "2026-02-15",
@@ -915,17 +1112,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**The Ballad of Judas Priest** (2026)",
-      "meta": "dir. Sam Dunn and Tom Morello"
-    },
-    {
-      "date": "2026-02-15",
-      "date_display": "Feb 15",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**A Song for You** (1972)",
-      "meta": "Carpenters"
+      "title": "The Ballad of Judas Priest",
+      "year": 2026,
+      "director": "Sam Dunn and Tom Morello"
     },
     {
       "date": "2026-02-14",
@@ -933,8 +1122,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**I Used to Go to This Bar** (2026)",
-      "meta": "Joyce Manor"
+      "album": "I Used to Go to This Bar",
+      "artist": "Joyce Manor",
+      "year": 2026
     },
     {
       "date": "2026-02-14",
@@ -942,8 +1132,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Joyce Manor** (2011)",
-      "meta": "Joyce Manor"
+      "album": "Joyce Manor",
+      "artist": "Joyce Manor",
+      "year": 2011
     },
     {
       "date": "2026-02-14",
@@ -951,8 +1142,10 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Queer Eye** (Season 10, Episode 1)",
-      "meta": "Coming In Hot"
+      "show_title": "Queer Eye",
+      "season_number": 10,
+      "episode_number": 1,
+      "episode_title": "Coming In Hot"
     },
     {
       "date": "2026-02-14",
@@ -960,8 +1153,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Song Sung Blue** (2025)",
-      "meta": "dir. Craig Brewer"
+      "title": "Song Sung Blue",
+      "year": 2025,
+      "director": "Craig Brewer"
     },
     {
       "date": "2026-02-13",
@@ -969,17 +1163,10 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Queer Eye** (Season 10, Episode 3)",
-      "meta": "Sister, You Are Welcome Here"
-    },
-    {
-      "date": "2026-02-13",
-      "date_display": "Feb 13",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**24 Hour Revenge Therapy** (1994)",
-      "meta": "Jawbreaker"
+      "show_title": "Queer Eye",
+      "season_number": 10,
+      "episode_number": 2,
+      "episode_title": "Back to School Burnout"
     },
     {
       "date": "2026-02-13",
@@ -987,26 +1174,20 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Queer Eye** (Season 10, Episode 2)",
-      "meta": "Back to School Burnout"
+      "show_title": "Queer Eye",
+      "season_number": 10,
+      "episode_number": 3,
+      "episode_title": "Sister, You Are Welcome Here"
     },
     {
-      "date": "2026-02-12",
-      "date_display": "Feb 12",
+      "date": "2026-02-13",
+      "date_display": "Feb 13",
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Bivouac** (1992)",
-      "meta": "Jawbreaker"
-    },
-    {
-      "date": "2026-02-12",
-      "date_display": "Feb 12",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Unfun** (1990)",
-      "meta": "Jawbreaker"
+      "album": "24 Hour Revenge Therapy",
+      "artist": "Jawbreaker",
+      "year": 1994
     },
     {
       "date": "2026-02-12",
@@ -1014,8 +1195,30 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 5)",
-      "meta": "Outage"
+      "show_title": "Hijack",
+      "season_number": 2,
+      "episode_number": 5,
+      "episode_title": "Outage"
+    },
+    {
+      "date": "2026-02-12",
+      "date_display": "Feb 12",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Bivouac",
+      "artist": "Jawbreaker",
+      "year": 1992
+    },
+    {
+      "date": "2026-02-12",
+      "date_display": "Feb 12",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Unfun",
+      "artist": "Jawbreaker",
+      "year": 1990
     },
     {
       "date": "2026-02-09",
@@ -1023,8 +1226,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Dreams** (2006)",
-      "meta": "The Whitest Boy Alive"
+      "album": "Dreams",
+      "artist": "The Whitest Boy Alive",
+      "year": 2006
     },
     {
       "date": "2026-02-07",
@@ -1032,17 +1236,10 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 4)",
-      "meta": "Switch"
-    },
-    {
-      "date": "2026-02-07",
-      "date_display": "Feb 7",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Of All Things I Will Soon Grow Tired** (2012)",
-      "meta": "Joyce Manor"
+      "show_title": "Hijack",
+      "season_number": 2,
+      "episode_number": 4,
+      "episode_title": "Switch"
     },
     {
       "date": "2026-02-07",
@@ -1050,8 +1247,20 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 3)",
-      "meta": "Baggage"
+      "show_title": "Hijack",
+      "season_number": 2,
+      "episode_number": 3,
+      "episode_title": "Baggage"
+    },
+    {
+      "date": "2026-02-07",
+      "date_display": "Feb 7",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Of All Things I Will Soon Grow Tired",
+      "artist": "Joyce Manor",
+      "year": 2012
     },
     {
       "date": "2026-02-06",
@@ -1059,8 +1268,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Sunday at the Village Vanguard** (1961)",
-      "meta": "Bill Evans Trio featuring Scott LaFaro"
+      "album": "Sunday at the Village Vanguard",
+      "artist": "Bill Evans Trio featuring Scott LaFaro",
+      "year": 1961
     },
     {
       "date": "2026-02-06",
@@ -1068,8 +1278,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**With Love and Squalor** (2005)",
-      "meta": "We Are Scientists"
+      "album": "With Love and Squalor",
+      "artist": "We Are Scientists",
+      "year": 2005
     },
     {
       "date": "2026-02-05",
@@ -1077,8 +1288,39 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**how i'm feeling now** (2020)",
-      "meta": "Charli XCX"
+      "album": "how i'm feeling now",
+      "artist": "Charli XCX",
+      "year": 2020
+    },
+    {
+      "date": "2026-02-04",
+      "date_display": "Feb 4",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Pink Moon",
+      "artist": "Nick Drake",
+      "year": 1972
+    },
+    {
+      "date": "2026-02-04",
+      "date_display": "Feb 4",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Animals",
+      "artist": "Pink Floyd",
+      "year": 1977
+    },
+    {
+      "date": "2026-02-04",
+      "date_display": "Feb 4",
+      "month": "February 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Treasure",
+      "artist": "Cocteau Twins",
+      "year": 1984
     },
     {
       "date": "2026-02-04",
@@ -1086,8 +1328,9 @@
       "month": "February 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**One Battle After Another** (2025)",
-      "meta": "dir. Paul Thomas Anderson"
+      "title": "One Battle After Another",
+      "year": 2025,
+      "director": "Paul Thomas Anderson"
     },
     {
       "date": "2026-02-04",
@@ -1095,35 +1338,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Music Has the Right to Children** (1998)",
-      "meta": "Boards of Canada"
-    },
-    {
-      "date": "2026-02-04",
-      "date_display": "Feb 4",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Pink Moon** (1972)",
-      "meta": "Nick Drake"
-    },
-    {
-      "date": "2026-02-04",
-      "date_display": "Feb 4",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Animals** (1977)",
-      "meta": "Pink Floyd"
-    },
-    {
-      "date": "2026-02-04",
-      "date_display": "Feb 4",
-      "month": "February 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Treasure** (1984)",
-      "meta": "Cocteau Twins"
+      "album": "Music Has the Right to Children",
+      "artist": "Boards of Canada",
+      "year": 1998
     },
     {
       "date": "2026-02-03",
@@ -1131,8 +1348,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Isn't It Now?** (2023)",
-      "meta": "Animal Collective"
+      "album": "Isn't It Now?",
+      "artist": "Animal Collective",
+      "year": 2023
     },
     {
       "date": "2026-02-01",
@@ -1140,8 +1358,10 @@
       "month": "February 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Night Manager** (Season 2, Episode 6)",
-      "meta": "Episode 6"
+      "show_title": "The Night Manager",
+      "season_number": 2,
+      "episode_number": 6,
+      "episode_title": "Episode 6"
     },
     {
       "date": "2026-02-01",
@@ -1149,8 +1369,9 @@
       "month": "February 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**The Magnolia Electric Co.** (2003)",
-      "meta": "Songs: Ohia"
+      "album": "The Magnolia Electric Co.",
+      "artist": "Songs: Ohia",
+      "year": 2003
     },
     {
       "date": "2026-01-31",
@@ -1158,8 +1379,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Hamnet** (2025)",
-      "meta": "dir. Chloé Zhao"
+      "title": "Hamnet",
+      "year": 2025,
+      "director": "Chloé Zhao"
     },
     {
       "date": "2026-01-31",
@@ -1167,8 +1389,29 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Avantdale Bowling Club** (2018)",
-      "meta": "Avantdale Bowling Club"
+      "album": "Avantdale Bowling Club",
+      "artist": "Avantdale Bowling Club",
+      "year": 2018
+    },
+    {
+      "date": "2026-01-30",
+      "date_display": "Jan 30",
+      "month": "January 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Projector",
+      "artist": "Geese",
+      "year": 2021
+    },
+    {
+      "date": "2026-01-30",
+      "date_display": "Jan 30",
+      "month": "January 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "You Come in Seasons and Depart Through Windy Gusts and Blowing Leaves",
+      "artist": "Manderley",
+      "year": 2026
     },
     {
       "date": "2026-01-30",
@@ -1176,8 +1419,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Wicked: For Good** (2025)",
-      "meta": "dir. Jon M. Chu"
+      "title": "Wicked: For Good",
+      "year": 2025,
+      "director": "Jon M. Chu"
     },
     {
       "date": "2026-01-30",
@@ -1185,8 +1429,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Death in the Business of Whaling** (2026)",
-      "meta": "Searows"
+      "album": "Death in the Business of Whaling",
+      "artist": "Searows",
+      "year": 2026
     },
     {
       "date": "2026-01-30",
@@ -1194,8 +1439,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Projector** (2021)",
-      "meta": "Geese"
+      "album": "I Used to Go to This Bar",
+      "artist": "Joyce Manor",
+      "year": 2026
     },
     {
       "date": "2026-01-30",
@@ -1203,8 +1449,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**You Come in Seasons and Depart Through Windy Gusts and Blowing Leaves** (2026)",
-      "meta": "Manderley"
+      "album": "Heavy Metal",
+      "artist": "Cameron Winter",
+      "year": 2024
     },
     {
       "date": "2026-01-30",
@@ -1212,8 +1459,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Heavy Metal** (2024)",
-      "meta": "Cameron Winter"
+      "album": "I Used to Go to This Bar",
+      "artist": "Joyce Manor",
+      "year": 2026
     },
     {
       "date": "2026-01-30",
@@ -1221,26 +1469,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**I Used to Go to This Bar** (2026)",
-      "meta": "Joyce Manor"
-    },
-    {
-      "date": "2026-01-30",
-      "date_display": "Jan 30",
-      "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**I Used to Go to This Bar** (2026)",
-      "meta": "Joyce Manor"
-    },
-    {
-      "date": "2026-01-30",
-      "date_display": "Jan 30",
-      "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Getting Killed** (2025)",
-      "meta": "Geese"
+      "album": "Getting Killed",
+      "artist": "Geese",
+      "year": 2025
     },
     {
       "date": "2026-01-29",
@@ -1248,26 +1479,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Paper Canyon** (2009)",
-      "meta": "Codes in the Clouds"
-    },
-    {
-      "date": "2026-01-29",
-      "date_display": "Jan 29",
-      "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Veckatimest** (2009)",
-      "meta": "Grizzly Bear"
-    },
-    {
-      "date": "2026-01-29",
-      "date_display": "Jan 29",
-      "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Something to Consume** (2025)",
-      "meta": "Die Spitz"
+      "album": "Something to Consume",
+      "artist": "Die Spitz",
+      "year": 2025
     },
     {
       "date": "2026-01-29",
@@ -1275,8 +1489,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Night Manager** (Season 2, Episode 5)",
-      "meta": "Episode 5"
+      "show_title": "The Night Manager",
+      "season_number": 2,
+      "episode_number": 5,
+      "episode_title": "Episode 5"
     },
     {
       "date": "2026-01-29",
@@ -1284,8 +1500,29 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**As the Spirit Wanes** (2011)",
-      "meta": "Codes in the Clouds"
+      "album": "As the Spirit Wanes",
+      "artist": "Codes in the Clouds",
+      "year": 2011
+    },
+    {
+      "date": "2026-01-29",
+      "date_display": "Jan 29",
+      "month": "January 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Paper Canyon",
+      "artist": "Codes in the Clouds",
+      "year": 2009
+    },
+    {
+      "date": "2026-01-29",
+      "date_display": "Jan 29",
+      "month": "January 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Veckatimest",
+      "artist": "Grizzly Bear",
+      "year": 2009
     },
     {
       "date": "2026-01-28",
@@ -1293,8 +1530,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Madvillainy Demos** (2004)",
-      "meta": "Madvillain"
+      "album": "Madvillainy Demos",
+      "artist": "Madvillain",
+      "year": 2004
     },
     {
       "date": "2026-01-28",
@@ -1302,8 +1540,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Secret Love** (2026)",
-      "meta": "Dry Cleaning"
+      "album": "Secret Love",
+      "artist": "Dry Cleaning",
+      "year": 2026
     },
     {
       "date": "2026-01-28",
@@ -1311,8 +1550,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**FLYING BEAGLE** (1987)",
-      "meta": "Himiko Kikuchi"
+      "album": "FLYING BEAGLE",
+      "artist": "Himiko Kikuchi",
+      "year": 1987
     },
     {
       "date": "2026-01-27",
@@ -1320,8 +1560,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Boiled Alive** (2026)",
-      "meta": "DIIV"
+      "album": "Depression Cherry",
+      "artist": "Beach House",
+      "year": 2015
     },
     {
       "date": "2026-01-27",
@@ -1329,8 +1570,19 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Depression Cherry** (2015)",
-      "meta": "Beach House"
+      "album": "Boiled Alive",
+      "artist": "DIIV",
+      "year": 2026
+    },
+    {
+      "date": "2026-01-26",
+      "date_display": "Jan 26",
+      "month": "January 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Twin Plagues",
+      "artist": "Wednesday",
+      "year": 2021
     },
     {
       "date": "2026-01-26",
@@ -1338,17 +1590,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**28 Years Later: The Bone Temple** (2026)",
-      "meta": "dir. Nia DaCosta"
-    },
-    {
-      "date": "2026-01-26",
-      "date_display": "Jan 26",
-      "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Twin Plagues** (2021)",
-      "meta": "Wednesday"
+      "title": "28 Years Later: The Bone Temple",
+      "year": 2026,
+      "director": "Nia DaCosta"
     },
     {
       "date": "2026-01-25",
@@ -1356,8 +1600,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Rat Saw God** (2023)",
-      "meta": "Wednesday"
+      "album": "Rat Saw God",
+      "artist": "Wednesday",
+      "year": 2023
     },
     {
       "date": "2026-01-24",
@@ -1365,17 +1610,19 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Colour It In** (2007)",
-      "meta": "The Maccabees"
+      "album": "Colour It In",
+      "artist": "The Maccabees",
+      "year": 2007
     },
     {
       "date": "2026-01-23",
       "date_display": "Jan 23",
       "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 12)",
-      "meta": "The Final"
+      "emoji": "💿",
+      "type": "music",
+      "album": "Stay Safe, Little One.",
+      "artist": "Wait, What Did You Say?",
+      "year": 2026
     },
     {
       "date": "2026-01-23",
@@ -1383,17 +1630,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**La Soufrière: Waiting for an Inevitable Catastrophe** (1977)",
-      "meta": "dir. Werner Herzog"
-    },
-    {
-      "date": "2026-01-23",
-      "date_display": "Jan 23",
-      "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Stay Safe, Little One.** (2026)",
-      "meta": "Wait, What Did You Say?"
+      "title": "La Soufrière: Waiting for an Inevitable Catastrophe",
+      "year": 1977,
+      "director": "Werner Herzog"
     },
     {
       "date": "2026-01-23",
@@ -1401,8 +1640,21 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 11)",
-      "meta": "Episode 11"
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 12,
+      "episode_title": "The Final"
+    },
+    {
+      "date": "2026-01-23",
+      "date_display": "Jan 23",
+      "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 11,
+      "episode_title": "Episode 11"
     },
     {
       "date": "2026-01-22",
@@ -1410,8 +1662,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Separation Sunday** (2005)",
-      "meta": "The Hold Steady"
+      "album": "Separation Sunday",
+      "artist": "The Hold Steady",
+      "year": 2005
     },
     {
       "date": "2026-01-22",
@@ -1419,8 +1672,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Parklife** (1994)",
-      "meta": "Blur"
+      "album": "Boys and Girls in America",
+      "artist": "The Hold Steady",
+      "year": 2006
     },
     {
       "date": "2026-01-22",
@@ -1428,8 +1682,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 10)",
-      "meta": "Episode 10"
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 10,
+      "episode_title": "Episode 10"
     },
     {
       "date": "2026-01-22",
@@ -1437,8 +1693,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Boys and Girls in America** (2006)",
-      "meta": "The Hold Steady"
+      "album": "Parklife",
+      "artist": "Blur",
+      "year": 1994
     },
     {
       "date": "2026-01-21",
@@ -1446,8 +1703,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 2)",
-      "meta": "Control"
+      "show_title": "Hijack",
+      "season_number": 2,
+      "episode_number": 1,
+      "episode_title": "Signal"
     },
     {
       "date": "2026-01-21",
@@ -1455,8 +1714,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Copper Blue** (1992)",
-      "meta": "Sugar"
+      "album": "Copper Blue",
+      "artist": "Sugar",
+      "year": 1992
     },
     {
       "date": "2026-01-21",
@@ -1464,26 +1724,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**Hijack** (Season 2, Episode 1)",
-      "meta": "Signal"
-    },
-    {
-      "date": "2026-01-20",
-      "date_display": "Jan 20",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Night Manager** (Season 2, Episode 4)",
-      "meta": "Episode 4"
-    },
-    {
-      "date": "2026-01-20",
-      "date_display": "Jan 20",
-      "month": "January 2026",
-      "emoji": "💿",
-      "type": "music",
-      "lead": "**Talulah’s Tape** (2025)",
-      "meta": "good flying birds"
+      "show_title": "Hijack",
+      "season_number": 2,
+      "episode_number": 2,
+      "episode_title": "Control"
     },
     {
       "date": "2026-01-20",
@@ -1491,8 +1735,30 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**The Clock** (2010)",
-      "meta": "dir. Christian Marclay"
+      "title": "The Clock",
+      "year": 2010,
+      "director": "Christian Marclay"
+    },
+    {
+      "date": "2026-01-20",
+      "date_display": "Jan 20",
+      "month": "January 2026",
+      "emoji": "💿",
+      "type": "music",
+      "album": "Talulah’s Tape",
+      "artist": "good flying birds",
+      "year": 2025
+    },
+    {
+      "date": "2026-01-20",
+      "date_display": "Jan 20",
+      "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "The Night Manager",
+      "season_number": 2,
+      "episode_number": 4,
+      "episode_title": "Episode 4"
     },
     {
       "date": "2026-01-19",
@@ -1500,8 +1766,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**LONG SEASON** (1996)",
-      "meta": "Fishmans"
+      "album": "LONG SEASON",
+      "artist": "Fishmans",
+      "year": 1996
     },
     {
       "date": "2026-01-18",
@@ -1509,8 +1776,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Predators** (2025)",
-      "meta": "dir. David Osit"
+      "title": "Predators",
+      "year": 2025,
+      "director": "David Osit"
     },
     {
       "date": "2026-01-18",
@@ -1518,8 +1786,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 9)",
-      "meta": "Episode 9"
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 9,
+      "episode_title": "Episode 9"
     },
     {
       "date": "2026-01-18",
@@ -1527,8 +1797,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 8)",
-      "meta": "Episode 8"
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 8,
+      "episode_title": "Episode 8"
     },
     {
       "date": "2026-01-17",
@@ -1536,8 +1808,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Roofman** (2025)",
-      "meta": "dir. Derek Cianfrance"
+      "title": "Roofman",
+      "year": 2025,
+      "director": "Derek Cianfrance"
     },
     {
       "date": "2026-01-16",
@@ -1545,8 +1818,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**The Rip** (2026)",
-      "meta": "dir. Joe Carnahan"
+      "title": "The Rip",
+      "year": 2026,
+      "director": "Joe Carnahan"
     },
     {
       "date": "2026-01-16",
@@ -1554,8 +1828,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Secret Love** (2026)",
-      "meta": "Dry Cleaning"
+      "album": "Secret Love",
+      "artist": "Dry Cleaning",
+      "year": 2026
     },
     {
       "date": "2026-01-15",
@@ -1563,8 +1838,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 7)",
-      "meta": "Episode 7"
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 7,
+      "episode_title": "Episode 7"
     },
     {
       "date": "2026-01-15",
@@ -1572,17 +1849,9 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Different Class** (1995)",
-      "meta": "Pulp"
-    },
-    {
-      "date": "2026-01-14",
-      "date_display": "Jan 14",
-      "month": "January 2026",
-      "emoji": "🎬",
-      "type": "film",
-      "lead": "**It Was Just an Accident** (2025)",
-      "meta": "dir. Jafar Panahi"
+      "album": "Different Class",
+      "artist": "Pulp",
+      "year": 1995
     },
     {
       "date": "2026-01-14",
@@ -1590,8 +1859,19 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Secret Love** (2026)",
-      "meta": "Dry Cleaning"
+      "album": "Secret Love",
+      "artist": "Dry Cleaning",
+      "year": 2026
+    },
+    {
+      "date": "2026-01-14",
+      "date_display": "Jan 14",
+      "month": "January 2026",
+      "emoji": "🎬",
+      "type": "film",
+      "title": "It Was Just an Accident",
+      "year": 2025,
+      "director": "Jafar Panahi"
     },
     {
       "date": "2026-01-13",
@@ -1599,17 +1879,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Night Manager** (Season 2, Episode 3)",
-      "meta": "Episode 3"
-    },
-    {
-      "date": "2026-01-12",
-      "date_display": "Jan 12",
-      "month": "January 2026",
-      "emoji": "🎬",
-      "type": "film",
-      "lead": "**Downhill Racer** (1969)",
-      "meta": "dir. Michael Ritchie"
+      "show_title": "The Night Manager",
+      "season_number": 2,
+      "episode_number": 3,
+      "episode_title": "Episode 3"
     },
     {
       "date": "2026-01-12",
@@ -1617,8 +1890,20 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Night Manager** (Season 2, Episode 2)",
-      "meta": "Episode 2"
+      "show_title": "The Night Manager",
+      "season_number": 2,
+      "episode_number": 2,
+      "episode_title": "Episode 2"
+    },
+    {
+      "date": "2026-01-12",
+      "date_display": "Jan 12",
+      "month": "January 2026",
+      "emoji": "🎬",
+      "type": "film",
+      "title": "Downhill Racer",
+      "year": 1969,
+      "director": "Michael Ritchie"
     },
     {
       "date": "2026-01-11",
@@ -1626,8 +1911,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Night Manager** (Season 2, Episode 1)",
-      "meta": "Episode 1"
+      "show_title": "The Night Manager",
+      "season_number": 2,
+      "episode_number": 1,
+      "episode_title": "Episode 1"
     },
     {
       "date": "2026-01-10",
@@ -1635,8 +1922,32 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 6)",
-      "meta": "Episode 6"
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 5,
+      "episode_title": "Episode 5"
+    },
+    {
+      "date": "2026-01-10",
+      "date_display": "Jan 10",
+      "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 3,
+      "episode_title": "Episode 3"
+    },
+    {
+      "date": "2026-01-10",
+      "date_display": "Jan 10",
+      "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 4,
+      "episode_title": "Episode 4"
     },
     {
       "date": "2026-01-10",
@@ -1644,8 +1955,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Nuremberg** (2025)",
-      "meta": "dir. James Vanderbilt"
+      "title": "Nuremberg",
+      "year": 2025,
+      "director": "James Vanderbilt"
     },
     {
       "date": "2026-01-10",
@@ -1653,26 +1965,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 5)",
-      "meta": "Episode 5"
-    },
-    {
-      "date": "2026-01-10",
-      "date_display": "Jan 10",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 4)",
-      "meta": "Episode 4"
-    },
-    {
-      "date": "2026-01-10",
-      "date_display": "Jan 10",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 3)",
-      "meta": "Episode 3"
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 6,
+      "episode_title": "Episode 6"
     },
     {
       "date": "2026-01-09",
@@ -1680,17 +1976,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 2)",
-      "meta": "Episode 2"
-    },
-    {
-      "date": "2026-01-09",
-      "date_display": "Jan 9",
-      "month": "January 2026",
-      "emoji": "📺",
-      "type": "tv",
-      "lead": "**The Traitors** (Season 4, Episode 1)",
-      "meta": "Episode 1"
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 2,
+      "episode_title": "Episode 2"
     },
     {
       "date": "2026-01-09",
@@ -1698,8 +1987,20 @@
       "month": "January 2026",
       "emoji": "💿",
       "type": "music",
-      "lead": "**Secret Love** (2026)",
-      "meta": "Dry Cleaning"
+      "album": "Secret Love",
+      "artist": "Dry Cleaning",
+      "year": 2026
+    },
+    {
+      "date": "2026-01-09",
+      "date_display": "Jan 9",
+      "month": "January 2026",
+      "emoji": "📺",
+      "type": "tv",
+      "show_title": "The Traitors",
+      "season_number": 4,
+      "episode_number": 1,
+      "episode_title": "Episode 1"
     },
     {
       "date": "2026-01-08",
@@ -1707,8 +2008,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 12)",
-      "meta": "The Final"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 12,
+      "episode_title": "The Final"
     },
     {
       "date": "2026-01-08",
@@ -1716,8 +2019,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 11)",
-      "meta": "Episode 11"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 10,
+      "episode_title": "Episode 10"
     },
     {
       "date": "2026-01-08",
@@ -1725,8 +2030,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 10)",
-      "meta": "Episode 10"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 11,
+      "episode_title": "Episode 11"
     },
     {
       "date": "2026-01-07",
@@ -1734,8 +2041,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 9)",
-      "meta": "Episode 9"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 9,
+      "episode_title": "Episode 9"
     },
     {
       "date": "2026-01-07",
@@ -1743,8 +2052,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 8)",
-      "meta": "Episode 8"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 8,
+      "episode_title": "Episode 8"
     },
     {
       "date": "2026-01-06",
@@ -1752,8 +2063,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 7)",
-      "meta": "Episode 7"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 7,
+      "episode_title": "Episode 7"
     },
     {
       "date": "2026-01-06",
@@ -1761,8 +2074,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 6)",
-      "meta": "Episode 6"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 6,
+      "episode_title": "Episode 6"
     },
     {
       "date": "2026-01-05",
@@ -1770,8 +2085,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 5)",
-      "meta": "Episode 5"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 5,
+      "episode_title": "Episode 5"
     },
     {
       "date": "2026-01-05",
@@ -1779,8 +2096,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 4)",
-      "meta": "Episode 4"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 4,
+      "episode_title": "Episode 4"
     },
     {
       "date": "2026-01-05",
@@ -1788,8 +2107,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 3)",
-      "meta": "Episode 3"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 3,
+      "episode_title": "Episode 3"
     },
     {
       "date": "2026-01-04",
@@ -1797,8 +2118,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 2)",
-      "meta": "Episode 2"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 2,
+      "episode_title": "Episode 2"
     },
     {
       "date": "2026-01-04",
@@ -1806,8 +2129,10 @@
       "month": "January 2026",
       "emoji": "📺",
       "type": "tv",
-      "lead": "**The Traitors** (Season 3, Episode 1)",
-      "meta": "Episode 1"
+      "show_title": "The Traitors",
+      "season_number": 3,
+      "episode_number": 1,
+      "episode_title": "Episode 1"
     },
     {
       "date": "2026-01-02",
@@ -1815,8 +2140,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Contra** (2020)",
-      "meta": "dir. Sönke Wortmann"
+      "title": "Contra",
+      "year": 2020,
+      "director": "Sönke Wortmann"
     },
     {
       "date": "2026-01-01",
@@ -1824,8 +2150,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**Stranger Things 5: The Finale** (2025)",
-      "meta": "dir. The Duffer Brothers"
+      "title": "Stranger Things 5: The Finale",
+      "year": 2025,
+      "director": "The Duffer Brothers"
     },
     {
       "date": "2026-01-01",
@@ -1833,8 +2160,9 @@
       "month": "January 2026",
       "emoji": "🎬",
       "type": "film",
-      "lead": "**The Ballad of Wallis Island** (2025)",
-      "meta": "dir. James Griffiths"
+      "title": "The Ballad of Wallis Island",
+      "year": 2025,
+      "director": "James Griffiths"
     }
   ]
 }

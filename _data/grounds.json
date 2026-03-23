@@ -3,6 +3,14 @@
     "label": "2026",
     "items": [
       {
+        "emoji": "🏀",
+        "venue": "Uber Arena",
+        "city": "Berlin",
+        "date": "2026-03-20",
+        "match": "Alba Berlin 89 – 85 Rostock Seawolves",
+        "competition": "Basketball-Bundesliga (BBL)"
+      },
+      {
         "emoji": "⚽️",
         "venue": "BayArena",
         "city": "Leverkusen",

@@ -21,6 +21,7 @@ permalink: /photos.xml
   {% endif %}
   {% for photo in photos %}
     {% assign photo_slug = photo.name | split: "." | first %}
+    {% assign photo_image_filename = photo.image | split: "/" | last %}
     <entry>
       <title>{{ photo.title | escape }}</title>
       <id>{{ "/photos/" | append: photo_slug | append: "/" | absolute_url }}</id>
@@ -29,7 +30,7 @@ permalink: /photos.xml
       <updated>{{ photo.date | date: "%Y-%m-%d" | append: "T" | append: photo_time | append: ":00+01:00" | date_to_xmlschema }}</updated>
       <summary>{{ photo.alt | escape }}</summary>
       <content type="html">
-        <![CDATA[<p><img src="{{ "/images/720/" | append: photo_filename | absolute_url }}" alt="{{ photo.alt | escape }}" style="max-width:100%; height:auto;"></p><p>{{ photo.alt | escape }}{% if photo.location %} / {{ photo.location | escape }}{% endif %}</p>]]>
+        <![CDATA[<p><img src="{{ "/images/720/" | append: photo_image_filename | absolute_url }}" alt="{{ photo.alt | escape }}" style="max-width:100%; height:auto;"></p><p>{{ photo.alt | escape }}{% if photo.location %} / {{ photo.location | escape }}{% endif %}</p>]]>
       </content>
     </entry>
   {% endfor %}

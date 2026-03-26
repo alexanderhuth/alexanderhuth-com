@@ -20,11 +20,11 @@ permalink: /photos.xml
     <updated>{{ site.time | date_to_xmlschema }}</updated>
   {% endif %}
   {% for photo in photos %}
-    {% assign photo_filename = photo.image | split: "/" | last %}
+    {% assign photo_slug = photo.name | split: "." | first %}
     <entry>
       <title>{{ photo.title | escape }}</title>
-      <id>{{ "/photos/" | absolute_url }}</id>
-      <link href="{{ "/photos/" | absolute_url }}" rel="alternate" type="text/html" />
+      <id>{{ "/photos/" | append: photo_slug | append: "/" | absolute_url }}</id>
+      <link href="{{ "/photos/" | append: photo_slug | append: "/" | absolute_url }}" rel="alternate" type="text/html" />
       {% assign photo_time = photo.time | default: "00:00" %}
       <updated>{{ photo.date | date: "%Y-%m-%d" | append: "T" | append: photo_time | append: ":00+01:00" | date_to_xmlschema }}</updated>
       <summary>{{ photo.alt | escape }}</summary>

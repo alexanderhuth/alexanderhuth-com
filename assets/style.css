@@ -119,6 +119,14 @@ body {
   --link-hover: var(--text-color);
 }
 
+.letterboxd {
+  --bg-color: #202830;
+  --text-color: #98aabc;
+  --border-color: #98aabc;
+  --link-color: var(--text-color);
+  --link-hover: var(--text-color);
+}
+
 p {
   margin: 0 0 1rem;
 }
@@ -542,6 +550,22 @@ main {
 
 .logo .split .bottom {
   flex: 1;
+}
+
+.letterboxd .logo .tile:nth-child(1) {
+  background: #FF8001;
+}
+
+.letterboxd .logo .tile:nth-child(2) {
+  background: #00E054;
+}
+
+.letterboxd .logo .split .bar {
+  background: #40BCF4;
+}
+
+.letterboxd .logo .tile:nth-child(4) {
+  background: #435565;
 }
 
 .site-footer {

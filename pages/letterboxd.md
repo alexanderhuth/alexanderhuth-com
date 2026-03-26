@@ -2,10 +2,14 @@
 layout: page
 title: Letterboxd
 permalink: /letterboxd/
+theme: letterboxd
 ---
 
 # Letterboxd
 I spend way too much time on/with Letterboxd 🤷‍♀️
+
+## Lists
+- [One Million Watched Club](/letterboxd/one-million-watched-club/)
 
 ## All-timers
 - [Favorite films](https://letterboxd.com/alexanderh/list/favorites/)

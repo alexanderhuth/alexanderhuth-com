@@ -61,6 +61,7 @@ This project has no automated tests. Manual testing involves:
 ├── _layouts/            # Page templates
 ├── _posts/              # Blog posts (YYYY-MM-DD-title.md)
 ├── pages/               # Static pages
+├── scripts/             # Ruby sync scripts (media imports)
 └── _site/               # Generated site (build output)
 ```
 
@@ -142,9 +143,9 @@ permalink: /about/
 - Component-based class naming
 
 #### Theming System
-- 10 predefined themes in CSS variables
-- Random theme selection via JavaScript
-- Theme classes: `.sand`, `.amber`, `.seaglass`, `.coral`, `.dawn`, `.royal`, `.forest`, `.ruby`, `.sky`, `.fireball`
+- 12 predefined themes in CSS variables
+- 11 themes available in random rotator: `.sand`, `.amber`, `.seaglass`, `.coral`, `.peach`, `.dawn`, `.royal`, `.forest`, `.ruby`, `.sky`, `.fireball`
+- 1 special theme (only via `theme:` front matter): `.letterboxd` (dark, white text)
 
 #### CSS Conventions
 - Use kebab-case for class names
@@ -258,6 +259,30 @@ permalink: /about/
 - Do not put shared secrets in `assets/meet.js` or HTML.
 - Availability returns `start_iso`/`end_iso` + `slot_token`; booking must send those ISO values.
 - n8n should enforce min notice, slot validity, and rate limiting server-side.
+
+### Media Sync (Monthly)
+- Entrypoint: `scripts/sync_media_month.rb`
+- Sources: Last.fm (music), Letterboxd (films), Serializd (TV, manual)
+- Output: `_data/media.json`
+
+#### Workflow
+1. Inspect current worktree before running sync
+2. Confirm target month (defaults to current month)
+3. Ask user about new TV entries on [Serializd diary](https://www.serializd.com/user/alexanderh/diary)
+4. Run: `ruby scripts/sync_media_month.rb` (optionally `--month YYYY-MM --dry-run`)
+5. Review diff, resolve missing directors via web search
+6. Add any manual TV entries
+
+#### Output Schema
+- Films: `title`, `year`, `director`
+- Music: `album`, `artist`, `year`
+- TV: `show_title`, `season_number`, `episode_number`, `episode_title`
+- Shared fields: `type`, `emoji`, `date`, `date_display`, `month`
+
+#### Deduplication Rules
+- Don't create duplicates for existing entries
+- Reuse existing metadata from `media.json` before looking up
+- Keep nullable fields null rather than inventing values
 
 ### Photos Feed
 - Page: `pages/photos.md` (`/photos/`) uses `theme: sand` to force the lightest background.

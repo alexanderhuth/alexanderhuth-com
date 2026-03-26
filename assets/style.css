@@ -20,6 +20,14 @@ body {
   box-sizing: border-box;
 }
 
+.letterboxd {
+  --bg-color: #202830;
+  --text-color: #98aabc;
+  --border-color: #98aabc;
+  --link-color: var(--text-color);
+  --link-hover: var(--text-color);
+}
+
 :root {
   --size: 1em;
   --gap: 0.08em;
@@ -115,14 +123,6 @@ body {
   --bg-color: #4a525a;
   --text-color: #eeeeee;
   --border-color: #606870;
-  --link-color: var(--text-color);
-  --link-hover: var(--text-color);
-}
-
-.letterboxd {
-  --bg-color: #202830;
-  --text-color: #98aabc;
-  --border-color: #98aabc;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
 }

@@ -44,3 +44,10 @@ Ranked by [my personal filmography score](https://letterboxd.com/alexanderh/list
 3. **Bergen and Tromsø** with Kate
 4. **California** with the Colbestraße boys
 {: .inline-ol}
+
+## Top 4 Film Cats
+1. **Philip Marlowe's cat** in The Long Goodbye
+2. **Jonesy** in Alien
+3. **Catbus** in My Neighbor Totoro
+4. **Frodo** in A Quiet Place: Day One
+{: .inline-ol}

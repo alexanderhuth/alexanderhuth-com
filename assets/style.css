@@ -63,6 +63,14 @@ body {
   --link-hover: var(--text-color);
 }
 
+.peach {
+  --bg-color: #fcdbca;
+  --text-color: #2a1a0f;
+  --border-color: #e0b89a;
+  --link-color: var(--text-color);
+  --link-hover: var(--text-color);
+}
+
 .dawn {
   --bg-color: #242c38;
   --text-color: #f1f3f7;

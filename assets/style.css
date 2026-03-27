@@ -20,14 +20,6 @@ body {
   box-sizing: border-box;
 }
 
-.letterboxd {
-  --bg-color: #202830;
-  --text-color: #98aabc;
-  --border-color: #98aabc;
-  --link-color: var(--text-color);
-  --link-hover: var(--text-color);
-}
-
 :root {
   --size: 1em;
   --gap: 0.08em;
@@ -35,6 +27,14 @@ body {
   --bg-color: #f7f5f2;
   --text-color: #2f2f2f;
   --border-color: #d9d3ca;
+  --link-color: var(--text-color);
+  --link-hover: var(--text-color);
+}
+
+.letterboxd {
+  --bg-color: #202830;
+  --text-color: #98aabc;
+  --border-color: #98aabc;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
 }
@@ -73,8 +73,8 @@ body {
 
 .peach {
   --bg-color: #fcdbca;
-  --text-color: #2a1a0f;
-  --border-color: #e0b89a;
+  --text-color: #3a3a3a;
+  --border-color: #e8a888;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
 }
@@ -131,6 +131,10 @@ p {
   margin: 0 0 1rem;
 }
 
+.chart {
+  margin-bottom: 1rem;
+}
+
 h1,
 h2,
 h3,
@@ -147,11 +151,11 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 h4 {

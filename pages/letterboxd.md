@@ -8,10 +8,8 @@ theme: letterboxd
 # Letterboxd
 I spend way too much time on/with Letterboxd 🤷‍♀️
 
-## Lists
-- [One Million Watched Club](/letterboxd/one-million-watched-club/)
-
 ## All-timers
+
 - [Favorite films](https://letterboxd.com/alexanderh/list/favorites/)
 - [Favorite film from every year](https://letterboxd.com/alexanderh/list/my-favorite-film-from-every-year/)
 - [Every film seen in theaters](https://letterboxd.com/alexanderh/list/seen-on-the-big-screen/)
@@ -52,3 +50,13 @@ I spend way too much time on/with Letterboxd 🤷‍♀️
 - [Best of 2001](https://letterboxd.com/alexanderh/list/best-of-2001/)
 - [Best of 2000](https://letterboxd.com/alexanderh/list/best-of-2000/)
 - [Best of 1987](https://letterboxd.com/alexanderh/list/best-of-1987/)
+
+## Franchise Rankings
+
+- [Pixar, ranked](https://boxd.it/fNW9u)
+- [Star Wars, ranked](https://boxd.it/yIa4)
+- [Mission: Impossible, ranked](https://boxd.it/nGdkg)
+- [Marvel Cinematic Universe, ranked](https://boxd.it/iHQw)
+- [Harry Potter, ranked](https://boxd.it/8uSO)
+- [Wallace & Gromit, ranked](https://boxd.it/zZHQs)
+- [Middle-Earth, ranked](https://boxd.it/iRGG)

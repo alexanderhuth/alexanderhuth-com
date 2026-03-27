@@ -145,7 +145,7 @@ permalink: /about/
 #### Theming System
 - 12 predefined themes in CSS variables
 - 11 themes available in random rotator: `.sand`, `.amber`, `.seaglass`, `.coral`, `.peach`, `.dawn`, `.royal`, `.forest`, `.ruby`, `.sky`, `.fireball`
-- 1 special theme (only via `theme:` front matter): `.letterboxd` (dark, white text)
+- 1 special theme (only via `theme:` front matter): `.letterboxd`
 
 #### CSS Conventions
 - Use kebab-case for class names

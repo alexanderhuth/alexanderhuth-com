@@ -234,16 +234,46 @@ pre code {
   margin: 0 0 1rem;
 }
 
-.emoji-list li {
-  margin: 0 0 0.5rem;
-}
-
 .media-table {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   margin: 0 0 1.25rem;
   table-layout: fixed;
+}
+
+.media-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 1.25rem;
+}
+
+.media-filter-button {
+  appearance: none;
+  border: 1px solid color-mix(in srgb, var(--text-color) 90%, var(--bg-color) 10%);
+  background: transparent;
+  color: inherit;
+  border-radius: 8px;
+  padding: 0.65rem 1.25rem;
+  font: inherit;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.media-filter-button:hover,
+.media-filter-button:focus {
+  background: color-mix(in srgb, currentColor 8%, transparent 92%);
+}
+
+.media-filter-button.is-active {
+  background: color-mix(in srgb, var(--text-color) 90%, var(--bg-color) 10%);
+  border-color: color-mix(in srgb, var(--text-color) 90%, var(--bg-color) 10%);
+  color: var(--bg-color);
+}
+
+.media-month-group[hidden] {
+  display: none;
 }
 
 .media-table tbody tr {
@@ -256,30 +286,36 @@ pre code {
 }
 
 .media-table td {
-  padding: 0.3rem 0;
+  /* Keep rows on the base 28.8px text rhythm; restore 0.3rem for looser spacing. */
+  padding-top: 0;
+  padding-bottom: 0;
   vertical-align: top;
   border: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .media-table-emoji {
   width: 1.75rem;
-  padding-right: 0.45rem;
-  line-height: 1.4;
+  padding-right: 0;
+  /* Keep emoji cells on the same 28.8px text rhythm as the rest of the row. */
+  line-height: 1.6;
 }
 
 .media-table-title {
   width: auto;
   min-width: 0;
   padding-right: 1rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .media-table-meta {
   width: min(28vw, 12rem);
-  padding-right: 1.5rem;
+  padding-right: 1rem;
   color: color-mix(in srgb, currentColor 72%, transparent 28%);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .media-table-date {

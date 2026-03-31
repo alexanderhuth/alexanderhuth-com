@@ -10,13 +10,21 @@
           <p>{{ section.note }}</p>
         {% else %}
           {% assign sorted_items = section.items | sort: "date" | reverse %}
-          {% for item in sorted_items %}
-            <p>
-              {{ item.emoji }} <strong>{{ item.venue }} in {{ item.city }} on {{ item.date | date: "%b %-d" }}</strong><br>
-              {{ item.match | newline_to_br }}<br>
-              <em>{{ item.competition }}</em>
-            </p>
-          {% endfor %}
+          <table class="media-table grounds-table" aria-label="{{ section.label }} grounds">
+            <tbody>
+              {% for item in sorted_items %}
+                <tr>
+                  <td class="media-table-emoji" aria-hidden="true">{{ item.emoji }}</td>
+                  <td class="media-table-title"><strong>{{ item.venue }}</strong>{% if item.city %} · {{ item.city }}{% endif %}</td>
+                  <td class="media-table-meta">
+                    <span class="grounds-table-meta-line">{{ item.match | newline_to_br }}</span>
+                    <span class="grounds-table-meta-line grounds-table-meta-context">{{ item.competition }}</span>
+                  </td>
+                  <td class="media-table-date">{{ item.date | date: "%b %-d" }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
         {% endif %}
       {% endfor %}
     </main>

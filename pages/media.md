@@ -12,9 +12,10 @@ permalink: /media/
 {% assign months = entries | map: "month" | uniq %}
 
 <div class="media-filters" aria-label="Filter media entries">
-  <button class="media-filter-button is-active" type="button" data-media-filter="all" aria-pressed="true">All</button>
-  <button class="media-filter-button" type="button" data-media-filter="film" aria-pressed="false">Films</button>
-  <button class="media-filter-button" type="button" data-media-filter="music" aria-pressed="false">Music</button>
+  <span class="media-filters-label">Filter by:&nbsp;</span>
+  <button class="media-filter-button is-active" type="button" data-media-filter="all" aria-pressed="true">All</button><span class="media-filter-separator">, </span>
+  <button class="media-filter-button" type="button" data-media-filter="film" aria-pressed="false">Films</button><span class="media-filter-separator">, </span>
+  <button class="media-filter-button" type="button" data-media-filter="music" aria-pressed="false">Music</button><span class="media-filter-separator">, </span>
   <button class="media-filter-button" type="button" data-media-filter="tv" aria-pressed="false">TV</button>
 </div>
 
@@ -28,6 +29,7 @@ permalink: /media/
     {% if entry.month == month %}
       {% assign entry_title = '' %}
       {% assign entry_meta = '' %}
+      {% assign entry_meta_label = '' %}
       {% if entry.type == 'film' %}
         {% capture film_title %}
           <strong>{{ entry.title }}</strong>{% if entry.year %} ({{ entry.year }}){% endif %}
@@ -51,15 +53,22 @@ permalink: /media/
           S{{ season_number | plus: 0 | prepend: '00' | slice: -2, 2 }} E{{ episode_number | plus: 0 | prepend: '00' | slice: -2, 2 }}
         {% endcapture %}
         {% capture tv_title %}
-          <strong>{{ show_title }}</strong>{% if season_number and episode_number %} · {{ season_episode_code | strip }}{% endif %}{% if episode_title %} · {{ episode_title }}{% endif %}
+          <strong>{{ show_title }}</strong>{% if season_number and episode_number %}<span class="media-table-title-detail"> · {{ season_episode_code | strip }}</span>{% endif %}{% if episode_title %}<span class="media-table-title-detail"> · {{ episode_title }}</span>{% endif %}
         {% endcapture %}
         {% assign entry_title = tv_title | strip %}
-        {% assign entry_meta = '' %}
+        {% capture tv_meta %}
+          {% if season_number and episode_number %}{{ season_episode_code | strip }}{% endif %}{% if season_number and episode_number and episode_title %} · {% endif %}{% if episode_title %}{{ episode_title }}{% endif %}
+        {% endcapture %}
+        {% assign entry_meta = tv_meta | strip %}
       {% endif %}
       <tr data-media-type="{{ entry.type }}">
         <td class="media-table-emoji" aria-hidden="true">{{ entry.emoji }}</td>
         <td class="media-table-title">{{ entry_title }}</td>
-        <td class="media-table-meta">{% if entry_meta %}{{ entry_meta }}{% endif %}</td>
+        <td class="media-table-meta{% if entry.type == 'tv' %} media-table-meta-tv{% endif %}">
+          {% if entry_meta %}
+            <span class="media-table-meta-value{% if entry.type == 'tv' %} media-table-meta-mobile-only{% endif %}">{{ entry_meta }}</span>
+          {% endif %}
+        </td>
         <td class="media-table-date">{{ entry.date_display }}</td>
       </tr>
     {% endif %}

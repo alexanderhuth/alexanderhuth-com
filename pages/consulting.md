@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Consulting
-seo_title: Organic Growth Advisor
+seo_title: Organic Growth Advisor based in Berlin
 permalink: /consulting/
 description: SEO consultant helping companies achieve sustainable organic growth through operational excellence.
 
@@ -25,6 +25,8 @@ I help organisations deliver critical objectives, strengthen teams for the next 
 
 Gain a clear, unbiased view of SEO performance, risks, and opportunities to support confident decisions.
 
+A due dilligence can cover these and more:
+
 - Assess SEO strategy, objectives, and alignment with business goals
 - Evaluate technical SEO foundations, site architecture, and scalability
 - Review content strategy, quality, and organic growth potential
@@ -40,6 +42,8 @@ Gain a clear, unbiased view of SEO performance, risks, and opportunities to supp
 ### Operational Excellence
 
 Optimise your SEO function with structured strategy, measurable goals, effective processes, and empowered teams that deliver consistent business impact.
+
+In order to achieve operational excellence, we aim to:
 
 - Develop and refine SEO and content strategies aligned with business goals
 - Translate strategy into clear planning and execution to deliver defined objectives

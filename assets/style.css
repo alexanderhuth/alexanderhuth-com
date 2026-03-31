@@ -236,48 +236,68 @@ pre code {
 
 .media-table {
   width: 100%;
+  margin: 0 0 1.25rem;
   border-collapse: collapse;
   border-spacing: 0;
-  margin: 0 0 1.25rem;
-  table-layout: fixed;
 }
 
 .media-filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  align-items: baseline;
+  gap: 0;
   margin: 0 0 1.25rem;
 }
 
 .media-filter-button {
+  display: inline;
+  padding: 0;
+  font: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  cursor: pointer;
   appearance: none;
-  border: 1px solid color-mix(in srgb, var(--text-color) 90%, var(--bg-color) 10%);
+  border: 0;
   background: transparent;
   color: inherit;
-  border-radius: 8px;
-  padding: 0.65rem 1.25rem;
-  font: inherit;
-  line-height: 1.2;
-  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.08em;
 }
 
 .media-filter-button:hover,
 .media-filter-button:focus {
-  background: color-mix(in srgb, currentColor 8%, transparent 92%);
+  color: var(--link-hover);
+  text-decoration: none;
 }
 
 .media-filter-button.is-active {
-  background: color-mix(in srgb, var(--text-color) 90%, var(--bg-color) 10%);
-  border-color: color-mix(in srgb, var(--text-color) 90%, var(--bg-color) 10%);
-  color: var(--bg-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.media-filter-separator {
+  white-space: pre;
 }
 
 .media-month-group[hidden] {
   display: none;
 }
 
+.media-table tr[hidden] {
+  display: none;
+}
+
 .media-table tbody tr {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.15rem 0.6rem;
+  padding: 0.55rem 0.2rem;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent 86%);
   transition: background-color 120ms ease;
+}
+
+.media-table tbody tr:last-child {
+  border-bottom: none;
 }
 
 .media-table tbody tr:hover,
@@ -286,48 +306,87 @@ pre code {
 }
 
 .media-table td {
-  /* Keep rows on the base 28.8px text rhythm; restore 0.3rem for looser spacing. */
-  padding-top: 0;
-  padding-bottom: 0;
-  vertical-align: top;
+  display: block;
+  width: 100%;
+  padding: 0;
   border: 0;
+  vertical-align: top;
 }
 
 .media-table-emoji {
-  width: 1.75rem;
-  padding-right: 0;
-  /* Keep emoji cells on the same 28.8px text rhythm as the rest of the row. */
-  line-height: 1.6;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: auto;
+  line-height: 1.4;
+  padding-top: 0.05rem;
 }
 
 .media-table-title {
-  width: auto;
+  grid-column: 2;
+  grid-row: 1;
   min-width: 0;
-  padding-right: 1rem;
+  padding-right: 0;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 1.35;
+}
+
+.media-table-title-detail {
+  display: none;
 }
 
 .media-table-meta {
-  width: min(28vw, 12rem);
-  padding-right: 1rem;
+  grid-column: 2;
+  grid-row: 2;
+  width: auto;
+  padding-right: 0;
   color: color-mix(in srgb, currentColor 72%, transparent 28%);
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  font-size: inherit;
+  line-height: 1.3;
+}
+
+.media-table-meta-mobile-only {
+  display: inline;
 }
 
 .media-table-date {
-  width: 3.75rem;
+  grid-column: 3;
+  grid-row: 1;
+  width: auto;
+  justify-self: end;
+  white-space: nowrap;
   text-align: right;
+  font-size: inherit;
+  line-height: 1.35;
 }
 
 @media (max-width: 42rem) {
-  .media-table-meta,
-  .media-table-date {
-    width: auto;
+  .media-table {
+    margin-bottom: 0.9rem;
+    font-size: inherit;
   }
+}
+
+.media-table tr[data-media-type="tv"] .media-table-meta {
+  color: inherit;
+}
+
+.grounds-table .media-table-meta {
+  overflow: visible;
+  white-space: normal;
+  text-overflow: clip;
+}
+
+.grounds-table-meta-line {
+  display: block;
+}
+
+.grounds-table-meta-context {
+  color: color-mix(in srgb, currentColor 72%, transparent 28%);
 }
 
 .concert-index {
@@ -347,9 +406,15 @@ pre code {
 
 .consulting-list li {
   list-style: none;
-  padding: 0.35rem 0;
+  padding: 0.45rem 0.35rem;
   border-bottom: 1px solid color-mix(in srgb, currentColor 35%, transparent 65%);
-  font-size: 0.95rem;
+  font-size: inherit;
+  transition: background-color 120ms ease;
+}
+
+.consulting-list li:hover,
+.consulting-list li:focus-within {
+  background: color-mix(in srgb, currentColor 8%, transparent 92%);
 }
 
 .consulting-list li:last-child {
@@ -362,7 +427,10 @@ pre code {
 }
 
 .cta-button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
   padding: 0.65rem 1.25rem;
   border-radius: 8px;
   border: 1px solid color-mix(in srgb, var(--text-color) 90%, var(--bg-color) 10%);
@@ -370,7 +438,10 @@ pre code {
   color: var(--bg-color);
   text-decoration: none;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: inherit;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
 }
 
 .cta-button:hover,
@@ -448,7 +519,7 @@ pre code {
 }
 
 .meet-day summary {
-  font-size: 1rem;
+  font-size: inherit;
   margin: 0 0 0.5rem;
   cursor: pointer;
   font-weight: 700;

@@ -131,8 +131,24 @@ p {
   margin: 0 0 1rem;
 }
 
+.chart-figure {
+  margin: 0 0 1.5rem;
+}
+
+.chart-figure picture {
+  display: block;
+}
+
 .chart {
-  margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.chart-caption {
+  margin-top: 0.25rem;
+  color: color-mix(in srgb, currentColor 78%, transparent 22%);
+  font-size: 0.95rem;
 }
 
 h1,

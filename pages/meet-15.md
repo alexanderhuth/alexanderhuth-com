@@ -5,6 +5,7 @@ seo_title: Meet 15
 description: Book a 15 minute meeting with Alexander
 permalink: /meet/15/
 robots: noindex
+slashes_exclude: true
 meet_duration: 15
 ---
 

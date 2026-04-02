@@ -139,13 +139,13 @@ p {
   display: block;
 }
 
-.chart {
+.chart-figure img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.chart-caption {
+.chart-figure figcaption {
   margin-top: 0.25rem;
   color: color-mix(in srgb, currentColor 78%, transparent 22%);
   font-size: 0.95rem;

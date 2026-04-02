@@ -20,7 +20,7 @@ Uses Astro, the TMDb and Wikidata APIs.
 
 ## Letterboxd One Million Watched Club
 
-The [Letterboxd One Million Watched Club](https://boxd.it/bAS2M) is a featured list on Letterboxd that tracks the growth of the platform by listing all films seen by at least 1 million members.
+The [Letterboxd One Million Watched Club](https://boxd.it/bAS2M) is a featured list on Letterboxd that tracks the growth of the platform by listing all films seen by at least 1 million members. It has over 40,000 likes on Letterboxd.
 
 I started the list in early 2021, by now the entire behind-the-scenes work has been automated using Python.
 

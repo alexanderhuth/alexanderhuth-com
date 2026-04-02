@@ -4,6 +4,7 @@ title: Meet
 description: Book a meeting with Alexander
 permalink: /meet/
 robots: noindex
+slashes_exclude: true
 ---
 
 # Book a meeting with me

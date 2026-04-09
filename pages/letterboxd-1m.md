@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Letterboxd One Million Watched Club by the Numbers
+heading: One Million Watched&nbsp;Club
 permalink: /letterboxd/one-million-watched-club/
 theme: letterboxd
 robots: noindex
 slashes_exclude: true
 ---
-
-# One Million Watched&nbsp;Club
 
 The [Letterboxd One Million Watched Club](https://boxd.it/bAS2M) by the numbers. Up-to-date as of April 1, 2026.
 

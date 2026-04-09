@@ -1,8 +1,8 @@
 ---
-layout: home
+layout: page
 title: Alexander Huth
+heading: Hello 👋
 ---
-# Hello 👋
 
 **Hi, I’m Alexander. I’m a Marketing consultant, advisor, and mentor focused on helping companies grow organically. [You should work with me](/consulting/).**  
 

@@ -1,14 +1,25 @@
-{% include html-start.html %}
-  {% include html-head.html %}
-  <body>
-    {% include header.html %}
-    <main role="main">
-      {% if page.date %}
-        <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+---
+layout: base
+---
+<main role="main">
+  <article class="post-page">
+    <header class="post-page-header">
+      {% assign post_heading = page.heading | default: page.title %}
+      {% if post_heading %}
+        <h1>{{ post_heading }}</h1>
       {% endif %}
-      {{ content }}
-      <p class="post-back"><a href="/posts/">← All posts</a></p>
-    </main>
-    {% include footer.html %}
-  </body>
-{% include html-end.html %}
+      {% if page.date %}
+        <p class="post-date">
+          <time datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%B %-d, %Y" }}
+          </time>
+          · Alexander Huth
+        </p>
+      {% endif %}
+    </header>
+    {{ content }}
+  </article>
+  <nav aria-label="Post navigation">
+    <p class="post-back"><a href="/posts/">← All posts</a></p>
+  </nav>
+</main>

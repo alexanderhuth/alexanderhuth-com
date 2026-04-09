@@ -7,8 +7,6 @@ robots: noindex
 slashes_exclude: true
 ---
 
-# Letterboxd Year in Review
-
 As part of their annual [Year in Review](https://letterboxd.com/year-in-review/), Letterboxd publish a few KPIs that can be used to chart the platform's growth.
 
 ## Films Watched

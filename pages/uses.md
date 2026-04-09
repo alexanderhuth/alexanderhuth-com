@@ -4,8 +4,6 @@ title: Uses
 permalink: /uses/
 ---
 
-# Uses
-
 Tools, gear, and software I rely on. Inspired by [uses.tech](https://uses.tech).
 
 ## Coffee

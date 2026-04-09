@@ -7,6 +7,6 @@ robots: noindex
 slashes_exclude: true
 ---
 
-# Book a meeting with me
+# Schedule a meeting with me
 
 Please use this page to check my availability and schedule a video call with me. Google Meet details will be provided upon confirmation.

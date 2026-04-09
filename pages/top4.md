@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Top4
+heading: Top 4
 seo_title: Top 4s
 permalink: /top4/
 ---
 
-# Top 4
 I love making lists. These are some of my definitive Top 4s.
 
 ## Top 4 Albums
@@ -15,12 +15,30 @@ I love making lists. These are some of my definitive Top 4s.
 4. **Person Pitch** by Panda Bear
 {: .inline-ol}
 
+I also have a [ranked Top 20](https://record.club/alexanderh/lists/top-20) and a [Top 50 (in alphabetical order)](https://record.club/alexanderh/lists/favorites).
+
+## Top 4 German Albums
+1. **Gefährliches Halbwissen** by Eins Zwo
+2. **Neon Golden** by The Notwist
+3. **Hinter All Diesen Fenstern** by Tomte
+4. **They Think They Are the Robocop Kraus** by The Robocop Kraus
+{: .inline-ol}
+
+## Top 4 Rap Albums
+1. **Gefährliches Halbwissen** by Eins Zwo
+2. **Madvillainy** by Madvillain
+3. **Atrocity Exhibition** by Danny Brown
+4. **Alopecia** by WHY?
+{: .inline-ol}
+
 ## Top 4 Films
 1. **Heat** by Michael Mann
 2. **Jaws** by Steven Spielberg
 3. **The Empire Strikes Back** by Irvin Kershner
 4. **Army of Shadows** by Jean-Pierre Melville
 {: .inline-ol}
+
+These are also the Four Favorite Films on [my Letterboxd profile](https://letterboxd.com/alexanderh/).
 
 ## Top 4 Directors
 Ranked by [my personal filmography score](https://letterboxd.com/alexanderh/list/directors-ranked/detail/):

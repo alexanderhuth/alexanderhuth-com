@@ -1,13 +1,12 @@
 ---
 layout: page
 title: Consulting
+heading: Organic Growth Advisor
 seo_title: Organic Growth Advisor based in Berlin
 permalink: /consulting/
 description: SEO consultant helping companies achieve sustainable organic growth through operational excellence.
 
 ---
-
-# Organic Growth Advisor
 
 I’m a Berlin-based consultant, advisor, and mentor focused on sustainable organic growth through SEO and content marketing.
 

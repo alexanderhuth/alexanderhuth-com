@@ -1,8 +1,9 @@
 ---
-layout: grounds
+layout: page
 title: Grounds
 permalink: /grounds/
 ---
 
-# Grounds
 Keeping track of stadiums I've been to for professional sporting events.
+
+{% include grounds-page.html %}

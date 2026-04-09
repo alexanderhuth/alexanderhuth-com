@@ -1,10 +1,12 @@
-{% include html-start.html %}
-  {% include html-head.html %}
-  <body>
-    {% include header.html %}
-    <main role="main">
-      {{ content }}
-    </main>
-    {% include footer.html %}
-  </body>
-{% include html-end.html %}
+---
+layout: base
+---
+<main role="main">
+  {% assign page_heading = page.heading | default: page.title %}
+  {% if page.show_page_heading != false and page_heading %}
+    <header class="content-page-header">
+      <h1>{{ page_heading }}</h1>
+    </header>
+  {% endif %}
+  {{ content }}
+</main>

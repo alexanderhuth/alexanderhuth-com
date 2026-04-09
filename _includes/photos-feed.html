@@ -1,0 +1,40 @@
+{% assign photos = site.photos %}
+{% if photos and photos.size > 0 %}
+{% assign photos = photos | sort: "time" | sort: "date" | reverse %}
+<div class="photo-feed" role="list">
+  {% for photo in photos limit:50 %}
+    {% assign photo_filename = photo.image | split: "/" | last %}
+    {% if forloop.first %}
+      {% assign is_first = true %}
+    {% else %}
+      {% assign is_first = false %}
+    {% endif %}
+    <figure class="photo-card" role="listitem">
+      <div class="photo-media" aria-hidden="true">
+        <img
+          src="{{ "/images/720/" | append: photo_filename | relative_url }}"
+          srcset="{{ "/images/480/" | append: photo_filename | relative_url }} 480w, {{ "/images/720/" | append: photo_filename | relative_url }} 720w, {{ "/images/960/" | append: photo_filename | relative_url }} 960w, {{ "/images/1280/" | append: photo_filename | relative_url }} 1280w"
+          sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"
+          alt="{{ photo.alt | escape }}"
+          width="{{ photo.width }}"
+          height="{{ photo.height }}"
+          loading="{% if is_first %}eager{% else %}lazy{% endif %}"
+          decoding="async"
+          {% if is_first %}fetchpriority="high"{% endif %}
+        >
+      </div>
+      <figcaption class="photo-meta">
+        {% if photo.title %}
+          <span class="photo-title">{{ photo.title | escape }}</span>
+        {% endif %}
+        <span class="photo-date-line">
+          {% assign photo_slug = photo.image | split: "/" | last | split: "." | first %}
+          <a class="photo-link" href="{{ "/photos/" | append: photo_slug | append: "/" | relative_url }}"><time datetime="{{ photo.date }}T{{ photo.time }}:00+01:00">{{ photo.date | date: "%B %d, %Y" }}</time></a>{% if photo.location %} / <span class="photo-location">{{ photo.location | escape }}</span>{% endif %}
+        </span>
+      </figcaption>
+    </figure>
+  {% endfor %}
+</div>
+{% else %}
+<p class="photo-empty">No photos yet. Check back soon.</p>
+{% endif %}

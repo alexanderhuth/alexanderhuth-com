@@ -1,5 +1,27 @@
 [
   {
+    "setlist_id": "1b4ef1b4",
+    "date": "2026-04-07",
+    "artist": "Dry Cleaning",
+    "venue": "Festsaal Kreuzberg",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/dry-cleaning/2026/festsaal-kreuzberg-berlin-germany-1b4ef1b4.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "7b4902ec",
+    "date": "2026-04-07",
+    "artist": "The Tubs",
+    "venue": "Festsaal Kreuzberg",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/the-tubs/2026/festsaal-kreuzberg-berlin-germany-7b4902ec.html",
+    "festival_parent": null
+  },
+  {
     "setlist_id": "b4f3d6a",
     "date": "2026-03-15",
     "artist": "Westside Cowboy",

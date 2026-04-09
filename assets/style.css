@@ -474,6 +474,19 @@ pre code {
   margin: 2rem 0 0;
 }
 
+.post-page-header {
+  margin-bottom: 1.5rem;
+}
+
+.post-page-header h1 {
+  margin-bottom: 0.35rem;
+}
+
+.post-page-header .post-date {
+  margin-top: 0;
+  font-style: italic;
+}
+
 .post-back a {
   text-decoration: none;
 }

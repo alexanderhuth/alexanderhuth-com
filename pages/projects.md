@@ -4,8 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
 ## Rated by Critics
 
 [Rated by Critics](https://ratedbycritics.alexanderhuth.com) is a small project that regularly fetches and aggregates film ratings from renowned critics and influencers on Letterboxd, inspired by platforms like MetaCritic and Rotten Tomatoes.

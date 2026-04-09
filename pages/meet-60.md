@@ -9,6 +9,8 @@ slashes_exclude: true
 meet_duration: 60
 ---
 
-# Let's find a {{ page.meet_duration }}-minute time.
+# Let's find an hour to meet!
 
-This page is fixed to a {{ page.meet_duration }} minute slot.
+Please use this page to check my availability and schedule a video call with me. Google Meet details will be provided upon confirmation.
+
+This page is fixed to {{ page.meet_duration }} minute slots.

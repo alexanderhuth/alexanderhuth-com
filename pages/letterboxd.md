@@ -5,7 +5,6 @@ permalink: /letterboxd/
 theme: letterboxd
 ---
 
-# Letterboxd
 I spend way too much time on/with Letterboxd 🤷‍♀️
 
 ## Lists

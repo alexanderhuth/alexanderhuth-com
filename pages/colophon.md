@@ -4,7 +4,6 @@ title: Colophon
 permalink: /colophon/
 ---
 
-# Colophon
 Notes on how this site is made and served.
 
 Static site powered by Jekyll, built on statichost.eu from a GitHub repo via webhook. There’s no CDN layer, server-side logic, or third-party embeds.  

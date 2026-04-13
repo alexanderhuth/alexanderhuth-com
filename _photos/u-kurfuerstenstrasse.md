@@ -2,7 +2,7 @@
 layout: photo
 title: "U-Bahnhof Kurfürstenstraße"
 robots: noindex
-date: 2026-01-28
+date: 2026-01-28 12:40:00 +01:00
 time: "12:40"
 image: /images/u-kurfuerstenstrasse.jpg
 width: 1920

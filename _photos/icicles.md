@@ -2,7 +2,7 @@
 layout: photo
 title: "Icicles on Evergreen Leaves"
 robots: noindex
-date: 2026-01-26
+date: 2026-01-26 13:50:00 +01:00
 time: "13:50"
 image: /images/icicles.jpg
 width: 1280

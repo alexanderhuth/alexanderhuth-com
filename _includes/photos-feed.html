@@ -1,6 +1,6 @@
 {% assign photos = site.photos %}
 {% if photos and photos.size > 0 %}
-{% assign photos = photos | sort: "time" | sort: "date" | reverse %}
+{% assign photos = photos | sort: "date" | reverse %}
 <div class="photo-feed" role="list">
   {% for photo in photos limit:50 %}
     {% assign photo_filename = photo.image | split: "/" | last %}

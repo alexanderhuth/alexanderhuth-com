@@ -2,7 +2,7 @@
 layout: photo
 title: "Red Aurora"
 robots: noindex
-date: 2026-01-19
+date: 2026-01-19 22:57:00 +01:00
 time: "22:57"
 image: /images/red-aurora.jpg
 width: 1920

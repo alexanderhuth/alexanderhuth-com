@@ -2,7 +2,7 @@
 layout: photo
 title: "Berlinale goes Kiez"
 robots: noindex
-date: 2026-02-17
+date: 2026-02-17 20:00:00 +01:00
 time: "20:00"
 image: /images/berlinale.jpg
 width: 1280

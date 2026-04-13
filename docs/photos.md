@@ -6,7 +6,7 @@ Photos are a Jekyll collection in `_photos/`. Each entry is a Markdown file with
 
 ## Front Matter Fields
 
-Required: `date`, `time`, `title`, `alt`, `image`, `width`, `height`
+Required: `date` (full datetime with timezone), `time`, `title`, `alt`, `image`, `width`, `height`
 Optional: `location`, `robots`
 
 ## Image Files

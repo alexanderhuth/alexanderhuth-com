@@ -2,7 +2,7 @@
 layout: photo
 title: "Cycling towards Soo"
 robots: noindex
-date: 2026-02-25
+date: 2026-02-25 10:32:00 +01:00
 time: "10:32"
 image: /images/soo.jpg
 width: 1920

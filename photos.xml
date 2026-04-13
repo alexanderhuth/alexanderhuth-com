@@ -19,16 +19,16 @@ permalink: /photos.xml
   {% else %}
     <updated>{{ site.time | date_to_xmlschema }}</updated>
   {% endif %}
-  {% for photo in photos %}
+  {% for photo in photos limit: 20 %}
     {% assign photo_slug = photo.name | split: "." | first %}
     {% assign photo_image_filename = photo.image | split: "/" | last %}
     <entry>
-      <title>{{ photo.title | escape }}</title>
+      <title>📷 {{ photo.title | escape }}</title>
       <id>{{ "/photos/" | append: photo_slug | append: "/" | absolute_url }}</id>
       <link href="{{ "/photos/" | append: photo_slug | append: "/" | absolute_url }}" rel="alternate" type="text/html" />
       {% assign photo_time = photo.time | default: "00:00" %}
       <updated>{{ photo.date | date: "%Y-%m-%d" | append: "T" | append: photo_time | append: ":00+01:00" | date_to_xmlschema }}</updated>
-      <summary>{{ photo.alt | escape }}</summary>
+      <summary>{{ photo.alt | escape }}{% if photo.location %} / {{ photo.location | escape }}{% endif %}</summary>
       <content type="html">
         <![CDATA[<p><img src="{{ "/images/720/" | append: photo_image_filename | absolute_url }}" alt="{{ photo.alt | escape }}" style="max-width:100%; height:auto;"></p><p>{{ photo.alt | escape }}{% if photo.location %} / {{ photo.location | escape }}{% endif %}</p>]]>
       </content>

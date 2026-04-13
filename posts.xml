@@ -1,0 +1,31 @@
+---
+layout: null
+permalink: /posts.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | escape }}'s Posts</title>
+  <id>{{ "/" | absolute_url }}</id>
+  <link href="{{ "/posts.xml" | absolute_url }}" rel="self" />
+  <link href="{{ "/" | absolute_url }}" />
+  <author>
+    <name>{{ site.author | escape }}</name>
+  </author>
+  {% if site.posts and site.posts.size > 0 %}
+    <updated>{{ site.posts.first.date | date_to_xmlschema }}</updated>
+  {% else %}
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+  {% endif %}
+  {% for post in site.posts limit: 20 %}
+    <entry>
+      <title>{{ post.title | escape }}</title>
+      <id>{{ post.url | absolute_url }}</id>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" />
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <summary>{{ post.excerpt | strip_html | strip_newlines | escape }}</summary>
+      <content type="html">
+        <![CDATA[{{ post.content | replace: "]]>", "]]]]><![CDATA[>" }}]]>
+      </content>
+    </entry>
+  {% endfor %}
+</feed>

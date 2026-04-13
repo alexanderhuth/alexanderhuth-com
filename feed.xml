@@ -1,31 +1,49 @@
 ---
 layout: null
-permalink: /feed.xml
+permalink: /feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ site.title | escape }}'s Posts</title>
+  <title>{{ site.title | escape }}</title>
   <id>{{ "/" | absolute_url }}</id>
-  <link href="{{ "/feed.xml" | absolute_url }}" rel="self" />
+  <link href="{{ "/feed" | absolute_url }}" rel="self" />
   <link href="{{ "/" | absolute_url }}" />
   <author>
     <name>{{ site.author | escape }}</name>
   </author>
-  {% if site.posts and site.posts.size > 0 %}
-    <updated>{{ site.posts.first.date | date_to_xmlschema }}</updated>
+  {% assign photos = site.photos | sort: "date" | reverse %}
+  {% assign all_items = site.posts | concat: photos | sort: "date" | reverse %}
+  {% if all_items.size > 0 %}
+    <updated>{{ all_items.first.date | date_to_xmlschema }}</updated>
   {% else %}
     <updated>{{ site.time | date_to_xmlschema }}</updated>
   {% endif %}
-  {% for post in site.posts %}
-    <entry>
-      <title>{{ post.title | escape }}</title>
-      <id>{{ post.url | absolute_url }}</id>
-      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" />
-      <updated>{{ post.date | date_to_xmlschema }}</updated>
-      <summary>{{ post.excerpt | strip_html | strip_newlines | escape }}</summary>
-      <content type="html">
-        <![CDATA[{{ post.content | replace: "]]>", "]]]]><![CDATA[>" }}]]>
-      </content>
-    </entry>
+  {% for item in all_items limit: 40 %}
+    {% if item.image %}
+      {% assign photo_slug = item.name | split: "." | first %}
+      {% assign photo_image_filename = item.image | split: "/" | last %}
+      {% assign photo_time = item.time | default: "00:00" %}
+      <entry>
+        <title>📷 {{ item.title | escape }}</title>
+        <id>{{ "/photos/" | append: photo_slug | append: "/" | absolute_url }}</id>
+        <link href="{{ "/photos/" | append: photo_slug | append: "/" | absolute_url }}" rel="alternate" type="text/html" />
+        <updated>{{ item.date | date: "%Y-%m-%d" | append: "T" | append: photo_time | append: ":00+01:00" | date_to_xmlschema }}</updated>
+        <summary>{{ item.alt | escape }}{% if item.location %} / {{ item.location | escape }}{% endif %}</summary>
+        <content type="html">
+          <![CDATA[<p><img src="{{ "/images/720/" | append: photo_image_filename | absolute_url }}" alt="{{ item.alt | escape }}" style="max-width:100%; height:auto;"></p><p>{{ item.alt | escape }}{% if item.location %} / {{ item.location | escape }}{% endif %}</p>]]>
+        </content>
+      </entry>
+    {% else %}
+      <entry>
+        <title>{{ item.title | escape }}</title>
+        <id>{{ item.url | absolute_url }}</id>
+        <link href="{{ item.url | absolute_url }}" rel="alternate" type="text/html" />
+        <updated>{{ item.date | date_to_xmlschema }}</updated>
+        <summary>{{ item.excerpt | strip_html | strip_newlines | escape }}</summary>
+        <content type="html">
+          <![CDATA[{{ item.content | replace: "]]>", "]]]]><![CDATA[>" }}]]>
+        </content>
+      </entry>
+    {% endif %}
   {% endfor %}
 </feed>

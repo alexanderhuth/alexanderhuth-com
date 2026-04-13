@@ -27,6 +27,10 @@ defaults:
     values:
       theme: sand
 
+# --- Include in build ---
+include:
+  - _headers
+
 # --- Exclude from build ---
 exclude:
   - Gemfile

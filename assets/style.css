@@ -146,10 +146,112 @@ p {
   height: auto;
 }
 
+.chart-figure canvas {
+  display: block;
+  width: 100%;
+  border: 1px solid #555E6B;
+}
+
+.chart-quarterly-grid,
+.chart-segments {
+  border: 1px solid #555E6B;
+  padding: 0.5rem;
+}
+
+.chart-quarterly-grid canvas,
+.chart-segments canvas,
+.chart-segment-canvas canvas,
+.chart-yir-grid canvas {
+  border: none;
+}
+
 .chart-figure figcaption {
   margin-top: 0.25rem;
   color: color-mix(in srgb, currentColor 78%, transparent 22%);
   font-size: var(--font-size-sm);
+}
+
+.chart-segments {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  align-items: start;
+}
+
+.chart-segment-item {
+  text-align: center;
+}
+
+.chart-segment-title {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: var(--font-size-sm);
+  color: var(--text-color);
+  min-height: 2.5em;
+}
+
+.chart-segment-canvas {
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.chart-segment-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.chart-split {
+  display: flex;
+  gap: 1rem;
+}
+
+.chart-split-panel {
+  flex: 1;
+  min-width: 0;
+}
+
+.chart-quarterly-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.chart-quarterly-cell canvas {
+  display: block;
+  width: 100%;
+}
+
+.chart-yir-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  border: 1px solid #555E6B;
+  padding: 0.5rem;
+}
+
+.chart-yir-cell canvas {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 42rem) {
+  .chart-segments {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .chart-split {
+    flex-direction: column;
+  }
+
+  .chart-quarterly-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .chart-yir-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 h1,

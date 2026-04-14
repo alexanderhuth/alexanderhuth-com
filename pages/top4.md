@@ -31,6 +31,13 @@ I also have a [ranked Top 20](https://record.club/alexanderh/lists/top-20) and a
 4. **Alopecia** by WHY?
 {: .inline-ol}
 
+## Top 4 Songs
+1. **Tomorrow Never Knows** by The Beatles
+2. **We Looked Like Giants** by Death Cab for Cutie
+3. **All I Need** by Radiohead
+4. **Vesuvius** by Sufjan Stevens
+{: .inline-ol}
+
 ## Top 4 Films
 1. **Heat** by Michael Mann
 2. **Jaws** by Steven Spielberg
@@ -66,6 +73,6 @@ Ranked by [my personal filmography score](https://letterboxd.com/alexanderh/list
 ## Top 4 Film Cats
 1. **Philip Marlowe's cat** in The Long Goodbye
 2. **Jonesy** in Alien
-3. **Catbus** in My Neighbor Totoro
+3. **Jiji** in Kiki's Delivery Service
 4. **Frodo** in A Quiet Place: Day One
 {: .inline-ol}

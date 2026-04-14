@@ -25,10 +25,11 @@ body {
   --gap: 0.08em;
   --color: currentColor;
   --bg-color: #f7f5f2;
-  --text-color: #2f2f2f;
+  --text-color: #1f1f1f;
   --border-color: #d9d3ca;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
+  --font-size-sm: 0.90rem;
 }
 
 .letterboxd {
@@ -148,7 +149,7 @@ p {
 .chart-figure figcaption {
   margin-top: 0.25rem;
   color: color-mix(in srgb, currentColor 78%, transparent 22%);
-  font-size: 0.95rem;
+  font-size: var(--font-size-sm);
 }
 
 h1,
@@ -341,7 +342,6 @@ pre code {
   grid-column: 2;
   grid-row: 1;
   min-width: 0;
-  padding-right: 0;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -356,12 +356,10 @@ pre code {
   grid-column: 2;
   grid-row: 2;
   width: auto;
-  padding-right: 0;
   color: color-mix(in srgb, currentColor 72%, transparent 28%);
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-size: inherit;
   line-height: 1.3;
 }
 
@@ -376,14 +374,12 @@ pre code {
   justify-self: end;
   white-space: nowrap;
   text-align: right;
-  font-size: inherit;
   line-height: 1.35;
 }
 
 @media (max-width: 42rem) {
   .media-table {
     margin-bottom: 0.9rem;
-    font-size: inherit;
   }
 }
 
@@ -411,7 +407,6 @@ pre code {
 
 .concert-meta {
   margin: 0 0 0.5rem;
-  color: inherit;
 }
 
 .consulting-list {
@@ -421,10 +416,8 @@ pre code {
 }
 
 .consulting-list li {
-  list-style: none;
   padding: 0.45rem 0.35rem;
   border-bottom: 1px solid color-mix(in srgb, currentColor 35%, transparent 65%);
-  font-size: inherit;
   transition: background-color 120ms ease;
 }
 
@@ -548,7 +541,6 @@ pre code {
 }
 
 .meet-day summary {
-  font-size: inherit;
   margin: 0 0 0.5rem;
   cursor: pointer;
   font-weight: 700;
@@ -713,7 +705,7 @@ main {
   padding: 1rem 0;
   border-top: 1px solid var(--border-color);
   color: var(--text-color);
-  font-size: 0.95rem;
+  font-size: var(--font-size-sm);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -726,12 +718,6 @@ main {
 }
 
 .site-footer .brand-link {
-  color: inherit;
-  text-decoration: none;
-}
-
-.site-footer .brand-link:hover,
-.site-footer .brand-link:focus {
   color: inherit;
   text-decoration: none;
 }
@@ -761,13 +747,6 @@ main {
 
 .photo-media img {
   width: 100%;
-}
-
-.photo-page .photo-media {
-  width: calc(100% + 3rem);
-  max-width: calc(72ch + 3rem);
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
 }
 
 .photo-page .photo-media img {

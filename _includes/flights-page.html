@@ -1,0 +1,48 @@
+{% assign total_flights = 0 %}
+{% assign total_km = 0 %}
+{% assign all_airports = "" %}
+{% assign all_airlines = "" %}
+{% for section in site.data.flights %}
+  {% assign total_flights = total_flights | plus: section.flights %}
+  {% assign total_km = total_km | plus: section.distance_km %}
+  {% for item in section.items %}
+    {% assign all_airports = all_airports | append: item.from | append: "," | append: item.to | append: "," %}
+    {% if item.airline %}{% assign all_airlines = all_airlines | append: item.airline | append: "," %}{% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign airport_list = all_airports | split: "," | compact | uniq %}
+{% assign airport_count = 0 %}
+{% for a in airport_list %}{% if a != "" %}{% assign airport_count = airport_count | plus: 1 %}{% endif %}{% endfor %}
+{% assign airline_list = all_airlines | split: "," | compact | uniq %}
+{% assign airline_count = 0 %}
+{% for a in airline_list %}{% if a != "" %}{% assign airline_count = airline_count | plus: 1 %}{% endif %}{% endfor %}
+
+{% assign km_thousands = total_km | divided_by: 1000 %}
+{% assign km_remainder = total_km | modulo: 1000 %}
+{% if km_remainder < 10 %}{% assign km_formatted = km_thousands | append: ",00" | append: km_remainder %}
+{% elsif km_remainder < 100 %}{% assign km_formatted = km_thousands | append: ",0" | append: km_remainder %}
+{% else %}{% assign km_formatted = km_thousands | append: "," | append: km_remainder %}
+{% endif %}
+
+<p>A log of all {{ total_flights }} flights I have taken since 2010, covering {{ km_formatted }} km across {{ airport_count }} airports and {{ airline_count }} airlines.</p>
+
+{% for section in site.data.flights %}
+{% assign flight_label = 'flights' %}
+{% if section.flights == 1 %}{% assign flight_label = 'flight' %}{% endif %}
+<h2>{{ section.label }}</h2>
+<p class="concert-meta"><em>{{ section.flights }} {{ flight_label }} · {{ section.distance_formatted }}</em></p>
+
+{% assign sorted_items = section.items | sort: "sort_key" | reverse %}
+<table class="media-table" aria-label="{{ section.label }} flights">
+  <tbody>
+    {% for item in sorted_items %}
+    <tr>
+      <td class="media-table-emoji" aria-hidden="true">✈️</td>
+      <td class="media-table-title"><strong>{{ item.from_city }} ({{ item.from }}) → {{ item.to_city }} ({{ item.to }})</strong></td>
+      <td class="media-table-meta">{% if item.airline %}{{ item.airline }}{% if item.flight %} · {{ item.flight }}{% endif %}{% endif %}</td>
+      <td class="media-table-date">{{ item.date | date: "%b %-d" }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endfor %}

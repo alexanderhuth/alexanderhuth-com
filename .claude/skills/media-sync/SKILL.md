@@ -1,11 +1,12 @@
 ---
 name: media-sync
-description: Run the media sync for this Jekyll site when the user wants to import new listening or watching activity into `_data/media.json`, or troubleshoot the Ruby sync workflow in `scripts/sync_media.rb`.
+description: Run the media sync for this Jekyll site when the user wants to import new listening or watching activity into `_data/media.json`, or troubleshoot the Ruby sync workflow in `sync_media.rb`.
+compatibility: Requires Ruby 3.4+. Run from the Jekyll repo root. Needs internet access for Record Club RSS, Last.fm API, Letterboxd RSS, and MusicBrainz. Last.fm fallback requires LASTFM_API_KEY in `.env`.
 ---
 
 # Media Sync
 
-Use this skill to import new media activity. It runs `scripts/sync_media.rb`, which updates `_data/media.json` from Record Club (primary), Last.fm (fallback), and Letterboxd sources.
+Use this skill to import new media activity. It runs `sync_media.rb`, which updates `_data/media.json` from Record Club (primary), Last.fm (fallback), and Letterboxd sources.
 
 ## When To Use It
 
@@ -20,10 +21,12 @@ The canonical media data is structured, not display-string based.
 - Films: `title`, `year`, `director`
 - Music: `album`, `artist`, `year`
 - TV: `show_title`, `season_number`, `episode_number`, `episode_title`
-- Shared fields: `type`, `emoji`, `date`, `date_display`, `month`
+- Shared fields: `type`, `emoji`, `date`, `date_display`, `month`, `pub_ts`
 - Optional sync/provenance fields: `guid`, `source`, `url`, `set_track_count`, `set_start_uts`, `set_end_uts`
 
 Do not treat `lead` or `meta` as canonical fields.
+
+See [docs/media-sync.md](../../../docs/media-sync.md) for sources, schema, and deduplication reference.
 
 ## Inputs And Dependencies
 
@@ -31,10 +34,11 @@ Do not treat `lead` or `meta` as canonical fields.
 - Expected env file: `.env`
 - Required env var: `LASTFM_API_KEY` (only needed when Last.fm fallback fires)
 - Primary entrypoint: `scripts/sync_media.rb`
-- Secondary scripts:
+- Secondary scripts (same `scripts/` folder):
   - `scripts/sync_recordclub.rb` — Record Club RSS (primary music source)
   - `scripts/sync_lastfm.rb` — Last.fm API (fallback when Record Club returns no new entries)
   - `scripts/sync_letterboxd.rb` — Letterboxd RSS (films)
+  - `scripts/musicbrainz.rb` — shared MusicBrainz lookup utilities
 
 ## Workflow
 
@@ -51,8 +55,8 @@ Do not treat `lead` or `meta` as canonical fields.
 4. Run the sync from the repo root:
 
 ```bash
-ruby scripts/sync_media.rb
-ruby scripts/sync_media.rb --dry-run
+ruby .claude/skills/media-sync/scripts/sync_media.rb
+ruby .claude/skills/media-sync/scripts/sync_media.rb --dry-run
 ```
 
 5. Review the output summary from the Ruby scripts.
@@ -70,11 +74,13 @@ ruby scripts/sync_media.rb --dry-run
 
 ## Entry Ordering Rules
 
-Within a single `date`, entries must be ordered by type: **TV rows on top, film rows in the middle, album rows at the bottom.**
+All entries have a `pub_ts` field. The template sorts by `date` descending (primary), then `pub_ts` descending within each date — do not manually reorder entries in the JSON.
 
-For TV entries that share the same `date`, preserve chronological episode order: **oldest episode below, newest above.**
-
-When adding new entries, insert them so that both rules hold across the whole file (which is sorted newest-first by date overall).
+**`pub_ts` must be assigned correctly when adding TV entries manually:**
+- Serializd pastes newest-first, so assign descending `pub_ts` values in paste order.
+- TV `pub_ts` must be higher than the highest non-TV `pub_ts` on the same date, so TV appears above albums and films for that day.
+- If non-TV entries exist on that date: `base = max_non_tv_pub_ts + (entry_count * 60)`, then subtract 60 per entry in paste order.
+- If no non-TV entries exist on that date: `base = date_midnight_utc + 86399`, then subtract 60 per entry in paste order.
 
 ## Deduplication Rules
 
@@ -91,19 +97,12 @@ When adding new entries, insert them so that both rules hold across the whole fi
 - Only fall back to web lookup when the field is still missing after checking existing data.
 - Keep nullable fields null rather than inventing values.
 
-## Within-Date Ordering
-
-Entries within a date are sorted by: **type** (TV → film → music), then **sub-timestamp descending** (`set_start_uts` for Last.fm, `pub_ts` for RC/Letterboxd).
-
-For RC entries sharing the same listen date, `pub_ts` (from RSS `pubDate`) is the tiebreaker: older pubDate = listened earlier = shown lower on page (page is newest-first, so highest pub_ts appears at top).
-
 After editing `media.json` directly (not via the sync script), restart the Jekyll server or `touch _data/media.json` to trigger a rebuild — auto-regeneration does not always pick up manual edits.
 
 ## Failure Handling
 
-- If the script reports `Missing LASTFM_API_KEY`, load `.env` or export the variable and rerun.
+- If the script reports `Missing LASTFM_API_KEY`, the `.env` file is missing or the key is not set in it.
 - If Last.fm or another upstream service returns a transient error (e.g. HTTP 502), retry once before concluding the sync failed.
-- If the sync rewrites ordering beyond the genuinely new rows, call that out rather than silently accepting it.
 - Do not overwrite or revert unrelated changes in `_data/media.json` or the sync scripts unless the user explicitly asks.
 
 ## Response Pattern

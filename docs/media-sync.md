@@ -14,7 +14,7 @@ Import new media activity into `_data/media.json` whenever you feel like it.
 ## Running a Sync
 
 ```bash
-ruby scripts/sync_media.rb
+ruby .claude/skills/media-sync/scripts/sync_media.rb
 # Options:
 #   --dry-run   preview changes without writing
 ```
@@ -32,7 +32,7 @@ timestamp of the most recent existing Last.fm entry (or 90 days back if none exi
 
 ## Output Schema
 
-Shared fields on every entry: `type`, `emoji`, `date`, `date_display`, `month`
+Shared fields on every entry: `type`, `emoji`, `date`, `date_display`, `month`, `pub_ts`
 
 | Type | Additional fields |
 |---|---|
@@ -43,8 +43,12 @@ Shared fields on every entry: `type`, `emoji`, `date`, `date_display`, `month`
 
 ## Entry Ordering
 
-Within a single `date`: TV rows on top, film rows in the middle, album rows at the bottom.
-For TV entries on the same date: newest episode above, oldest below.
+Entries are sorted at build time by `date` descending (primary), then `pub_ts` descending within each date. JSON order is not meaningful.
+
+- **Films**: `pub_ts` comes from the Letterboxd RSS `pubDate` (or review GUID as fallback).
+- **Music (Record Club)**: `pub_ts` comes from the RSS `pubDate`.
+- **Music (Last.fm)**: `pub_ts` is copied from `set_start_uts`.
+- **TV**: synthetic `pub_ts` assigned manually, set higher than the highest non-TV `pub_ts` on the same date so TV appears above albums and films for that day.
 
 ## Deduplication
 
@@ -53,11 +57,3 @@ For TV entries on the same date: newest episode above, oldest below.
 - Keep nullable fields `null` rather than inventing values.
 - Record Club entries use the diary entry URL as GUID (unique per listen, `/2` suffix for repeats).
 - Last.fm entries use `lastfm-album-set-{album_key}|{start_uts}|{end_uts}` as GUID.
-
-## Feeds
-
-| Feed | URL | Contents |
-|---|---|---|
-| Full | `/feed.xml` | Posts + recent media + photos |
-| Posts only | `/posts.xml` | Blog posts only |
-| Photos only | `/photos.xml` | Photo entries |

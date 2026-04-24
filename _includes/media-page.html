@@ -1,5 +1,6 @@
-{% assign entries = site.data.media.entries %}
-{% assign months = entries | map: "month" | uniq %}
+{% assign entries_by_pts = site.data.media.entries | sort: "pub_ts" | reverse %}
+{% assign dates = entries_by_pts | map: "date" | uniq | sort | reverse %}
+{% assign months = entries_by_pts | map: "month" | uniq %}
 
 <div class="media-filters" aria-label="Filter media entries">
   <span class="media-filters-label">Filter by:&nbsp;</span>
@@ -15,8 +16,9 @@
 <div class="media-month-group" data-media-month-group>
   <table class="media-table" aria-label="{{ month }} media entries">
     <tbody>
-      {% for entry in entries %}
-        {% if entry.month == month %}
+      {% for date in dates %}
+        {% assign day_entries = entries_by_pts | where: "date", date | where: "month", month %}
+        {% for entry in day_entries %}
           {% assign entry_title = '' %}
           {% assign entry_meta = '' %}
           {% if entry.type == 'film' %}
@@ -60,7 +62,7 @@
             </td>
             <td class="media-table-date">{{ entry.date_display }}</td>
           </tr>
-        {% endif %}
+        {% endfor %}
       {% endfor %}
     </tbody>
   </table>

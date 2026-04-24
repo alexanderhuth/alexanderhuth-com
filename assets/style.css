@@ -485,9 +485,6 @@ pre code {
   }
 }
 
-.media-table tr[data-media-type="tv"] .media-table-meta {
-  color: inherit;
-}
 
 .grounds-table .media-table-meta {
   overflow: visible;

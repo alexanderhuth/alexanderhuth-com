@@ -4,7 +4,7 @@ title: Alexander Huth
 heading: Hello 👋
 ---
 
-**Hi, I’m Alexander. I’m a Marketing consultant, advisor, and mentor focused on helping companies with their organic growth. [You should work with me](/consulting/).**  
+**Hi, I’m Alexander. I’m a Marketing consultant focused on helping companies with their organic growth. [You should work with me](/consulting/).**  
 
 I’m based in Berlin and spend my leisure time cycling, collecting records, going to concerts, drinking pourover coffee, making lists, and obsessing over films.
 

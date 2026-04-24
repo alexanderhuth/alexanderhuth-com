@@ -8,10 +8,10 @@ permalink: /now/
 What I’m doing or focused on right now.
 
 - 👨‍💻 Vibe-coding one-two small projects per week
-- 🎓 Teaching Search Marketing at XU in Potsdam
+- 🎓 Teaching Search Marketing and Mobile Marketing at XU in Potsdam
 - 🌍 Tinkering with this little website
 - 🌳 Exploring Düppeler Forst on my mountain bike
-- 💡 Working on making our home smarter
+- 💡 Working on making our new home smarter
 {: .emoji-list}
 
 ## Then

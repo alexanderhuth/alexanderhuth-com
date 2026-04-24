@@ -7,5 +7,6 @@ _site/
 vendor/
 .env
 .env.local
-/scripts/
 output/
+.claude/settings.local.json
+.claude/worktrees/

@@ -1,5 +1,27 @@
 [
   {
+    "setlist_id": "6b4bbe4a",
+    "date": "2026-04-22",
+    "artist": "We Are Scientists",
+    "venue": "Lido",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/we-are-scientists/2026/lido-berlin-germany-6b4bbe4a.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "3377f859",
+    "date": "2026-04-22",
+    "artist": "Sean McVerry",
+    "venue": "Lido",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/sean-mcverry/2026/lido-berlin-germany-3377f859.html",
+    "festival_parent": null
+  },
+  {
     "setlist_id": "1b4ef1b4",
     "date": "2026-04-07",
     "artist": "Dry Cleaning",

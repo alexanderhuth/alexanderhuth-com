@@ -247,7 +247,7 @@ end
 
 def load_media_data(path)
   if File.exist?(path)
-    JSON.parse(File.read(path))
+    JSON.parse(File.read(path, encoding: "UTF-8"))
   else
     { "entries" => [] }
   end

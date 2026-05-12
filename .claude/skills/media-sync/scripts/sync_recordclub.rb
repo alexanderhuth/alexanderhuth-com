@@ -142,7 +142,7 @@ end
 def load_media_data(path)
   return { "entries" => [] } unless File.exist?(path)
 
-  JSON.parse(File.read(path))
+  JSON.parse(File.read(path, encoding: "UTF-8"))
 end
 
 

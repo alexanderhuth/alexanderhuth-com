@@ -4,6 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
+**Things I've built on the internet.**
+
 ## Rated by Critics
 
 [Rated by Critics](https://ratedbycritics.alexanderhuth.com) is a small project that regularly fetches and aggregates film ratings from renowned critics and influencers on Letterboxd, inspired by platforms like MetaCritic and Rotten Tomatoes.
@@ -12,7 +14,7 @@ Uses Astro, n8n, Cloudflare Pages, Github Actions, the TMDb API, Letterboxd RSS.
 
 ## Talking Film
 
-Launching in April 2026, Talking Film will be a website to help find podcast episodes about specific films.
+Launching in the first half of 2026, Talking Film will be a website to help find podcast episodes about specific films.
 
 Uses Astro, the TMDb and Wikidata APIs.
 
@@ -27,6 +29,10 @@ I started the list in early 2021, by now the entire behind-the-scenes work has b
 A [collection of small tools](https://tools.alexanderhuth.com) built with the help of LLMs.
 
 Plain HTML + JavaScript tools. Astro to generate the static pages. Cloudflare Pages and Github Actions to automatically build and serve.
+
+## huth.im
+
+A simple link shortener.
 
 ## Discographr
 

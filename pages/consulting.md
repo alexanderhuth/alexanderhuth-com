@@ -8,7 +8,7 @@ description: Berlin-based consultant helping teams drive sustainable organic gro
 
 ---
 
-I’m a Berlin-based consultant, advisor, and mentor focused on sustainable organic growth — helping organisations reach and serve their audiences through SEO, content marketing, and the AI-driven discovery channels reshaping both.
+**I’m a Berlin-based consultant, advisor, and mentor focused on sustainable organic growth — helping organisations reach and serve their audiences through SEO, content marketing, and the AI-driven discovery channels reshaping both.**
 
 With a proven track record of building, leading, and supporting high-performing SEO and content teams, I help organisations do the right things — and build the confidence to know what those things are. That means stronger strategy, better operations, content that genuinely helps the people it’s made for, and the judgement and AI-awareness to adopt new tools and channels with clarity rather than hype.
 

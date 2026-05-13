@@ -1,19 +1,15 @@
 ---
 layout: page
 title: Contact
+heading: Get in touch
 permalink: /contact/
+robots: noindex
 ---
 
-**Get in touch with me.**
-
-<div class="h-card vcard" markdown="1">
-
-- 👤 Name: [Alexander Huth](https://alexanderhuth.com){: .p-name .fn .u-url .url rel="me"}
-- 📍 Location: <span class="p-locality locality">Berlin</span>, <span class="p-country-name country-name">Germany</span>
-- 📧 Email: [alexander@huth.im](mailto:alexander@huth.im){: .u-email .email}
-- 💬 Signal: [huth.im/signal](https://huth.im/signal){: .u-impp .impp}
-- 📱 Phone: [+49 176 50122042](tel:+4917650122042){: .u-tel .tel}
-- 📆 Meet: [alexanderhuth.com/meet](/meet/)
+- 📧 Email: [alexander@huth.im](mailto:alexander@huth.im)
+- 💼 LinkedIn: [linkedin.com/in/alexanderhuth]({{ site.socials.linkedin }})
+- 💬 Signal: [huth.im/signal]({{ site.socials.signal }})
+- ✈️ Telegram: [huth.im/telegram]({{ site.socials.telegram }})
+- 📱 Phone: [+49 176 50122042](tel:+4917650122042)
+- 📆 Meet: [alexanderhuth.com/meet](/meet/){:rel="nofollow"}
 {: .emoji-list}
-
-</div>

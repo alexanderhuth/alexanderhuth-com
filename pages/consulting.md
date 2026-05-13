@@ -14,7 +14,7 @@ With a proven track record of building, leading, and supporting high-performing 
 
 I work with in-house teams and leadership, venture capital firms, investors, and boards, as well as agencies and consulting firms — adapting my approach to each organisation’s capabilities, needs, and ambitions.
 
-**Want to learn more? Let's [jump on a call](/meet/)!**
+**Want to learn more? Let's [jump on a call](/meet/){:rel="nofollow"}!**
 
 ## Where I Come In
 

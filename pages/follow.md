@@ -16,7 +16,10 @@ Find me here:
 - 🎸 Concert diary on [setlist.fm]({{ site.socials.setlist }}){:rel="me"}.
 - 🚴 [Strava]({{ site.socials.strava }}){:rel="me"} or it didn't happen.
 - 📸 Haven't posted on [Instagram]({{ site.socials.instagram }}){:rel="me"} in a while...
+- 📍 Still checking in on [Swarm]({{ site.socials.foursquare }}){:rel="me"}.
 {: .emoji-list}
+
+Want to get in touch directly? Head over to the [contact page](/contact/).
 
 Subscribe via RSS:
 

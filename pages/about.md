@@ -17,3 +17,5 @@ In 2019, I went independent as a [marketing consultant](/consulting/). Since the
 For 18 years, I lived in Northern Schöneberg and Southern Tiergarten before moving to Wannsee in 2025.
 
 I’ve supported Bayer 04 Leverkusen ever since Michael Ballack scored an own goal against Unterhaching. Spending time in California during the 2013 NFL Playoffs turned me into a 49ers Faithful. And while I still don’t fully understand all the intricacies of rugby, I try to attend Bristol Bears games whenever we’re visiting Kate’s family and friends in North Somerset.
+
+Want to get in touch? Head over to the [contact page](/contact/).

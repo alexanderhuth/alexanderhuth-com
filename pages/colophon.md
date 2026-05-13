@@ -16,7 +16,7 @@ The [/photos](/photos/) feed is built from the `_photos/` collection plus image 
 
 The charts on the [/letterboxd](/letterboxd/) pages are rendered client-side with [Chart.js](https://www.chartjs.org/), fed from pre-aggregated JSON in `_data/`. No images, no server-side rendering — just data and a script.
 
-The [/meet](/meet/) page is a lightweight booking system. Availability and bookings are handled by an n8n webhook; the page fetches open slots client-side and posts the booking back. Cloudflare Turnstile handles spam protection.
+The [/meet](/meet/){:rel="nofollow"} page is a lightweight booking system. Availability and bookings are handled by an n8n webhook; the page fetches open slots client-side and posts the booking back. Cloudflare Turnstile handles spam protection.
 
 A single handmade stylesheet (`assets/style.css`) handles everything. An inline snippet randomly applies one of the theme classes (`sand`, `amber`, `seaglass` etc.) to rotate background colors. There are no external fonts, client-side frameworks, or build steps for CSS/JS.
 

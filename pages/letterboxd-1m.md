@@ -8,7 +8,7 @@ robots: noindex
 slashes_exclude: true
 ---
 
-The [Letterboxd One Million Watched Club](https://boxd.it/bAS2M) by the numbers. Up-to-date as of April 1, 2026.
+The [Letterboxd One Million Watched Club](https://boxd.it/bAS2M) by the numbers.
 
 ## Club Growth
 

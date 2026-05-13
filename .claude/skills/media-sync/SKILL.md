@@ -32,7 +32,9 @@ See [docs/media-sync.md](../../../docs/media-sync.md) for sources, schema, and d
 
 - Run from the repository root.
 - Expected env file: `.env`
-- Required env var: `LASTFM_API_KEY` (only needed when Last.fm fallback fires)
+- Required env vars:
+  - `LASTFM_API_KEY` — only needed when Last.fm fallback fires
+  - `SERIALIZD_TOKEN` — JWT for the Serializd diary API (optional; fall back to user paste if absent)
 - Primary entrypoint: `scripts/sync_media.rb`
 - Secondary scripts (same `scripts/` folder):
   - `scripts/sync_recordclub.rb` — Record Club RSS (primary music source)
@@ -48,9 +50,10 @@ See [docs/media-sync.md](../../../docs/media-sync.md) for sources, schema, and d
    - The JSON shape is `{ "entries": [...] }`.
    - The `month` field is a label such as `"April 2026"`, not `"2026-04"`.
 
-3. **Always ask** whether there are any new TV entries on [Serializd diary](https://www.serializd.com/user/alexanderh/diary) — do this every time, even if the user didn't mention it.
-   - If the page is not accessible from the current environment, ask the user to paste the new entries.
-   - Treat the user's pasted list as source data for manual TV updates to `_data/media.json`.
+3. **Always fetch new TV entries from the Serializd diary** — do this every time, even if the user didn't mention it.
+   - If `SERIALIZD_TOKEN` is set in `.env`, call the API directly (see **Serializd Diary API** below). Page through until you've seen entries already present in `media.json`.
+   - If the token is absent or the API is unreachable, ask the user to paste new entries from [their Serializd diary](https://www.serializd.com/user/alexanderh/diary).
+   - Treat API results or the user's pasted list as source data for manual TV updates to `_data/media.json`.
 
 4. Run the sync from the repo root:
 
@@ -98,6 +101,26 @@ All entries have a `pub_ts` field. The template sorts by `date` descending (prim
 - Keep nullable fields null rather than inventing values.
 
 After editing `media.json` directly (not via the sync script), restart the Jekyll server or `touch _data/media.json` to trigger a rebuild — auto-regeneration does not always pick up manual edits.
+
+## Serializd Diary API
+
+**Endpoint:** `GET https://serializd.onrender.com/api/user/{username}/diary`
+
+**Required headers:**
+- `Authorization: Bearer {SERIALIZD_TOKEN}`
+- `X-Requested-With: serializd_vercel`
+
+**Params:**
+- `page` (int, default 1) — 24 entries per page
+- `include_target` — omit for all, or filter by `shows` / `episodes` / `seasons`
+
+**Response shape:** `{ reviews: [...], totalPages: N, totalReviews: null }`
+
+**Entry fields:** `id`, `backdate`, `dateAdded`, `rating` (0 = unrated), `isLog`, `isRewatch`, `episodeNumber`, `episodeName`, `seasonId`, `showId`, `showName`, `showPremiereDate`, `reviewText`, `like`, `tags`
+
+**Season resolution:** Each entry also includes `showSeasons` — an array of `{ id, seasonNumber, name, posterPath }` objects for the show. Match `seasonId` against `showSeasons[].id` to get the actual `seasonNumber`. No external lookup needed.
+
+**Token:** JWT with ~1-year lifetime. The user extracts it from `document.cookie` in the browser console while logged into serializd.com — grab the `tvproject_credentials=...` value and store it as `SERIALIZD_TOKEN` in `.env`. Check the JWT `expiry_time` field if the API returns 401.
 
 ## Failure Handling
 

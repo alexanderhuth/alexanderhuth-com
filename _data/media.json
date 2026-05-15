@@ -3,6 +3,66 @@
     {
       "type": "tv",
       "emoji": "📺",
+      "date": "2026-05-14",
+      "date_display": "May 14",
+      "month": "May 2026",
+      "show_title": "Legends",
+      "season_number": 1,
+      "episode_number": 6,
+      "episode_title": "Legends Never Die",
+      "pub_ts": 1778832254
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
+      "date": "2026-05-14",
+      "date_display": "May 14",
+      "month": "May 2026",
+      "show_title": "Legends",
+      "season_number": 1,
+      "episode_number": 5,
+      "episode_title": "Old Kings",
+      "pub_ts": 1778832194
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
+      "date": "2026-05-14",
+      "date_display": "May 14",
+      "month": "May 2026",
+      "show_title": "Legends",
+      "season_number": 1,
+      "episode_number": 4,
+      "episode_title": "The War on Drugs",
+      "pub_ts": 1778832134
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
+      "date": "2026-05-14",
+      "date_display": "May 14",
+      "month": "May 2026",
+      "show_title": "Legends",
+      "season_number": 1,
+      "episode_number": 3,
+      "episode_title": "This Is Liverpool",
+      "pub_ts": 1778832074
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
+      "date": "2026-05-14",
+      "date_display": "May 14",
+      "month": "May 2026",
+      "show_title": "Criminal Record",
+      "season_number": 2,
+      "episode_number": 4,
+      "episode_title": "Safe",
+      "pub_ts": 1778832014
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
       "date": "2026-05-12",
       "date_display": "May 12",
       "month": "May 2026",
@@ -5091,6 +5151,48 @@
       "director": null,
       "url": "https://letterboxd.com/alexanderh/film/blue-christmas/",
       "pub_ts": 1766160913
+    },
+    {
+      "guid": "https://record.club/alexanderh/releases/albums/broken-social-scene-you-forgot-it-in-people",
+      "source": "recordclub",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-05-13",
+      "date_display": "May 13",
+      "month": "May 2026",
+      "album": "You Forgot It in People",
+      "artist": "Broken Social Scene",
+      "year": 2002,
+      "url": "https://record.club/alexanderh/releases/albums/broken-social-scene-you-forgot-it-in-people",
+      "pub_ts": 1778744194
+    },
+    {
+      "guid": "https://record.club/alexanderh/releases/albums/broken-social-scene-remember-the-humans/3",
+      "source": "recordclub",
+      "type": "music",
+      "emoji": "💿",
+      "date": "2026-05-13",
+      "date_display": "May 13",
+      "month": "May 2026",
+      "album": "Remember the Humans",
+      "artist": "Broken Social Scene",
+      "year": 2026,
+      "url": "https://record.club/alexanderh/releases/albums/broken-social-scene-remember-the-humans",
+      "pub_ts": 1778744173
+    },
+    {
+      "guid": "letterboxd-watch-1316387208",
+      "source": "letterboxd",
+      "type": "film",
+      "emoji": "🎬",
+      "date": "2026-05-14",
+      "date_display": "May 14",
+      "month": "May 2026",
+      "title": "It's All Gonna Break",
+      "year": 2024,
+      "director": "Stephen Chung",
+      "url": "https://letterboxd.com/alexanderh/film/its-all-gonna-break/",
+      "pub_ts": 1778831954
     }
   ]
 }

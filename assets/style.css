@@ -709,7 +709,23 @@ pre code {
   padding: 0.6rem 0.75rem;
   font: inherit;
   background: transparent;
-  color: inherit;
+  color: var(--text-color);
+}
+
+.meet-form input::placeholder,
+.meet-form textarea::placeholder {
+  color: color-mix(in srgb, var(--text-color) 55%, var(--bg-color) 45%);
+  opacity: 1;
+}
+
+.meet-form input:-webkit-autofill,
+.meet-form input:-webkit-autofill:hover,
+.meet-form input:-webkit-autofill:focus,
+.meet-form textarea:-webkit-autofill,
+.meet-form select:-webkit-autofill {
+  -webkit-text-fill-color: var(--text-color);
+  -webkit-box-shadow: 0 0 0 1000px var(--bg-color) inset;
+  caret-color: var(--text-color);
 }
 
 .meet-form textarea {

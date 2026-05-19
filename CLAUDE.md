@@ -15,9 +15,9 @@ bundle exec jekyll clean
 
 ## Detailed Guidelines
 
-- [Commands & deployment](docs/commands.md)
-- [Content, front matter & file naming](docs/content.md)
-- [CSS architecture & theming](docs/theming.md)
-- [Meet booking system](docs/meet.md)
-- [Media sync workflow](docs/media-sync.md)
-- [Photos feed](docs/photos.md)
+- [Commands & deployment](_docs/commands.md)
+- [Content, front matter & file naming](_docs/content.md)
+- [CSS architecture & theming](_docs/theming.md)
+- [Meet booking system](_docs/meet.md)
+- [Media sync workflow](_docs/media-sync.md)
+- [Photos feed](_docs/photos.md)

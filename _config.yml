@@ -27,10 +27,6 @@ defaults:
     values:
       theme: sand
 
-# --- Include in build ---
-include:
-  - _headers
-
 # --- Exclude from build ---
 exclude:
   - Gemfile
@@ -39,6 +35,7 @@ exclude:
   - vendor
   - README.md
   - AGENTS.md
+  - CLAUDE.md
 
 # --- Social / Profile links ---
 socials:

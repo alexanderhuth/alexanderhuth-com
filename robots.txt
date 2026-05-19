@@ -4,4 +4,5 @@ Content-Signal: search=yes, ai-train=no, ai-input=yes
 
 Sitemap: https://alexanderhuth.com/sitemap.xml
 Sitemap: https://alexanderhuth.com/feed.xml
+Sitemap: https://alexanderhuth.com/posts.xml
 Sitemap: https://alexanderhuth.com/photos.xml

@@ -18,6 +18,6 @@ The charts on the [/letterboxd](/letterboxd/) pages are rendered client-side wit
 
 The [/meet](/meet/){:rel="nofollow"} page is a lightweight booking system. Availability and bookings are handled by an n8n webhook; the page fetches open slots client-side and posts the booking back. Cloudflare Turnstile handles spam protection.
 
-A single handmade stylesheet (`assets/style.css`) handles everything. An inline snippet randomly applies one of the theme classes (`sand`, `amber`, `seaglass` etc.) to rotate background colors. There are no external fonts, client-side frameworks, or build steps for CSS/JS.
+A single handmade stylesheet (`assets/style.css`) handles everything — see [/style](/style/) for a live reference of the components and the full theme palette. An inline snippet randomly applies one of the theme classes (`sand`, `mustard`, `seaglass` etc.) to rotate background colors. There are no external fonts, client-side frameworks, or build steps for CSS/JS.
 
 Cobbled together in Zed and Micro, with a little help from different LLMs. Built locally with Jekyll, versioned on GitHub, and published as static HTML on [statichost.eu](https://www.statichost.eu).

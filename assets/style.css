@@ -48,10 +48,10 @@ body {
   --link-hover: var(--text-color);
 }
 
-.amber {
-  --bg-color: #fff5cc;
-  --text-color: #2a1b00;
-  --border-color: #e0c978;
+.mustard {
+  --bg-color: #f1d772;
+  --text-color: #2a1f00;
+  --border-color: #c9a955;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
 }
@@ -65,22 +65,22 @@ body {
 }
 
 .coral {
-  --bg-color: #ffe8dd;
-  --text-color: #2c160f;
-  --border-color: #f1c2ae;
+  --bg-color: #f4c4c8;
+  --text-color: #1a1414;
+  --border-color: #d99aa1;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
 }
 
-.peach {
-  --bg-color: #fcdbca;
-  --text-color: #3a3a3a;
-  --border-color: #e8a888;
+.terracotta {
+  --bg-color: #e8a87f;
+  --text-color: #2c1a0a;
+  --border-color: #c98562;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
 }
 
-.dawn {
+.slate {
   --bg-color: #242c38;
   --text-color: #f1f3f7;
   --border-color: #3a4556;
@@ -97,9 +97,9 @@ body {
 }
 
 .forest {
-  --bg-color: #0f2f1f;
+  --bg-color: #0a3a25;
   --text-color: #e9f5ed;
-  --border-color: #1f4b32;
+  --border-color: #1d5236;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
 }
@@ -113,9 +113,25 @@ body {
 }
 
 .sky {
-  --bg-color: #e7f0ff;
-  --text-color: #0f274f;
-  --border-color: #c2d4f3;
+  --bg-color: #a8c8f0;
+  --text-color: #0a1f3d;
+  --border-color: #6f9bd1;
+  --link-color: var(--text-color);
+  --link-hover: var(--text-color);
+}
+
+.lilac {
+  --bg-color: #dccef0;
+  --text-color: #211a35;
+  --border-color: #bca7d7;
+  --link-color: var(--text-color);
+  --link-hover: var(--text-color);
+}
+
+.plum {
+  --bg-color: #3a1f3a;
+  --text-color: #f3e9f3;
+  --border-color: #5a3a5a;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
 }

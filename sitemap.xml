@@ -12,7 +12,7 @@ permalink: /sitemap.xml
     {% assign ext5 = url_lc | slice: -5, 5 %}
     {% if robots_val contains "noindex" %}{% continue %}{% endif %}
     {% if url_lc contains "/404" %}{% continue %}{% endif %}
-    {% if ext4 == ".css" or ext4 == ".xml" or ext5 == ".xml/" or ext5 == ".json" or ext5 == "json/" %}{% continue %}{% endif %}
+    {% if ext4 == ".css" or ext4 == ".xml" or ext4 == ".txt" or ext5 == ".xml/" or ext5 == ".json" or ext5 == "json/" or ext5 == ".txt/" %}{% continue %}{% endif %}
       <url>
         <loc>{{ item.url | absolute_url }}</loc>
       </url>

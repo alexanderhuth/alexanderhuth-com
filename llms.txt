@@ -1,0 +1,43 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Alexander Huth
+
+> Personal website of Alexander Huth, a Berlin-based marketing consultant focused on sustainable organic growth — SEO, content marketing, and AI-driven discovery. Beyond consulting, the site is a personal archive of his interests: films, music, concerts, photography, travel, coffee, and lists.
+
+Alexander has worked in SEO and organic growth since 2009 and has been an independent consultant since 2019. This site is a hand-built static Jekyll site with no tracking, no cookies, and no third-party embeds. The background color changes on every page load.
+
+## Main pages
+
+- [Home]({{ "/" | absolute_url }}): Short introduction to Alexander and the site.
+- [About]({{ "/about/" | absolute_url }}): Biography — background, career history, and life in Berlin.
+- [Consulting]({{ "/consulting/" | absolute_url }}): Organic growth consulting — due diligence, strategy, and operational excellence across SEO, content, and AI-driven discovery.
+- [Now]({{ "/now/" | absolute_url }}): What Alexander is currently doing and focused on.
+- [Colophon]({{ "/colophon/" | absolute_url }}): How the site is built and served.
+- [Follow]({{ "/follow/" | absolute_url }}): Links to Alexander's profiles across the web.
+
+## Writing
+
+- [Posts]({{ "/posts/" | absolute_url }}): Index of all blog posts.
+- [My Year in Lists: 2024]({{ "/posts/2024-in-lists/" | absolute_url }}): Year-end lists for 2024.
+- [My Year in Lists: 2025]({{ "/posts/2025-in-lists/" | absolute_url }}): Year-end lists for 2025.
+
+## Interests and collections
+
+- [Media]({{ "/media/" | absolute_url }}): An ongoing media diet — films, TV shows, and albums.
+- [Photos]({{ "/photos/" | absolute_url }}): A personal photo feed.
+- [Letterboxd]({{ "/letterboxd/" | absolute_url }}): Film-watching stats and charts.
+- [Concerts]({{ "/concerts/" | absolute_url }}): An archive of every concert attended.
+- [Grounds]({{ "/grounds/" | absolute_url }}): Sports stadiums visited.
+- [Visited]({{ "/visited/" | absolute_url }}): Countries and territories visited.
+- [Top 4]({{ "/top4/" | absolute_url }}): Definitive top-four lists for albums, films, and more.
+- [Uses]({{ "/uses/" | absolute_url }}): Tools, gear, and software Alexander relies on.
+- [Projects]({{ "/projects/" | absolute_url }}): Things Alexander has built on the internet.
+
+## Optional
+
+- [Slashes]({{ "/slashes/" | absolute_url }}): Index of the site's slash pages.
+- [Main feed]({{ "/feed.xml" | absolute_url }}): Atom feed of posts and photos.
+- [Posts feed]({{ "/posts.xml" | absolute_url }}): Atom feed of blog posts only.
+- [Photos feed]({{ "/photos.xml" | absolute_url }}): Atom feed of photos only.

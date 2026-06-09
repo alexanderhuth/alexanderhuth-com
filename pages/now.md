@@ -7,6 +7,8 @@ permalink: /now/
 
 What I’m doing or focused on right now.
 
+- 🪚 Building furniture for our new home
+- 🐟 Kicking off summer and jumping into lakes
 - 👨‍💻 Vibe-coding one-two small projects per week
 - 🤖 Integrating Hermes Agent into my life
 - 🎓 Teaching Search Marketing and Mobile Marketing at XU in Potsdam

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-heading: Get in touch
+heading: Get in touch with me
 permalink: /contact/
 robots: noindex
 ---

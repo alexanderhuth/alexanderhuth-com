@@ -1,5 +1,49 @@
 [
   {
+    "setlist_id": "73721aa1",
+    "date": "2026-06-25",
+    "artist": "Algernon Cadwallader",
+    "venue": "Thekla",
+    "city": "Bristol",
+    "country": "England",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/algernon-cadwallader/2026/thekla-bristol-england-73721aa1.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "7b4a26cc",
+    "date": "2026-06-11",
+    "artist": "Sugar",
+    "venue": "Hole 44",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/sugar/2026/hole-44-berlin-germany-7b4a26cc.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "437553af",
+    "date": "2026-06-11",
+    "artist": "J. Robbins",
+    "venue": "Hole 44",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/j-robbins/2026/hole-44-berlin-germany-437553af.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "6374ea4b",
+    "date": "2026-06-10",
+    "artist": "Mike D",
+    "venue": "Säälchen",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/mike-d/2026/saalchen-berlin-germany-6374ea4b.html",
+    "festival_parent": null
+  },
+  {
     "setlist_id": "734be2f1",
     "date": "2026-05-30",
     "artist": "Dressed Like Boys",

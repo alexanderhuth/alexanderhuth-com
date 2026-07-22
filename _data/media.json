@@ -3,6 +3,42 @@
     {
       "type": "tv",
       "emoji": "📺",
+      "date": "2026-07-21",
+      "date_display": "Jul 21",
+      "month": "July 2026",
+      "show_title": "Rivals",
+      "season_number": 2,
+      "episode_number": 4,
+      "episode_title": "Episode 4",
+      "pub_ts": 1784643012
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
+      "date": "2026-07-21",
+      "date_display": "Jul 21",
+      "month": "July 2026",
+      "show_title": "Rivals",
+      "season_number": 2,
+      "episode_number": 3,
+      "episode_title": "Episode 3",
+      "pub_ts": 1784642952
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
+      "date": "2026-07-21",
+      "date_display": "Jul 21",
+      "month": "July 2026",
+      "show_title": "Rivals",
+      "season_number": 2,
+      "episode_number": 2,
+      "episode_title": "Episode 2",
+      "pub_ts": 1784642892
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
       "date": "2026-07-04",
       "date_display": "Jul 4",
       "month": "July 2026",

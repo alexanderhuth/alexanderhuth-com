@@ -1,0 +1,15 @@
+{% assign photos = site.photos | sort: "date" | reverse %}
+{% if photos.size > 0 %}
+<div class="photo-grid">
+{% for photo in photos limit:50 %}
+{%- assign fn = photo.image | split: "/" | last -%}
+{%- assign slug = fn | split: "." | first -%}
+{%- if photo.width > photo.height -%}{%- assign shape = 'landscape' -%}
+{%- elsif photo.width < photo.height -%}{%- assign shape = 'portrait' -%}
+{%- else -%}{%- assign shape = 'square' -%}{%- endif -%}
+<a href="/photos/{{ slug }}/" class="{{ shape }}"><img src="/images/480/{{ fn }}" srcset="/images/480/{{ fn }} 480w, /images/720/{{ fn }} 720w" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" decoding="async"{% if forloop.first %} fetchpriority="high"{% endif %}></a>
+{% endfor %}
+</div>
+{% else %}
+<p>No photos yet. Check back soon.</p>
+{% endif %}

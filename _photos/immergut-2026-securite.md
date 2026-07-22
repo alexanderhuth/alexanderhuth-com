@@ -8,5 +8,5 @@ image: /images/immergut-2026-securite.jpg
 width: 1920
 height: 1080
 alt: "La Sécurité performing on stage at Immergut Festival 2026."
-location: "Immergut Festival, Neustrelitz"
+location: "Immergut Festival"
 ---

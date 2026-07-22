@@ -8,5 +8,5 @@ image: /images/sakura-sky.jpg
 width: 1920
 height: 1277
 alt: "Pink cherry blossom trees in full bloom against clear blue spring sky."
-location: "Gärten der Welt, Berlin"
+location: "Gärten der Welt"
 ---

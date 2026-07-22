@@ -14,7 +14,7 @@ Uses Astro, n8n, Cloudflare Pages, Github Actions, the TMDb API, Letterboxd RSS.
 
 ## Talking Film
 
-Launching in the first half of 2026, Talking Film will be a website to help find podcast episodes about specific films.
+Launching sometime in 2026, Talking Film will be a website to help find podcast episodes about specific films.
 
 Uses Astro, the TMDb and Wikidata APIs.
 

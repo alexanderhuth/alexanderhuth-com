@@ -2,34 +2,16 @@
 layout: base
 ---
 <main role="main">
-  <article class="photo-page">
-    <header class="photo-page-header">
-      {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-    </header>
-    <figure class="photo-media">
-      {% assign photo_filename = page.image | split: "/" | last %}
-      <img
-        src="{{ "/images/" | append: photo_filename | relative_url }}"
-        srcset="{{ "/images/480/" | append: photo_filename | relative_url }} 480w, {{ "/images/720/" | append: photo_filename | relative_url }} 720w, {{ "/images/960/" | append: photo_filename | relative_url }} 960w, {{ "/images/1280/" | append: photo_filename | relative_url }} 1280w, {{ "/images/" | append: photo_filename | relative_url }} 1920w"
-        sizes="(max-width: 960px) 100vw, 960px"
-        alt="{{ page.alt | escape }}"
-        width="{{ page.width }}"
-        height="{{ page.height }}"
-        loading="eager"
-        decoding="async"
-      >
-    </figure>
-    <div class="photo-page-meta">
-      <p class="post-date">
-        <time datetime="{{ page.date | date: "%Y-%m-%d" }}T{{ page.time }}:00+01:00">
-          {{ page.date | date: "%B %-d, %Y" }}{% if page.time %} at {{ page.time }}{% endif %}
-        </time>
-        {% if page.location %} / <span class="photo-location">{{ page.location }}</span>{% endif %}
-      </p>
-      {% if page.alt %}
-        <p class="photo-description">{{ page.alt }}</p>
-      {% endif %}
-    </div>
+  <article>
+    {%- assign fn = page.image | split: "/" | last -%}
+    {%- assign slug = fn | split: "." | first -%}
+    {% include photo-figure.html slug=slug w=page.width h=page.height alt=page.alt caption=page.title loading='eager' %}
+    <p><em>{{ page.alt }}</em></p>
+    <ul class="emoji-list">
+      {% if page.location %}<li>📍 {{ page.location }}</li>{% endif %}
+      <li>📅 <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}{% if page.time %} at {{ page.time }}{% endif %}</time></li>
+      {% if page.camera %}<li>📸 {{ page.camera }}</li>{% endif %}
+    </ul>
   </article>
   <nav aria-label="Photo navigation">
     <p class="post-back"><a href="/photos/">← All photos</a></p>

@@ -8,5 +8,5 @@ image: /images/hagensche-wiek.jpg
 width: 1920
 height: 823
 alt: "Wide panorama of the Hagensche Wiek bay on Rügen in evening light."
-location: "Hagensche Wiek, Rügen"
+location: "Hagensche Wiek auf Rügen"
 ---

@@ -13,11 +13,12 @@ Tools, gear, and software I rely on. Inspired by [uses.tech](https://uses.tech).
 - Pourovers etc.
   - Hario V60 Size 02
   - Clever Dripper
-  - AeroPress
+  - AeroPress (Version 4)
+  - AeroPress Go
   - Chemex 3-Cup (CM-1)
 - Bialetti Moka Express 2-Cup
 - Accessoires:
-	- trendglas JENA For Two glass pot
+  - trendglas JENA For Two glass pot
   - Normcore Spring Loaded Tamper V4
   - Hario V60 Drip Decanter
   - Timemore Black Mirror scales

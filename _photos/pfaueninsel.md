@@ -8,5 +8,5 @@ image: /images/pfaueninsel.jpg
 width: 1440
 height: 1920
 alt: "View from the Badestelle bathing spot across the water towards Pfaueninsel (Peacock Island) in Berlin."
-location: "Badestelle Pfaueninsel, Berlin"
+location: "Badestelle Pfaueninsel"
 ---

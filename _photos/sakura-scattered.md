@@ -8,5 +8,5 @@ image: /images/sakura-scattered.jpg
 width: 1920
 height: 1277
 alt: "White and pale pink cherry blossom petals scattered densely across green grass, viewed from above."
-location: "Gärten der Welt, Berlin"
+location: "Gärten der Welt"
 ---

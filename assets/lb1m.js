@@ -97,6 +97,7 @@
             ticks: {
               color: TEXT,
               font: { size: 11 },
+              autoSkip: false,
               callback: function (value, index) {
                 var label = this.getLabelForValue(value);
                 var maxChars = Math.floor((this.chart.width * 0.3 - 8) / 6.5);
@@ -307,7 +308,7 @@
                 if (!label) return "";
                 var parts = label.split("-");
                 var m = parseInt(parts[1], 10);
-                if (m === 1 && idx > 0) return MONTHS[0] + " " + parts[0];
+                if (m === 1) return MONTHS[0] + " '" + parts[0].slice(2);
                 return "";
               },
             },
@@ -365,7 +366,7 @@
         aspectRatio: 2.2,
         layout: { padding: { top: 20, left: 16, right: 30, bottom: 8 } },
         scales: {
-          y: hiddenY({ beginAtZero: true }),
+          y: hiddenY({ beginAtZero: true, _headroom: 0.1 }),
           x: {
             type: "time",
             time: { unit: "year", displayFormats: { year: "MMM yyyy" } },
@@ -893,6 +894,7 @@
         plugins: {
           tooltip: {
             caretSize: 6,
+            displayColors: false,
             position: "nearest",
             backgroundColor: function (ctx) {
               var item = ctx.tooltip.dataPoints && ctx.tooltip.dataPoints[0];

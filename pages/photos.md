@@ -6,6 +6,6 @@ permalink: /photos/
 theme: sand
 ---
 
-My personal photo feed, newest photos first.
+Constantly taking photos, sometimes posting them here.
 
-{% include photos-feed.html %}
+{% include photos-grid.html %}

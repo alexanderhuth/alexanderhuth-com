@@ -4,8 +4,6 @@ title: Follow
 permalink: /follow/
 ---
 
-Find me here:
-
 - 💼 Alexander on [LinkedIn]({{ site.socials.linkedin }}){:rel="me"}.
 - 🐙 My [GitHub]({{ site.socials.github }}){:rel="me"} profile.
 - 🍿 Addicted to [Letterboxd]({{ site.socials.letterboxd }}){:rel="me"}.

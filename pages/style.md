@@ -7,7 +7,7 @@ heading: Style Guide
 robots: noindex
 ---
 
-A reference of the design components used across the site. Single stylesheet, no frameworks — see [/colophon](/colophon/) for the why.
+A reference of the design components used across the site.
 
 ## Typography
 
@@ -27,6 +27,16 @@ A regular paragraph. The body type is 18px Helvetica Neue / Arial, with a 1.6 li
 
 **Bold text** uses `<strong>`. *Italic text* uses `<em>`. You can [link to another page](/colophon/) — links are underlined, with the underline removed on hover/focus.
 
+## Figure
+
+Images use the `photo-figure` include which emits a `<figure>` with an `<img>` and an optional `<figcaption>`. The figure pulls slightly wider than the text column on desktop and goes edge-to-edge on mobile.
+
+{% include photo-figure.html slug='hagensche-wiek' w=1920 h=823 alt='Sunset over the Hagensche Wiek shoreline.' caption='Landscape example — Hagensche Wiek at sunset' %}
+
+## Blockquote
+
+> A blockquote sets quoted or attributed text apart with a subtle left border and slightly muted color. Useful for lyrics, epigraphs, or pulled quotes.
+
 ## Lists
 
 Unordered list:
@@ -42,14 +52,6 @@ Ordered list:
 1. First step
 2. Second step
 3. Third step
-
-`.consulting-list` — used on [/consulting](/consulting/) for hover-highlighted rows with subtle dividers:
-
-- Assess current strategy, objectives, and alignment with business goals
-- Review content quality, editorial standards, and organic growth potential
-- Identify execution gaps, risks, and dependencies across teams
-- Highlight quick wins, structural improvements, and growth opportunities
-{: .consulting-list}
 
 `.emoji-list` — used on [/contact](/contact/), [/follow](/follow/), and [/now](/now/) to drop the bullet and let an emoji lead each line:
 
@@ -152,17 +154,3 @@ Background, text, and border colors rotate per page-load via one of these classe
   <li class="letterboxd" style="background:var(--bg-color);color:var(--text-color);border:1px solid var(--border-color);padding:0.6rem 0.75rem;border-radius:6px;">letterboxd</li>
 </ul>
 
-## Form controls
-
-The `.meet-form` styles from [/meet](/meet/):
-
-<form class="meet-form" onsubmit="event.preventDefault()">
-  <div>
-    <label for="style-name">Name</label>
-    <input id="style-name" type="text" placeholder="Your name">
-  </div>
-  <div>
-    <label for="style-msg">Message</label>
-    <textarea id="style-msg" placeholder="Say hi"></textarea>
-  </div>
-</form>

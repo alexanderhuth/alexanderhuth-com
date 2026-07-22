@@ -1,0 +1,14 @@
+{%- assign widths = "480,720,960,1280" | split: "," -%}
+{%- if include.path -%}{%- assign path = "/" | append: include.path -%}{%- else -%}{%- assign path = "" -%}{%- endif -%}
+{%- assign loading = include.loading | default: "lazy" -%}
+<figure>
+  <img src="/images{{ path }}/720/{{ include.slug }}.jpg"
+       srcset="{% for w in widths %}/images{{ path }}/{{ w }}/{{ include.slug }}.jpg {{ w }}w, {% endfor %}/images{{ path }}/{{ include.slug }}.jpg 1920w"
+       sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"
+       alt="{{ include.alt | escape }}"
+       width="{{ include.w }}" height="{{ include.h }}"
+       loading="{{ loading }}"{% if loading == "eager" %} fetchpriority="high"{% endif %} decoding="async">
+  {%- if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {%- endif %}
+</figure>

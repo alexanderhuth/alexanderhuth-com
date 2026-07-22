@@ -8,5 +8,5 @@ image: /images/immergut-2026-dlb.jpg
 width: 1440
 height: 1920
 alt: "Dressed Like Boys performing on stage at Immergut Festival 2026."
-location: "Immergut Festival, Neustrelitz"
+location: "Immergut Festival"
 ---

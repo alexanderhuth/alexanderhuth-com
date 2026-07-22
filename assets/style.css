@@ -182,9 +182,7 @@ p {
 }
 
 .chart-figure figcaption {
-  margin-top: 0.25rem;
-  color: color-mix(in srgb, currentColor 78%, transparent 22%);
-  font-size: var(--font-size-sm);
+  margin: 0.6rem 0 0;
 }
 
 .chart-segments {
@@ -218,16 +216,6 @@ p {
   height: 100%;
 }
 
-.chart-split {
-  display: flex;
-  gap: 1rem;
-}
-
-.chart-split-panel {
-  flex: 1;
-  min-width: 0;
-}
-
 .chart-quarterly-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -255,10 +243,6 @@ p {
 @media (max-width: 42rem) {
   .chart-segments {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .chart-split {
-    flex-direction: column;
   }
 
   .chart-quarterly-grid {
@@ -309,6 +293,17 @@ h6 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1rem;
+  border-left: 3px solid color-mix(in srgb, var(--text-color) 25%, var(--bg-color) 75%);
+  color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
 }
 
 a {
@@ -528,28 +523,6 @@ pre code {
   margin: 0 0 0.5rem;
 }
 
-.consulting-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1rem;
-}
-
-.consulting-list li {
-  padding: 0.45rem 0.35rem;
-  border-bottom: 1px solid color-mix(in srgb, currentColor 35%, transparent 65%);
-  transition: background-color 120ms ease;
-}
-
-.consulting-list li:hover,
-.consulting-list li:focus-within {
-  background: color-mix(in srgb, currentColor 8%, transparent 92%);
-}
-
-.consulting-list li:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
 .cta-wrap {
   margin: 2rem 0 0;
 }
@@ -608,10 +581,6 @@ pre code {
   text-decoration: underline;
 }
 
-
-.meet-hero {
-  margin-bottom: 1.5rem;
-}
 
 .meet-muted {
   color: color-mix(in srgb, var(--text-color) 70%, transparent 30%);
@@ -862,68 +831,55 @@ main {
   color: var(--text-color);
 }
 
-.photo-feed {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-top: 1.5rem;
-}
-
-.photo-card {
-  margin: 0;
-}
-
-.photo-media {
-  width: calc(100% + 3rem);
+figure {
+  margin: 2rem -1.5rem 0;
   max-width: calc(72ch + 3rem);
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
 }
 
-.photo-media img {
+figure img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 
-.photo-page .photo-media img {
+figure > figcaption {
+  margin: 0.6rem 1.5rem 0;
+  color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
+  font-size: var(--font-size-sm);
+}
+
+.photo-grid {
+  columns: 180px;
+  column-gap: 0.5rem;
+  margin: 2rem -1.5rem 0;
+}
+
+.photo-grid a {
+  display: block;
+  break-inside: avoid;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.photo-grid a.landscape { aspect-ratio: 3 / 2; }
+.photo-grid a.portrait { aspect-ratio: 2 / 3; }
+.photo-grid a.square { aspect-ratio: 1 / 1; }
+
+.photo-grid img {
   width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
-.photo-page-meta {
-  margin-top: 0.9rem;
+figure + p {
+  margin-top: 1rem;
 }
 
-.photo-page .photo-description {
-  font-style: italic;
+h2 + figure {
+  margin-top: 1rem;
 }
 
-.photo-meta {
-  margin-top: 0.6rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
-}
-
-.photo-title {
-  font-weight: 600;
-}
-
-.photo-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.photo-link:hover,
-.photo-link:focus {
-  text-decoration: underline;
-}
-
-.photo-empty {
-  margin-top: 1.5rem;
-  color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
-}
 
 .slashes-list {
   columns: 2;

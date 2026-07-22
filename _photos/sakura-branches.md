@@ -8,5 +8,5 @@ image: /images/sakura-branches.jpg
 width: 1920
 height: 1277
 alt: "Pink flowering cherry blossoms with green leaves in dappled sunlight."
-location: "Gärten der Welt, Berlin"
+location: "Gärten der Welt"
 ---

@@ -3,6 +3,42 @@
     {
       "type": "tv",
       "emoji": "📺",
+      "date": "2026-07-04",
+      "date_display": "Jul 4",
+      "month": "July 2026",
+      "show_title": "Race Across the World",
+      "season_number": 6,
+      "episode_number": 9,
+      "episode_title": "The Reunion",
+      "pub_ts": 1783202399
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
+      "date": "2026-07-04",
+      "date_display": "Jul 4",
+      "month": "July 2026",
+      "show_title": "Race Across the World",
+      "season_number": 6,
+      "episode_number": 8,
+      "episode_title": "Finale",
+      "pub_ts": 1783202339
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
+      "date": "2026-07-04",
+      "date_display": "Jul 4",
+      "month": "July 2026",
+      "show_title": "Race Across the World",
+      "season_number": 6,
+      "episode_number": 7,
+      "episode_title": "Episode 7",
+      "pub_ts": 1783202279
+    },
+    {
+      "type": "tv",
+      "emoji": "📺",
       "date": "2026-07-21",
       "date_display": "Jul 21",
       "month": "July 2026",

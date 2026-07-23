@@ -91,6 +91,7 @@ All entries have a `pub_ts` field. The template sorts by `date` descending (prim
 - Only add a new row when the media was actually consumed as a distinct event.
 - For music, repeat listens of the same album are valid when the underlying listen window is different.
 - For films and TV, use the existing item identity and date data to avoid duplicate rows for the same watch.
+- `sync_media.rb` runs `dedupe_tv.rb` after every sync as a safety net: TV rows sharing `(show_title, season_number, episode_number, date)` are collapsed to the earliest `pub_ts`. Music/film dedupe stays a manual check.
 
 ## Lookup Rules
 

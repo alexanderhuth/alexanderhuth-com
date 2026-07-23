@@ -76,3 +76,4 @@ puts "Ruby: #{RbConfig.ruby}"
 
 sync_music(dry_run: options[:dry_run])
 run_sync("sync_letterboxd.rb", dry_run: options[:dry_run])
+run_sync("dedupe_tv.rb", dry_run: options[:dry_run])

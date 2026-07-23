@@ -44,7 +44,7 @@
               S{{ season_number | plus: 0 | prepend: '00' | slice: -2, 2 }} E{{ episode_number | plus: 0 | prepend: '00' | slice: -2, 2 }}
             {% endcapture %}
             {% capture tv_title %}
-              <strong>{{ show_title }}</strong>{% if season_number and episode_number %}<span class="media-table-title-detail"> · {{ season_episode_code | strip }}</span>{% endif %}{% if episode_title %}<span class="media-table-title-detail"> · {{ episode_title }}</span>{% endif %}
+              <strong>{{ show_title }}</strong>
             {% endcapture %}
             {% assign entry_title = tv_title | strip %}
             {% capture tv_meta %}
@@ -57,7 +57,7 @@
             <td class="media-table-title">{{ entry_title }}</td>
             <td class="media-table-meta{% if entry.type == 'tv' %} media-table-meta-tv{% endif %}">
               {% if entry_meta %}
-                <span class="media-table-meta-value{% if entry.type == 'tv' %} media-table-meta-mobile-only{% endif %}">{{ entry_meta }}</span>
+                <span class="media-table-meta-value">{{ entry_meta }}</span>
               {% endif %}
             </td>
             <td class="media-table-date">{{ entry.date_display }}</td>

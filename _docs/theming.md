@@ -6,9 +6,9 @@ Single CSS file: `assets/style.css`. No preprocessor. Mobile-first, responsive. 
 
 ## Themes
 
-12 named themes defined as CSS custom properties on a class selector (e.g. `.sand { --bg: …; --fg: …; }`).
+14 named themes defined as CSS custom properties on a class selector (e.g. `.mustard { --bg-color: …; --text-color: …; }`). Defaults live in `:root` and match `sand` — no `.sand` class is needed.
 
-11 themes in the random rotator: `.sand`, `.amber`, `.seaglass`, `.coral`, `.peach`, `.dawn`, `.royal`, `.forest`, `.ruby`, `.sky`, `.fireball`
+13 themes in the random rotator: `mustard`, `seaglass`, `coral`, `terracotta`, `slate`, `royal`, `forest`, `ruby`, `sky`, `lilac`, `plum`, `fireball`, plus the `:root` default (surfaced by JS as `sand`).
 
 1 special theme (not in rotator, only via front matter): `.letterboxd`
 

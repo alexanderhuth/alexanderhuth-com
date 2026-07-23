@@ -783,7 +783,7 @@
   /* 9. Film segments — 4 equal doughnut charts with title above */
   function renderFilmSegments(canvas, d) {
     var container = document.createElement("div");
-    container.className = "chart-segments";
+    container.className = "chart-segment-grid";
     canvas.parentNode.replaceChild(container, canvas);
 
     var titleOverrides = {
@@ -793,7 +793,7 @@
 
     d.segments.forEach(function (seg) {
       var wrapper = document.createElement("div");
-      wrapper.className = "chart-segment-item";
+      wrapper.className = "chart-segment-cell";
       var title = document.createElement("span");
       title.className = "chart-segment-title";
       title.textContent = titleOverrides[seg.label] || seg.label;

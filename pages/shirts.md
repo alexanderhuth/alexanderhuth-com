@@ -34,13 +34,19 @@ Next Time, [Be Home Before Dinner](https://www.tapelink.io/share/G66V8rFU).
 
 {% include photo-figure.html path='shirts' slug='bon-iver' w=960 h=1280 alt='Bon Iver concert t-shirt' caption='Bon Iver concert t-shirt' %}
 
+Most likely bought at the 2012 Bon Iver show at Arena. T-shirt designed by Bradley Hale of Now, Now.
+
 ## Broken Social Scene
 
 {% include photo-figure.html path='shirts' slug='broken-social-scene' w=859 h=1280 alt='Broken Social Scene concert t-shirt' caption='Broken Social Scene band t-shirt' %}
 
+Got this during the "20 Years of City Slang" weekend.
+
 ## Charizma & Peanut Butter Wolf
 
 {% include photo-figure.html path='shirts' slug='charizma' w=853 h=1280 alt='Charizma & Peanut Butter Wolf t-shirt' caption='Charizma & Peanut Butter Wolf t-shirt' %}
+
+Their vinyl weighs a ton, their shirt weighs a ton. Heavy fabric, non-breathable print...
 
 ## Death Cab for Cutie
 
@@ -58,7 +64,7 @@ Bought at their 2015 Postbahnhof show.
 
 {% include photo-figure.html path='shirts' slug='dendemann' w=1280 h=960 alt='Dendemann t-shirt' %}
 
-Way too big, way too orange, and offensive to some people. Still, always loved this cartoon version of one of Dendemann's smartest lines:
+Way too big, way too orange, and way too offensive to some people. Still, always loved this cartoon version of one of Dendemann's smartest lines:
 
 > Vielleicht hab ich 'n Stock im Arsch und führ' 'n Spießerleben,  
 > doch mein Zeige- und dein Mittelfinger würden "Peace" ergeben. 

@@ -1,5 +1,27 @@
 [
   {
+    "setlist_id": "73737e89",
+    "date": "2026-08-25",
+    "artist": "The Whitest Boy Alive",
+    "venue": "Waschhaus",
+    "city": "Potsdam",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/the-whitest-boy-alive/2026/waschhaus-open-air-potsdam-germany-73737e89.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "63737e8f",
+    "date": "2026-08-25",
+    "artist": "Albertine Sarges",
+    "venue": "Waschhaus",
+    "city": "Potsdam",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/albertine-sarges/2026/waschhaus-open-air-potsdam-germany-63737e8f.html",
+    "festival_parent": null
+  },
+  {
     "setlist_id": "73721aa1",
     "date": "2026-06-25",
     "artist": "Algernon Cadwallader",

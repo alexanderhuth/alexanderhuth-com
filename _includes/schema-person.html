@@ -1,0 +1,86 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ site.url }}/#website",
+  "url": "{{ site.url }}",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "inLanguage": "en",
+  "publisher": { "@id": "{{ site.url }}/#person" },
+  "copyrightHolder": { "@id": "{{ site.url }}/#person" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#person",
+  "name": "Alexander Huth",
+  "alternateName": "Alex Huth",
+  "url": "{{ site.url }}",
+  "mainEntityOfPage": "{{ "/cv/" | absolute_url }}",
+  "jobTitle": "Organic Growth Consultant",
+  "description": "Berlin-based organic growth consultant, advisor, and fractional leader working across SEO, content marketing, and AI-driven discovery.",
+  "disambiguatingDescription": "Organic growth, SEO and content consultant based in Berlin, born 1987 in Neubrandenburg. Previously Director Organic Acquisition at Omio, and a guest lecturer in Search Marketing at XU Exponential University in Potsdam.",
+  "birthDate": "1987",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neubrandenburg, Germany"
+  },
+  "homeLocation": {
+    "@type": "Place",
+    "name": "Berlin, Germany"
+  },
+  "nationality": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Freie Universität Berlin",
+    "sameAs": "https://www.fu-berlin.de/"
+  },
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "XU Exponential University of Applied Sciences",
+    "sameAs": "https://www.xu-university.com/"
+  },
+  "knowsAbout": [
+    "Search engine optimisation",
+    "Organic growth",
+    "Content marketing",
+    "Content strategy",
+    "AI search",
+    "Generative engine optimisation",
+    "Team leadership",
+    "Organisational design",
+    "Marketing strategy"
+  ],
+  "knowsLanguage": ["de", "en"],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Alexander Huth — Organic Growth Consulting",
+    "url": "{{ "/consulting/" | absolute_url }}"
+  },
+  "sameAs": [
+    {%- for pair in site.socials -%}
+      "{{ pair[1] }}"{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{% if page.url == "/about/" or page.url == "/cv/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "{{ page.url | absolute_url }}#profilepage",
+  "url": "{{ page.url | absolute_url }}",
+  "name": "{{ page.seo_title | default: page.title }}",
+  "mainEntity": { "@id": "{{ site.url }}/#person" },
+  "about": { "@id": "{{ site.url }}/#person" },
+  "isPartOf": { "@id": "{{ site.url }}/#website" }
+}
+</script>
+{% endif %}

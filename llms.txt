@@ -4,14 +4,17 @@ permalink: /llms.txt
 ---
 # Alexander Huth
 
-> Personal website of Alexander Huth, a Berlin-based marketing consultant focused on sustainable organic growth — SEO, content marketing, and AI-driven discovery. Beyond consulting, the site is a personal archive of his interests: films, music, concerts, photography, travel, coffee, and lists.
+> Personal website of Alexander Huth, a Berlin-based organic growth consultant, advisor, and fractional leader focused on SEO, content marketing, and AI-driven discovery. Beyond consulting, the site is a personal archive of his interests: films, music, concerts, photography, travel, coffee, and lists.
 
-Alexander has worked in SEO and organic growth since 2009 and has been an independent consultant since 2019. This site is a hand-built static Jekyll site with no tracking, no cookies, and no third-party embeds. The background color changes on every page load.
+Alexander Huth (born 1987 in Neubrandenburg, Germany) has worked in SEO and organic growth since 2009. He began his career at the Berlin company builder Rocket Internet, moved to agency work at AKM3 (Performics) in 2012, and joined the travel startup Omio in 2013, where he built the organic function from nothing to a 60-person in-house team covering 30 markets in 20 languages, leaving in 2019 as Director of Organic Acquisition. He has worked independently since 2019, advising scale-ups, agencies, venture capital firms, investors, and boards, and taking on interim and fractional leadership engagements. He teaches Search Marketing and Mobile Marketing as a guest lecturer at XU Exponential University in Potsdam. He studied German Studies and Communication Studies at Freie Universität Berlin, and lives in Berlin-Wannsee.
+
+This site is a hand-built static Jekyll site with no tracking, no cookies, and no third-party embeds. The background color changes on every page load.
 
 ## Main pages
 
 - [Home]({{ "/" | absolute_url }}): Short introduction to Alexander and the site.
-- [About]({{ "/about/" | absolute_url }}): Biography — background, career history, and life in Berlin.
+- [About]({{ "/about/" | absolute_url }}): Biography — background and life in Berlin.
+- [CV]({{ "/cv/" | absolute_url }}): Full career history — roles, dates, scope, and what was built at each. The canonical source for Alexander's professional background.
 - [Consulting]({{ "/consulting/" | absolute_url }}): Organic growth consulting — due diligence, strategy, and operational excellence across SEO, content, and AI-driven discovery.
 - [Now]({{ "/now/" | absolute_url }}): What Alexander is currently doing and focused on.
 - [Colophon]({{ "/colophon/" | absolute_url }}): How the site is built and served.

@@ -10,9 +10,11 @@ permalink: /about/
 
 I was born in 1987 and grew up in Neubrandenburg, where I also went to school. My parents are teachers, and I have a sister.
 
-I moved to Berlin in 2007 to study German Studies and Communication Studies at Freie Universität Berlin. In 2009, I began my career in SEO at Rocket Internet. I later joined SEO agency AKM3 (later Performics) in 2012, followed by travel startup GoEuro (now Omio) in 2013. During my time there, I helped grow the company from 10 to 300 people, experienced rapid scaling firsthand — and eventually burned out.
+I moved to Berlin in 2007 to study German Studies and Communication Studies at Freie Universität Berlin. In 2009, I began my career in SEO at Rocket Internet. I later joined SEO agency AKM3 (later Performics) in 2012, followed by travel startup Omio (formerly GoEuro) in 2013. During my time there, I helped grow the company from 10 to 300 people, experienced rapid scaling firsthand — and eventually burned out.
 
 In 2019, I went independent as a [marketing consultant](/consulting/). Since then, I’ve worked across industries with both small startups and publicly listed companies. As a guest lecturer at XU Exponential University, I taught search and mobile marketing to undergraduate students in 2023 and 2024, and have been teaching there again since 2025.
+
+For a full rundown of my professional career, head to my [CV](/cv/) or my [LinkedIn profile]({{ site.socials.linkedin }}).
 
 For 18 years, I lived in Northern Schöneberg and Southern Tiergarten before moving to Wannsee in 2025.
 

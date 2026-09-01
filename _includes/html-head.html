@@ -31,19 +31,5 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }} posts" href="{{ "/posts.xml" | absolute_url }}">
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }} photos" href="{{ "/photos.xml" | absolute_url }}">
   <link rel="stylesheet" href="/assets/style.css">
-  {% if page.url == "/" %}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "{{ site.author }}",
-    "url": "{{ site.url }}",
-    "sameAs": [
-      {%- for pair in site.socials -%}
-        "{{ pair[1] }}"{%- unless forloop.last -%},{%- endunless -%}
-      {%- endfor -%}
-    ]
-  }
-  </script>
-  {% endif %}
+  {% include schema-person.html %}
 </head>

@@ -8,9 +8,17 @@ description: Berlin-based consultant helping teams drive sustainable organic gro
 
 ---
 
-**I’m a Berlin-based consultant, advisor, and mentor focused on sustainable organic growth, helping organisations reach and serve their audiences through SEO, content marketing, and the AI-driven discovery channels reshaping both.**
+**I’m a Berlin-based consultant, advisor, and fractional leader focused on sustainable organic growth, helping organisations reach and serve their audiences through SEO, content marketing, and the AI-driven discovery channels reshaping both.**
 
-With a proven track record of building, leading, and supporting high-performing SEO and content teams, I help organisations get clarity on what matters — and the confidence to act on it. That means stronger strategy, better operations, content that genuinely helps the people it’s made for, and the judgement and AI-awareness to adopt new tools and channels with clarity rather than hype.
+I’ve worked organic growth from three sides: at Rocket Internet, the Berlin
+company builder; agency-side at AKM3 (Performics); and in-house at Omio,
+where I was brought in to build the organic function and spent six years
+taking it from nothing to a 60-person team across 30 markets, leaving as
+Director of Organic Acquisition. Those three worlds optimise for different
+things and rarely explain themselves well to each other. I’ve been inside
+all three.
+
+I help organisations get clarity on what matters — and the confidence to act on it. That means stronger strategy, better operations, content that genuinely helps the people it’s made for, and the judgement and AI-awareness to adopt new tools and channels with clarity rather than hype.
 
 I work with in-house teams and leadership, venture capital firms, investors, and boards, as well as agencies and consulting firms. My approach adapts to each organisation’s capabilities, needs, and ambitions.
 
@@ -26,7 +34,7 @@ If any of that sounds familiar, that’s usually where I can help.
 
 Organic growth today is a wider discipline than it used to be. Search is being reshaped by LLM-based answers, AI Overviews, and agentic discovery. Content has to work harder: earning attention across channels, turning data and insights into genuinely useful assets, and connecting with the rest of marketing rather than sitting in a silo. And AI is changing how teams themselves work day-to-day. I help organisations navigate all of that: staying visible where it matters, producing content people actually value, and building AI-aware teams that adopt new tools and workflows with clarity and confidence.
 
-Engagements typically take one of three shapes: **due diligence** to understand where you are today, **strategy** to decide where you should be going, and **operational excellence** to build the capability to get there. Much of the work happens through workshops and targeted training that surface gaps, align teams on direction, and build lasting capability.
+Most engagements combine **due diligence** to establish where things stand, **strategy** to decide where to go next, and **operational excellence** to build the capability to get there. Much of the work happens through workshops and targeted training that surface gaps, align teams on direction, and build lasting capability. Where a team needs someone in the seat rather than beside it, I also take on **interim and fractional leadership**.
 
 ### Due Diligence
 
@@ -39,5 +47,9 @@ Set a clear direction for organic growth: what to prioritise, where to play, and
 ### Operational Excellence
 
 Build a function with the processes, capabilities, and judgement to deliver on the strategy consistently — and the confidence to adopt AI where it genuinely helps. That covers planning and execution against clear objectives, measurable OKRs, reliable reporting across traditional and AI-driven channels, and stronger communication with leadership and stakeholders. It also means hands-on training and up-skilling, integrating AI into research and day-to-day workflows without sacrificing quality or judgement, and strengthening team structures for sustainable delivery.
+
+### Interim & Fractional Leadership
+
+Sometimes a team doesn’t need an advisor alongside it — it needs someone in the seat. That might mean covering parental leave, bridging a vacant Head of or Director role during a search, leading a function through a reorganisation or migration, or steadying things while a new leader ramps up. I take on the strategy and the delivery, run the team day to day, hire where hiring is needed, and represent organic growth to leadership and the board. However long the engagement runs, a clean handover is the goal from day one.
 
 {% include cta-meet.html %}

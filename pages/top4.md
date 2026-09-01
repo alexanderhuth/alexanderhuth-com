@@ -51,9 +51,9 @@ These are also the Four Favorite Films on [my Letterboxd profile](https://letter
 Ranked by [my personal filmography score](https://letterboxd.com/alexanderh/list/directors-ranked/detail/):
 
 1. **Dennis Villeneuve** at 4.43 out of 5 stars
-2. **Noah Baumbach** at 4.07 out of 5 stars
-3. **Christian Petzold** at 3.93 out of 5 stars
-4. **Christopher Nolan** at 3.86 out of 5 stars
+2. **Steven Spielberg** at 4.19 out of 5 stars
+3. **Noah Baumbach** at 4.07 out of 5 stars
+4. **Christian Petzold** at 3.93 out of 5 stars
 {: .inline-ol}
 
 ## Top 4 Christmas Songs

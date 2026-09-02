@@ -13,7 +13,7 @@ permalink: /cv/
 
 *Consultant, advisor, and fractional leader — 2019 to present*
 
-I advise on organic growth, and take on interim and fractional leadership roles. My clients range from early-stage startups to publicly listed companies, along with agencies, venture capital firms, investors, and boards. Engagements run across industries, from due diligence and strategy through to operational excellence and hands-on training. [More on how I work](/consulting/).
+As an independent consultant, I [advise on organic growth, and take on interim and fractional leadership roles](/consulting/). My clients range from early-stage startups to publicly listed companies, along with agencies, venture capital firms, investors, and boards. Engagements run across industries, from due diligence and strategy through to operational excellence and hands-on training.
 
 ## XU Exponential University of Applied Sciences
 
@@ -37,7 +37,7 @@ Omio brought me in to build their organic function, on the strength of what I'd 
 
 **As Head of SEO & Content Marketing**, I doubled the team to a headcount of 60 and we covered 30 markets in 20 languages. I added Content Marketing to our remit and built a repeatable way to enter new markets, covering staffing, processes and workflows, and tooling, so quality held as we expanded. We were still building in-house rather than buying from agencies, developing our own talent into senior ICs and managers.
 
-**As Director Organic Acquisition**, I widened the function beyond Search to Editorial, Social Media, and Community Management, and ran it as a matrix of centralised functions and country teams, with specialist depth held centrally and ownership of each market held locally. I sat on the company's leadership team, and delivered the migration of SEO and website content through the rebrand from GoEuro to Omio.
+**As Director Organic Acquisition**, I widened the function beyond Search to Editorial, Social Media, and Community Management, and ran it as a matrix of centralised functions and country teams, with specialist depth held centrally and ownership of each market held locally. I was part of the company's leadership team, and delivered the migration of SEO and website content through the rebrand from GoEuro to Omio.
 
 ## AKM3 (Performics)
 

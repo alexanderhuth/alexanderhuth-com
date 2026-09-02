@@ -10,3 +10,4 @@ vendor/
 output/
 .claude/settings.local.json
 .claude/worktrees/
+images/_originals/

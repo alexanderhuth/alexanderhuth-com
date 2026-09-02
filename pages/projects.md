@@ -14,7 +14,7 @@ I started the list in early 2021, by now the entire behind-the-scenes work has b
 
 ## watched.club
 
-[watched.club](https://watched.club) is a lightweight website that tracks and analyzes the Million Watched Clubs on Letterboxd.
+[watched.club](https://watched.club) is a lightweight website that tracks and analyses the Million Watched Clubs on Letterboxd.
 
 Milestones per film, all kinds of records and stats, showdowns between films and how many films on popular lists have reached one million watches.
 

@@ -7,7 +7,7 @@
 {%- if photo.width > photo.height -%}{%- assign shape = 'landscape' -%}
 {%- elsif photo.width < photo.height -%}{%- assign shape = 'portrait' -%}
 {%- else -%}{%- assign shape = 'square' -%}{%- endif -%}
-{%- if photo.width > photo.height -%}{%- assign long_edge = photo.width -%}{%- else -%}{%- assign long_edge = photo.height -%}{%- endif -%}{%- assign half = long_edge | divided_by: 2 -%}
+{%- if photo.width > photo.height -%}{%- assign long_edge = photo.width -%}{%- else -%}{%- assign long_edge = photo.height -%}{%- endif -%}{%- assign half = long_edge | divided_by: 2 | minus: 1 -%}
 <a href="/photos/{{ slug }}/" class="{{ shape }}"><img src="/images/480/{{ fn }}" srcset="/images/480/{{ fn }} {{ photo.width | times: 480 | plus: half | divided_by: long_edge | at_most: photo.width }}w, /images/720/{{ fn }} {{ photo.width | times: 720 | plus: half | divided_by: long_edge | at_most: photo.width }}w" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" decoding="async"{% if forloop.first %} fetchpriority="high"{% endif %}></a>
 {% endfor %}
 </div>

@@ -18,7 +18,7 @@ For a full rundown of my professional career, head to my [CV](/cv/) or my [Linke
 
 For 18 years, I lived in Northern Schöneberg and Southern Tiergarten before moving to Wannsee in 2025.
 
-{% include photo-figure.html slug='alexander' w=1280 h=719 alt='Alexander Huth' caption='Alexander Huth, photo by Mehak Sethi' %}
+{% include photo-figure.html slug='alexander' w=1920 h=1079 alt='Alexander Huth' caption='Alexander Huth, photo by Mehak Sethi' %}
 
 I love riding bicycles and live by *n+1*. Films and albums play a big part in my life, I try to go to the cinema and concerts as often as I can. I collect vinyl records, and I enjoy making lists or ranking things.
 

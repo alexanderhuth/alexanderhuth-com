@@ -2,54 +2,46 @@
 layout: page
 title: Consulting
 heading: Organic Growth Consulting
-seo_title: AI-Aware Organic Growth Consulting
+seo_title: AI-Aware Organic Growth Consultant and Fractional Leader
 permalink: /consulting/
-description: Berlin-based consultant helping teams drive sustainable organic growth across SEO, content marketing, and AI-driven discovery through strategy, operations, and hands-on training.
+description: Berlin-based consultant helping teams drive sustainable organic growth across SEO, Content Marketing, and AI-driven discovery through strategy, operations, and hands-on training.
 
 ---
 
-**I’m a Berlin-based consultant, advisor, and fractional leader focused on sustainable organic growth, helping organisations reach and serve their audiences through SEO, content marketing, and the AI-driven discovery channels reshaping both.**
+**I'm a Berlin-based consultant, advisor, and fractional leader focused on sustainable organic growth, helping organisations reach and serve their audiences through SEO, Content Marketing, and the AI-driven discovery channels reshaping both.**
 
-I’ve worked organic growth from three sides: at Rocket Internet, the Berlin
-company builder; agency-side at AKM3 (Performics); and in-house at Omio,
-where I was brought in to build the organic function and spent six years
-taking it from nothing to a 60-person team across 30 markets, leaving as
-Director of Organic Acquisition. Those three worlds optimise for different
-things and rarely explain themselves well to each other. I’ve been inside
-all three.
+I help organisations get clarity on what matters — and the confidence to act on it. That means stronger strategy, better operations, content that genuinely helps the people it's made for, and the judgement and AI-awareness to adopt new tools and channels with clarity rather than hype.
 
-I help organisations get clarity on what matters — and the confidence to act on it. That means stronger strategy, better operations, content that genuinely helps the people it’s made for, and the judgement and AI-awareness to adopt new tools and channels with clarity rather than hype.
-
-I work with in-house teams and leadership, venture capital firms, investors, and boards, as well as agencies and consulting firms. My approach adapts to each organisation’s capabilities, needs, and ambitions.
+I work with in-house teams and leadership, venture capital firms, investors, and boards, as well as agencies and consulting firms. My approach adapts to each organisation's capabilities, needs, and ambitions.
 
 {% include cta-meet.html %}
 
 ## Where I Come In
 
-Most of the conversations I have start in a similar place. There’s a question of whether organic growth efforts are actually heading in the right direction, and what a clearer picture of *good* would even look like. SEO work keeps running into the same technical, organisational, and political limitations that slow delivery, block good work, and sometimes stop it from shipping at all. Content gets produced in parallel across SEO, CRM, social, and other demand generation teams, and no one is quite sure how to bring those efforts together. Teams aren’t sure whether they’re delivering as well as they could, or where the real bottlenecks sit. And threaded through all of it: how to use AI in a way that genuinely helps, and how to stay visible as search shifts towards AI-driven answers rather than blue links.
+The first question is usually whether organic growth is heading in the right direction at all, and what a clearer picture of *good* would even look like. SEO work keeps running into the same technical, organisational, and political limitations that slow delivery, block good work, and sometimes stop it from shipping at all. Content gets produced in parallel across SEO, CRM, social, and other demand generation teams, and no one is quite sure how to bring those efforts together. Teams aren't sure whether they're delivering as well as they could, or where the real bottlenecks sit. And threaded through all of it: how to use AI in a way that genuinely helps, and how to stay visible as search shifts towards AI-driven answers rather than blue links.
 
-If any of that sounds familiar, that’s usually where I can help.
+If any of that sounds familiar, that's usually where I can help.
 
 ## What I Do
 
 Organic growth today is a wider discipline than it used to be. Search is being reshaped by LLM-based answers, AI Overviews, and agentic discovery. Content has to work harder: earning attention across channels, turning data and insights into genuinely useful assets, and connecting with the rest of marketing rather than sitting in a silo. And AI is changing how teams themselves work day-to-day. I help organisations navigate all of that: staying visible where it matters, producing content people actually value, and building AI-aware teams that adopt new tools and workflows with clarity and confidence.
 
-Most engagements combine **due diligence** to establish where things stand, **strategy** to decide where to go next, and **operational excellence** to build the capability to get there. Much of the work happens through workshops and targeted training that surface gaps, align teams on direction, and build lasting capability. Where a team needs someone in the seat rather than beside it, I also take on **interim and fractional leadership**.
+I work across four areas: **due diligence** to establish where things stand, **strategy** to decide where to go next, **interim and fractional leadership** to lead the function while it gets there, and **operational excellence** to build the capability that makes it stick. They combine well, and they work just as well on their own.
 
-### Due Diligence
+### Due Diligence and Audits
 
-Gain a clear, unbiased view of organic performance, risks, and opportunities across traditional search, content, and AI-driven discovery. That’s the foundation for confident decisions. A typical review looks at strategy and objectives, technical foundations, content quality, performance data and reporting, readiness for AI-driven discovery, team setup, and how tools and workflows actually hold up under pressure. The result is an honest picture of where things stand, the quick wins and structural improvements worth acting on, and a shared understanding across the team.
+Gain a clear, unbiased view of organic performance, risks, and opportunities across traditional search, content, and AI-driven discovery. That's the foundation for confident decisions. A typical audit looks at strategy and objectives, technical foundations, content quality, performance data and reporting, readiness for AI-driven discovery, team setup, and how tools and workflows actually hold up under pressure. The result is an honest picture of where things stand, the quick wins and structural improvements worth acting on, and a shared understanding across the team.
 
 ### Strategy
 
 Set a clear direction for organic growth: what to prioritise, where to play, and how SEO, content, and AI-driven discovery come together to serve real audiences. Strategy engagements shape the content and editorial direction, position organic efforts for AI-driven discovery, and integrate them with the wider marketing mix rather than leaving them in a silo. They also decide where AI belongs — as a channel, a production accelerator, or both. Trade-offs and priorities get translated into a roadmap teams can actually execute against.
 
+### Interim & Fractional Leadership
+
+Sometimes a team doesn't need an advisor alongside it — it needs someone in the driver's seat. That might mean covering parental leave, bridging a vacant Head of or Director role during a search, leading a function through a reorganisation or migration, or steadying things while a new leader ramps up. I take on the strategy and the delivery, run the team day to day, hire where hiring is needed, and represent organic growth to leadership and the board. However long the engagement runs, a clean handover is the goal from day one.
+
 ### Operational Excellence
 
 Build a function with the processes, capabilities, and judgement to deliver on the strategy consistently — and the confidence to adopt AI where it genuinely helps. That covers planning and execution against clear objectives, measurable OKRs, reliable reporting across traditional and AI-driven channels, and stronger communication with leadership and stakeholders. It also means hands-on training and up-skilling, integrating AI into research and day-to-day workflows without sacrificing quality or judgement, and strengthening team structures for sustainable delivery.
-
-### Interim & Fractional Leadership
-
-Sometimes a team doesn’t need an advisor alongside it — it needs someone in the seat. That might mean covering parental leave, bridging a vacant Head of or Director role during a search, leading a function through a reorganisation or migration, or steadying things while a new leader ramps up. I take on the strategy and the delivery, run the team day to day, hire where hiring is needed, and represent organic growth to leadership and the board. However long the engagement runs, a clean handover is the goal from day one.
 
 {% include cta-meet.html %}

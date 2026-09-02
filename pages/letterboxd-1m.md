@@ -6,6 +6,7 @@ permalink: /letterboxd/one-million-watched-club/
 theme: letterboxd
 robots: noindex
 slashes_exclude: true
+published: false
 ---
 
 The [Letterboxd One Million Watched Club](https://boxd.it/bAS2M) by the numbers.

@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Now
-description: What I’m doing or focused on right now.
+description: What I'm doing or focused on right now.
 permalink: /now/
 ---
 
-What I’m doing or focused on right now.
+What I'm doing or focused on right now.
 
 - 🪚 Building furniture for our new home
 - 🐟 Kicking off summer and jumping into lakes

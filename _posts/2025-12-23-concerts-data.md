@@ -6,7 +6,7 @@ robots: noindex
 permalink: /posts/concerts-data/
 ---
 
-On my [/concerts](/concerts/) page, I list every concert I’ve been to. Instead of manually updating that page, I store all the show details in a single data file by making use of [Jekyll’s Data Files feature](https://jekyllrb.com/docs/datafiles/).
+On my [/concerts](/concerts/) page, I list every concert I've been to. Instead of manually updating that page, I store all the show details in a single data file by making use of [Jekyll's Data Files feature](https://jekyllrb.com/docs/datafiles/).
 
 Everything lives in `_data/concerts.json`, with each entry containing the artist, date, venue, city, setlist URL (and. when relevant, a festival name). The page template pulls directly from that file using `site.data.concerts` and renders the list from there.
 

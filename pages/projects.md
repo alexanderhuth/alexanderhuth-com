@@ -6,23 +6,31 @@ permalink: /projects/
 
 **Things I've built on the internet.**
 
+## Letterboxd One Million Watched Club
+
+The [Letterboxd One Million Watched Club](https://boxd.it/bAS2M) is a featured list on Letterboxd that tracks the growth of the platform by listing all films seen by at least 1 million members. It has been liked over 45,000 times on Letterboxd.
+
+I started the list in early 2021, by now the entire behind-the-scenes work has been automated using Python.
+
+## watched.club
+
+[watched.club](https://watched.club) is a lightweight website that tracks and analyzes the Million Watched Clubs on Letterboxd.
+
+Milestones per film, all kinds of records and stats, showdowns between films and how many films on popular lists have reached one million watches.
+
+Uses Astro, Cloudflare Pages, GitHub Actions, the TMDb API.
+
 ## Rated by Critics
 
 [Rated by Critics](https://ratedbycritics.alexanderhuth.com) is a small project that regularly fetches and aggregates film ratings from renowned critics and influencers on Letterboxd, inspired by platforms like MetaCritic and Rotten Tomatoes.
 
-Uses Astro, n8n, Cloudflare Pages, Github Actions, the TMDb API, Letterboxd RSS.
+Uses Astro, Cloudflare Pages, GitHub Actions, the TMDb API, Letterboxd RSS.
 
 ## Talking Film
 
 Launching sometime in 2026, Talking Film will be a website to help find podcast episodes about specific films.
 
 Uses Astro, the TMDb and Wikidata APIs.
-
-## Letterboxd One Million Watched Club
-
-The [Letterboxd One Million Watched Club](https://boxd.it/bAS2M) is a featured list on Letterboxd that tracks the growth of the platform by listing all films seen by at least 1 million members. It has over 40,000 likes on Letterboxd.
-
-I started the list in early 2021, by now the entire behind-the-scenes work has been automated using Python.
 
 ## tools.alexanderhuth.com
 
@@ -32,7 +40,7 @@ Plain HTML + JavaScript tools. Astro to generate the static pages. Cloudflare Pa
 
 ## huth.im
 
-A simple link shortener.
+A (very) simple link shortener on top of a _redirects file.
 
 ## Discographr
 

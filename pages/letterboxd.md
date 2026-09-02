@@ -64,5 +64,5 @@ I spend way too much time on/with Letterboxd 🤷‍♀️
 
 ## Analysis
 
-- [Letterboxd One Million Watched Club by the Numbers](/letterboxd/one-million-watched-club/)
+- [Letterboxd One Million Watched Club by the Numbers](https://watched.club)
 - Letterboxd's growth via their [Year in Review](/letterboxd/year-in-review/)

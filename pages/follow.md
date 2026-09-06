@@ -13,7 +13,7 @@ permalink: /follow/
 - 💿 My [Discogs]({{ site.socials.discogs }}){:rel="me"} profile.
 - 🎸 Concert diary on [setlist.fm]({{ site.socials.setlist }}){:rel="me"}.
 - 🚴 [Strava]({{ site.socials.strava }}){:rel="me"} or it didn't happen.
-- 🥾 Hiking routes on [Komoot]({{ site.socials.komoot }}){:rel="me"}.
+- 🥾 Hikes and peaks on [Komoot]({{ site.socials.komoot }}){:rel="me"}.
 - 📸 Rarely posting on [Instagram]({{ site.socials.instagram }}){:rel="me"}...
 - 📍 Still checking in on [Swarm]({{ site.socials.foursquare }}){:rel="me"}.
 {: .emoji-list}

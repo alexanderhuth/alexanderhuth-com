@@ -763,16 +763,17 @@ figure figcaption {
   margin: 2rem -1.5rem 0;
 }
 
-.photo-grid a {
+.photo-grid a,
+.photo-grid label {
   display: block;
   break-inside: avoid;
   margin-bottom: 0.5rem;
   overflow: hidden;
 }
 
-.photo-grid a.landscape { aspect-ratio: 3 / 2; }
-.photo-grid a.portrait { aspect-ratio: 2 / 3; }
-.photo-grid a.square { aspect-ratio: 1 / 1; }
+.photo-grid .landscape { aspect-ratio: 3 / 2; }
+.photo-grid .portrait { aspect-ratio: 2 / 3; }
+.photo-grid .square { aspect-ratio: 1 / 1; }
 
 .photo-grid img {
   width: 100%;
@@ -789,6 +790,59 @@ h2 + figure {
   margin-top: 1rem;
 }
 
+
+/* Shirts page: reuses the photo-grid, with each tile as a <label>
+   around a hidden checkbox - tapping the label toggles the card, no
+   JavaScript involved. On mouse devices the card is driven by hover
+   alone: clicks still toggle the checkbox, but its state has no
+   visible effect there, so unhover always restores the photo. */
+
+.photo-grid label {
+  position: relative;
+  cursor: pointer;
+}
+
+.shirt-toggle {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.shirt-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.75rem;
+  background: var(--border-color);
+  color: var(--text-color);
+  font-size: var(--font-size-sm);
+  line-height: 1.4;
+  opacity: 0;
+  transition: opacity 120ms ease;
+  pointer-events: none;
+}
+
+.shirt-toggle:checked ~ .shirt-label {
+  opacity: 1;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .shirt-toggle:checked ~ .shirt-label {
+    opacity: 0;
+  }
+
+  .photo-grid label:hover .shirt-label {
+    opacity: 1;
+  }
+}
+
+.shirt-toggle:focus-visible ~ .shirt-label {
+  opacity: 1;
+}
 
 .slashes-list {
   columns: 2;

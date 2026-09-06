@@ -17,7 +17,7 @@
 <figure>
   <img src="/images{{ path }}/720/{{ include.slug }}.jpg"
        srcset="{% for w in widths %}/images{{ path }}/{{ w }}/{{ include.slug }}.jpg {{ include.w | times: w | plus: half | divided_by: long_edge | at_most: include.w }}w, {% endfor %}/images{{ path }}/{{ include.slug }}.jpg {{ include.w }}w"
-       sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"
+       sizes="{{ include.sizes | default: '(max-width: 48rem) 100vw, calc(72ch + 3rem)' }}"
        alt="{{ include.alt | escape }}"
        width="{{ include.w }}" height="{{ include.h }}"
        loading="{{ loading }}"{% if loading == "eager" %} fetchpriority="high"{% endif %} decoding="async">

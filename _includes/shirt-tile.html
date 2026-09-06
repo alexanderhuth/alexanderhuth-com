@@ -1,0 +1,9 @@
+{%- comment -%}
+  One shirt in the photos-style grid. Mirrors photos-grid.html markup.
+  The tile is a <label> around a hidden checkbox: tapping it flips the
+  tile to its label card and tapping again flips it back. On mouse
+  devices only hovering shows the card. No JavaScript involved.
+{%- endcomment -%}
+{%- if include.w > include.h -%}{%- assign shape = 'landscape' -%}{%- assign long_edge = include.w -%}{%- else -%}{%- assign shape = 'portrait' -%}{%- assign long_edge = include.h -%}{%- endif -%}
+{%- assign half = long_edge | divided_by: 2 | minus: 1 -%}
+<label class="{{ shape }}"><input type="checkbox" class="shirt-toggle" aria-label="Toggle shirt info"><img src="/images/shirts/480/{{ include.slug }}.jpg" srcset="/images/shirts/480/{{ include.slug }}.jpg {{ include.w | times: 480 | plus: half | divided_by: long_edge | at_most: include.w }}w, /images/shirts/720/{{ include.slug }}.jpg {{ include.w | times: 720 | plus: half | divided_by: long_edge | at_most: include.w }}w" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ include.alt | escape }}" width="{{ include.w }}" height="{{ include.h }}" loading="lazy" decoding="async"><span class="shirt-label" aria-hidden="true">{{ include.alt | escape }}</span></label>

@@ -761,11 +761,18 @@ figure figcaption {
   columns: 180px;
   column-gap: 0.5rem;
   margin: 2rem -1.5rem 0;
+  /* whitespace between inline-block tiles must not create line boxes */
+  line-height: 0;
 }
 
+/* inline-block, not block: Safari's column fragmentation leaves a gap
+   at the top of a column when a block item with break-inside: avoid
+   moves over; atomic inline-blocks never fragment, avoiding the bug. */
 .photo-grid a,
 .photo-grid label {
-  display: block;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
   break-inside: avoid;
   margin-bottom: 0.5rem;
   overflow: hidden;

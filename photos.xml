@@ -20,8 +20,8 @@ permalink: /photos.xml
     <updated>{{ site.time | date_to_xmlschema }}</updated>
   {% endif %}
   {% for photo in photos limit: 20 %}
-    {% assign photo_slug = photo.name | split: "." | first %}
     {% assign photo_image_filename = photo.image | split: "/" | last %}
+    {% assign photo_slug = photo_image_filename | split: "." | first %}
     <entry>
       <title>📷 {{ photo.title | escape }}</title>
       <id>{{ "/photos/" | append: photo_slug | append: "/" | absolute_url }}</id>

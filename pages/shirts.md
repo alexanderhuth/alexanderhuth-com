@@ -11,7 +11,8 @@ Many of the band shirts I've worn and loved over the years. Most of these aren't
 
 {% assign shirts = site.shirts | sort: "order" %}
 <div class="photo-grid">
-{% for shirt in shirts %}{% include shirt-tile.html shirt=shirt %}{% endfor %}</div>
+{% for shirt in shirts %}{% assign tile_loading = "lazy" %}{% if forloop.first %}{% assign tile_loading = "eager" %}{% endif %}{% include grid-tile.html image=shirt.image dir="/images/shirts" w=shirt.width h=shirt.height alt=shirt.alt flip=true full=true loading=tile_loading %}
+{% endfor %}</div>
 
 ## Notes
 

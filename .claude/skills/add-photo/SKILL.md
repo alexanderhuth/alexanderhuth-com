@@ -94,7 +94,7 @@ location: "Location name"
 
 ## Image Sizes
 
-Variants bound the **long edge**, so a portrait photo is narrower than its step name — a 1440×1920 photo yields a 360px-wide file at the 480 step. That is expected; `_includes/photo-figure.html` and `_includes/photos-grid.html` derive the real width from `width`/`height` and emit honest descriptors.
+Variants bound the **long edge**, so a portrait photo is narrower than its step name — a 1440×1920 photo yields a 360px-wide file at the 480 step. That is expected; `_includes/image-srcset.html` (shared by `photo-figure.html` and `grid-tile.html`) derives the real width from `width`/`height` and emits honest descriptors.
 
 | Step | Directory | Used for |
 |---|---|---|

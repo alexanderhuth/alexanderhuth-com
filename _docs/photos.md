@@ -37,7 +37,7 @@ It also reads `DateTimeOriginal` from the source before stripping EXIF and print
 
 Feed images use `srcset` with the 480/720/960/1280 variants and `sizes="(max-width: 48rem) 100vw, calc(72ch + 3rem)"`.
 
-Sizes bound the **long edge**, so a portrait file is narrower than its step name — a 1440x1920 photo yields 360px at the 480 step. `photo-figure.html` and `photos-grid.html` therefore compute each `srcset` descriptor from the front matter `width`/`height` rather than hardcoding the step name. Accurate `width`/`height` values are what make the whole thing work.
+Sizes bound the **long edge**, so a portrait file is narrower than its step name — a 1440x1920 photo yields 360px at the 480 step. The shared `_includes/image-srcset.html` (used by `photo-figure.html` and `grid-tile.html`) therefore computes each `srcset` descriptor from the front matter `width`/`height` rather than hardcoding the step name. Accurate `width`/`height` values are what make the whole thing work.
 
 - First image: `loading="eager"` + `fetchpriority="high"`
 - All other images: `loading="lazy"`

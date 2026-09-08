@@ -4,9 +4,9 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   background: var(--bg-color);
-  max-width: 72ch;
+  max-width: var(--text-width);
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 1.5rem;
+  padding: 2.5rem var(--gutter) 1.5rem;
   min-height: 100vh;
   min-height: 100dvh; /* use dynamic viewport to keep footer above mobile browser chrome */
   display: flex;
@@ -21,6 +21,10 @@ body {
 }
 
 :root {
+  /* text column and side gutter; figures and grids bleed into the
+     gutter, and photo-figure.html's sizes default mirrors the sum */
+  --text-width: 72ch;
+  --gutter: 1.5rem;
   --size: 1em;
   --gap: 0.08em;
   --color: currentColor;
@@ -736,8 +740,8 @@ main {
 }
 
 figure {
-  margin: 2rem -1.5rem 0;
-  max-width: calc(72ch + 3rem);
+  margin: 2rem calc(-1 * var(--gutter)) 0;
+  max-width: calc(var(--text-width) + 2 * var(--gutter));
 }
 
 figure img {
@@ -747,7 +751,7 @@ figure img {
 }
 
 figure figcaption {
-  margin: 0.6rem 1.5rem 0;
+  margin: 0.6rem var(--gutter) 0;
   color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
   font-size: var(--font-size-sm);
 }
@@ -760,7 +764,7 @@ figure figcaption {
 .photo-grid {
   columns: 180px;
   column-gap: 0.5rem;
-  margin: 2rem -1.5rem 0;
+  margin: 2rem calc(-1 * var(--gutter)) 0;
   /* whitespace between inline-block tiles must not create line boxes */
   line-height: 0;
 }
@@ -768,8 +772,7 @@ figure figcaption {
 /* inline-block, not block: Safari's column fragmentation leaves a gap
    at the top of a column when a block item with break-inside: avoid
    moves over; atomic inline-blocks never fragment, avoiding the bug. */
-.photo-grid a,
-.photo-grid label {
+.photo-grid > * {
   display: inline-block;
   width: 100%;
   vertical-align: top;

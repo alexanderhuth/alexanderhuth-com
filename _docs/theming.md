@@ -2,7 +2,9 @@
 
 ## Architecture
 
-Single CSS file: `assets/style.css`. No preprocessor. Mobile-first, responsive. Max-width container: `72ch`.
+Single CSS file: `assets/style.css`. No preprocessor. Mobile-first, responsive.
+
+Layout tokens on `:root`: `--text-width` (`72ch` text column) and `--gutter` (`1.5rem` side padding). Figures and the photo grid bleed into the gutter via `calc(-1 * var(--gutter))` margins; the `sizes` default in `_includes/photo-figure.html` mirrors `--text-width + 2 * --gutter` and must be kept in sync by hand.
 
 ## Themes
 

@@ -1,14 +1,11 @@
-{% assign photos = site.photos | sort: "date" | reverse %}
+{% assign photos = site.photos | sort: "time" | sort: "date" | reverse %}
 {% if photos.size > 0 %}
 <div class="photo-grid">
 {% for photo in photos limit:50 %}
-{%- assign fn = photo.image | split: "/" | last -%}
-{%- assign slug = fn | split: "." | first -%}
-{%- if photo.width > photo.height -%}{%- assign shape = 'landscape' -%}
-{%- elsif photo.width < photo.height -%}{%- assign shape = 'portrait' -%}
-{%- else -%}{%- assign shape = 'square' -%}{%- endif -%}
-{%- if photo.width > photo.height -%}{%- assign long_edge = photo.width -%}{%- else -%}{%- assign long_edge = photo.height -%}{%- endif -%}{%- assign half = long_edge | divided_by: 2 | minus: 1 -%}
-<a href="/photos/{{ slug }}/" class="{{ shape }}"><img src="/images/480/{{ fn }}" srcset="/images/480/{{ fn }} {{ photo.width | times: 480 | plus: half | divided_by: long_edge | at_most: photo.width }}w, /images/720/{{ fn }} {{ photo.width | times: 720 | plus: half | divided_by: long_edge | at_most: photo.width }}w" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" decoding="async"{% if forloop.first %} fetchpriority="high"{% endif %}></a>
+{%- assign slug = photo.image | split: "/" | last | split: "." | first -%}
+{%- assign tile_loading = "lazy" -%}{%- if forloop.first -%}{%- assign tile_loading = "eager" -%}{%- endif -%}
+{%- capture href -%}/photos/{{ slug }}/{%- endcapture -%}
+{% include grid-tile.html image=photo.image w=photo.width h=photo.height alt=photo.alt href=href loading=tile_loading %}
 {% endfor %}
 </div>
 {% else %}

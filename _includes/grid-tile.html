@@ -1,0 +1,31 @@
+{%- comment -%}
+  One tile in a .photo-grid masonry column, shared by the photos and
+  shirts pages. Renders an <a> when href is given; with flip=true it
+  renders instead a <label> around a hidden checkbox that flips the
+  tile to a card showing the alt text (tap toggles, hover shows it on
+  mouse devices, no JavaScript involved - see the shirt rules in
+  style.css).
+
+  Parameters:
+    image    full-size image path; the file name keys the size variants
+    dir      directory holding the size-step folders (default "/images")
+    w, h     dimensions of the full-size file
+    alt      alt text (doubles as the flip card's label)
+    href     link target (ignored with flip=true)
+    flip     render the flip-card <label> variant
+    full     also offer the full-size file in the srcset
+    loading  "eager" for above-the-fold tiles (default "lazy")
+{%- endcomment -%}
+{%- assign fn = include.image | split: "/" | last -%}
+{%- assign dir = include.dir | default: "/images" -%}
+{%- assign loading = include.loading | default: "lazy" -%}
+{%- if include.w > include.h -%}{%- assign shape = 'landscape' -%}
+{%- elsif include.w < include.h -%}{%- assign shape = 'portrait' -%}
+{%- else -%}{%- assign shape = 'square' -%}{%- endif -%}
+{%- capture srcset -%}{% include image-srcset.html dir=dir fn=fn w=include.w h=include.h steps="480,720" full=include.full %}{%- endcapture -%}
+{%- capture img -%}<img src="{{ dir }}/480/{{ fn }}" srcset="{{ srcset }}" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ include.alt | escape }}" width="{{ include.w }}" height="{{ include.h }}" loading="{{ loading }}" decoding="async"{% if loading == "eager" %} fetchpriority="high"{% endif %}>{%- endcapture -%}
+{%- if include.flip -%}
+<label class="{{ shape }}"><input type="checkbox" class="shirt-toggle" aria-label="Toggle shirt info">{{ img }}<span class="shirt-label" aria-hidden="true">{{ include.alt | escape }}</span></label>
+{%- else -%}
+<a href="{{ include.href }}" class="{{ shape }}">{{ img }}</a>
+{%- endif -%}

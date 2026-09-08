@@ -1,5 +1,5 @@
 ---
-title: 'The Postal Service "Give Up 10th Anniversary" (front)'
+title: "The Postal Service"
 image: /images/shirts/the-postal-service-give-up-front.jpg
 width: 960
 height: 640

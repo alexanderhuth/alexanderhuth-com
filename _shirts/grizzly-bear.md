@@ -1,5 +1,5 @@
 ---
-title: 'Grizzly Bear "Fish"'
+title: "Grizzly Bear"
 image: /images/shirts/grizzly-bear.jpg
 width: 644
 height: 960

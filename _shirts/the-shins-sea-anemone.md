@@ -1,5 +1,5 @@
 ---
-title: 'The Shins "Sea Anemone"'
+title: "The Shins"
 image: /images/shirts/the-shins-sea-anemone.jpg
 width: 720
 height: 960

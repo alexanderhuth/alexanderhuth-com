@@ -1,5 +1,5 @@
 ---
-title: 'Hype Machine "Green Phonograph Tee"'
+title: "Hype Machine"
 image: /images/shirts/hype-machine.jpg
 width: 720
 height: 960

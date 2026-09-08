@@ -1,5 +1,5 @@
 ---
-title: 'Menomena "Menomenaa"'
+title: "Menomena"
 image: /images/shirts/menomena.jpg
 width: 644
 height: 960

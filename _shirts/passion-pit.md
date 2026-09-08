@@ -1,5 +1,5 @@
 ---
-title: 'Passion Pit "CMY Logo"'
+title: "Passion Pit"
 image: /images/shirts/passion-pit.jpg
 width: 960
 height: 644

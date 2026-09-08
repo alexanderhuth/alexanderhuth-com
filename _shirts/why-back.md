@@ -1,5 +1,5 @@
 ---
-title: "WHY? (back)"
+title: "WHY?"
 image: /images/shirts/why-back.jpg
 width: 720
 height: 960

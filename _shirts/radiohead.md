@@ -1,5 +1,5 @@
 ---
-title: "Radiohead (bootleg)"
+title: "Radiohead"
 image: /images/shirts/radiohead.jpg
 width: 720
 height: 960

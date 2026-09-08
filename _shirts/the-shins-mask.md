@@ -1,5 +1,5 @@
 ---
-title: 'The Shins "Mask Collage"'
+title: "The Shins"
 image: /images/shirts/the-shins-mask.jpg
 width: 644
 height: 960

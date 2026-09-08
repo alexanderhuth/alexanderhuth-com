@@ -1,5 +1,5 @@
 ---
-title: 'La Dispute "Wildlife"'
+title: "La Dispute"
 image: /images/shirts/la-dispute.jpg
 width: 720
 height: 960

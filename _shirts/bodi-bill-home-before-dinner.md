@@ -1,5 +1,5 @@
 ---
-title: 'Bodi Bill "Be Home Before Dinner"'
+title: "Bodi Bill"
 image: /images/shirts/bodi-bill-home-before-dinner.jpg
 width: 644
 height: 960

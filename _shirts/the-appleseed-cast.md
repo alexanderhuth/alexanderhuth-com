@@ -1,5 +1,5 @@
 ---
-title: 'The Appleseed Cast "Peregrine"'
+title: "The Appleseed Cast"
 image: /images/shirts/the-appleseed-cast.jpg
 width: 720
 height: 960

@@ -1,5 +1,5 @@
 ---
-title: 'Bodi Bill "Next Time"'
+title: "Bodi Bill"
 image: /images/shirts/bodi-bill-next-time.jpg
 width: 644
 height: 960

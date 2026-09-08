@@ -1,5 +1,5 @@
 ---
-title: 'The Postal Service "Bow & Arrow"'
+title: "The Postal Service"
 image: /images/shirts/the-postal-service.jpg
 width: 960
 height: 644

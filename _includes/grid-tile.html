@@ -10,9 +10,10 @@
     image    full-size image path; the file name keys the size variants
     dir      directory holding the size-step folders (default "/images")
     w, h     dimensions of the full-size file
-    alt      alt text (doubles as the flip card's label)
+    alt      alt text
     href     link target (ignored with flip=true)
     flip     render the flip-card <label> variant
+    label    flip card text (default: the alt text)
     full     also offer the full-size file in the srcset
     loading  "eager" for above-the-fold tiles (default "lazy")
 {%- endcomment -%}
@@ -25,7 +26,7 @@
 {%- capture srcset -%}{% include image-srcset.html dir=dir fn=fn w=include.w h=include.h steps="480,720" full=include.full %}{%- endcapture -%}
 {%- capture img -%}<img src="{{ dir }}/480/{{ fn }}" srcset="{{ srcset }}" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ include.alt | escape }}" width="{{ include.w }}" height="{{ include.h }}" loading="{{ loading }}" decoding="async"{% if loading == "eager" %} fetchpriority="high"{% endif %}>{%- endcapture -%}
 {%- if include.flip -%}
-<label class="{{ shape }}"><input type="checkbox" class="shirt-toggle" aria-label="Toggle shirt info">{{ img }}<span class="shirt-label" aria-hidden="true">{{ include.alt | escape }}</span></label>
+<label class="{{ shape }}"><input type="checkbox" class="shirt-toggle" aria-label="Toggle shirt info">{{ img }}<span class="shirt-label" aria-hidden="true">{{ include.label | default: include.alt | escape }}</span></label>
 {%- else -%}
 <a href="{{ include.href }}" class="{{ shape }}">{{ img }}</a>
 {%- endif -%}

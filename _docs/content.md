@@ -5,6 +5,7 @@
 - `_posts/` — blog posts (`YYYY-MM-DD-title.md`, `layout: post`)
 - `pages/` — all other pages (`layout: page`)
 - `_photos/` — photo collection entries
+- `_shirts/` — shirt collection entries
 - `_data/` — JSON data files consumed by Liquid templates
 
 ## File Naming
@@ -24,6 +25,17 @@ Optional fields:
 - `permalink` — custom URL path
 - `robots: noindex` — prevent indexing
 - `theme` — force a specific theme (e.g. `theme: sand`)
+
+## Shirts Collection
+
+`_shirts/` holds one document per shirt, rendered as the flip-tile grid
+on `/shirts/` (`output: false` — no per-shirt pages). The filename is the
+image slug (`images/shirts/<slug>.jpg`, with `480/` and `720/` variants).
+Front matter: `title`, `image`, `width`/`height` (full-size file), `alt`
+(also the tile's flip label), `order` (grid position, spaced by 10), and
+optional `note_id` (div id when one note covers several shirts). The
+document body is the shirt's note in the page's Notes section; leave it
+empty for shirts without one.
 
 ## Markdown
 

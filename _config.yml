@@ -18,6 +18,8 @@ collections:
   photos:
     output: true
     permalink: /photos/:name/
+  shirts:
+    output: false
 
 # --- Defaults ---
 defaults:

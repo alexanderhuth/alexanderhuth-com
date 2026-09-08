@@ -1,9 +1,13 @@
 {%- comment -%}
-  One shirt in the photos-style grid. Mirrors photos-grid.html markup.
-  The tile is a <label> around a hidden checkbox: tapping it flips the
-  tile to its label card and tapping again flips it back. On mouse
-  devices only hovering shows the card. No JavaScript involved.
+  One shirt in the photos-style grid, from a _shirts/ collection doc
+  (include.shirt). Mirrors photos-grid.html markup. The tile is a
+  <label> around a hidden checkbox: tapping it flips the tile to its
+  label card and tapping again flips it back. On mouse devices only
+  hovering shows the card. No JavaScript involved.
 {%- endcomment -%}
-{%- if include.w > include.h -%}{%- assign shape = 'landscape' -%}{%- assign long_edge = include.w -%}{%- else -%}{%- assign shape = 'portrait' -%}{%- assign long_edge = include.h -%}{%- endif -%}
+{%- assign shirt = include.shirt -%}
+{%- assign fn = shirt.image | split: "/" | last -%}
+{%- assign slug = fn | split: "." | first -%}
+{%- if shirt.width > shirt.height -%}{%- assign shape = 'landscape' -%}{%- assign long_edge = shirt.width -%}{%- else -%}{%- assign shape = 'portrait' -%}{%- assign long_edge = shirt.height -%}{%- endif -%}
 {%- assign half = long_edge | divided_by: 2 | minus: 1 -%}
-<label class="{{ shape }}"><input type="checkbox" class="shirt-toggle" aria-label="Toggle shirt info"><img src="/images/shirts/480/{{ include.slug }}.jpg" srcset="/images/shirts/480/{{ include.slug }}.jpg {{ include.w | times: 480 | plus: half | divided_by: long_edge | at_most: include.w }}w, /images/shirts/720/{{ include.slug }}.jpg {{ include.w | times: 720 | plus: half | divided_by: long_edge | at_most: include.w }}w" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ include.alt | escape }}" width="{{ include.w }}" height="{{ include.h }}" loading="lazy" decoding="async"><span class="shirt-label" aria-hidden="true">{{ include.alt | escape }}</span></label>
+<label class="{{ shape }}"><input type="checkbox" class="shirt-toggle" aria-label="Toggle shirt info"><img src="/images/shirts/480/{{ slug }}.jpg" srcset="/images/shirts/480/{{ slug }}.jpg {{ shirt.width | times: 480 | plus: half | divided_by: long_edge | at_most: shirt.width }}w, /images/shirts/720/{{ slug }}.jpg {{ shirt.width | times: 720 | plus: half | divided_by: long_edge | at_most: shirt.width }}w" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ shirt.alt | escape }}" width="{{ shirt.width }}" height="{{ shirt.height }}" loading="lazy" decoding="async"><span class="shirt-label" aria-hidden="true">{{ shirt.alt | escape }}</span></label>

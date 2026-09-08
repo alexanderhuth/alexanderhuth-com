@@ -1,0 +1,10 @@
+---
+title: 'Bodi Bill "Be Home Before Dinner"'
+image: /images/shirts/bodi-bill-home-before-dinner.jpg
+width: 1289
+height: 1920
+alt: 'Bodi Bill "Be Home Before Dinner" t-shirt'
+order: 30
+note_id: bodi-bill
+---
+**Bodi Bill** — Next Time, [Be Home Before Dinner](https://www.tapelink.io/share/G66V8rFU).

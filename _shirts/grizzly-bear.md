@@ -1,0 +1,9 @@
+---
+title: 'Grizzly Bear "Fish"'
+image: /images/shirts/grizzly-bear.jpg
+width: 1289
+height: 1920
+alt: 'Grizzly Bear "Fish" band t-shirt'
+order: 110
+---
+**Grizzly Bear** — Bought at the 2012 Berlin show at Astra. The band shirt was later featured on the poster of the 2014 film [The Skeleton Twins](https://boxd.it/7bCS).

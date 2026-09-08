@@ -1,8 +1,8 @@
 ---
 title: 'The Appleseed Cast "Peregrine"'
 image: /images/shirts/the-appleseed-cast.jpg
-width: 1440
-height: 1920
+width: 720
+height: 960
 alt: 'The Appleseed Cast "Peregrine" shirt'
 order: 290
 ---

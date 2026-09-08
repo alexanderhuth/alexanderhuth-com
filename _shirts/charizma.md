@@ -1,8 +1,8 @@
 ---
 title: "Charizma & Peanut Butter Wolf"
 image: /images/shirts/charizma.jpg
-width: 1280
-height: 1920
+width: 640
+height: 960
 alt: "Charizma & Peanut Butter Wolf t-shirt"
 order: 70
 ---

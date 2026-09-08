@@ -1,8 +1,8 @@
 ---
 title: "Dendemann"
 image: /images/shirts/dendemann.jpg
-width: 1920
-height: 1440
+width: 960
+height: 720
 alt: "Dendemann t-shirt"
 order: 100
 ---

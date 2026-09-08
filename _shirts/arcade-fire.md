@@ -1,8 +1,8 @@
 ---
 title: "Arcade Fire"
 image: /images/shirts/arcade-fire.jpg
-width: 1289
-height: 1920
+width: 644
+height: 960
 alt: 'Arcade Fire "Billboard" concert shirt'
 order: 20
 ---

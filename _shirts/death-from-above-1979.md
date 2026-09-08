@@ -1,8 +1,8 @@
 ---
 title: "Death From Above 1979"
 image: /images/shirts/death-from-above-1979.jpg
-width: 1440
-height: 1920
+width: 720
+height: 960
 alt: "Death From Above 1979 band shirt"
 order: 90
 ---

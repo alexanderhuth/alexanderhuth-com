@@ -1,8 +1,8 @@
 ---
 title: "Alvvays"
 image: /images/shirts/alvvays.jpg
-width: 1280
-height: 1920
+width: 640
+height: 960
 alt: 'Alvvays "Phone Guy" t-shirt'
 order: 10
 ---

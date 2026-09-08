@@ -1,8 +1,8 @@
 ---
 title: 'The Postal Service "Bow & Arrow"'
 image: /images/shirts/the-postal-service.jpg
-width: 1920
-height: 1289
+width: 960
+height: 644
 alt: 'The Postal Service "Bow & Arrow" band shirt'
 order: 310
 ---

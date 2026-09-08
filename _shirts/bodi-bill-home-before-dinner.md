@@ -1,8 +1,8 @@
 ---
 title: 'Bodi Bill "Be Home Before Dinner"'
 image: /images/shirts/bodi-bill-home-before-dinner.jpg
-width: 1289
-height: 1920
+width: 644
+height: 960
 alt: 'Bodi Bill "Be Home Before Dinner" t-shirt'
 order: 30
 note_id: bodi-bill

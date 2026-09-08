@@ -1,8 +1,8 @@
 ---
 title: "Bon Iver"
 image: /images/shirts/bon-iver.jpg
-width: 1440
-height: 1920
+width: 720
+height: 960
 alt: "Bon Iver concert t-shirt"
 order: 50
 ---

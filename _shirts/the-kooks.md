@@ -1,8 +1,8 @@
 ---
 title: "The Kooks"
 image: /images/shirts/the-kooks.jpg
-width: 1920
-height: 1289
+width: 960
+height: 644
 alt: "The Kooks shirt"
 order: 300
 ---

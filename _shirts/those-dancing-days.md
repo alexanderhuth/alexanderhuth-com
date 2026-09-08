@@ -1,8 +1,8 @@
 ---
 title: "Those Dancing Days"
 image: /images/shirts/those-dancing-days.jpg
-width: 1920
-height: 1440
+width: 960
+height: 720
 alt: "Those Dancing Days band shirt"
 order: 390
 ---

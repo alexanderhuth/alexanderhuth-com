@@ -1,8 +1,8 @@
 ---
 title: "WHY? (front)"
 image: /images/shirts/why-front.jpg
-width: 1440
-height: 1920
+width: 720
+height: 960
 alt: "WHY? concert shirt, front"
 order: 400
 note_id: why

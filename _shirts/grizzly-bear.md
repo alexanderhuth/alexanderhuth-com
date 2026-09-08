@@ -1,8 +1,8 @@
 ---
 title: 'Grizzly Bear "Fish"'
 image: /images/shirts/grizzly-bear.jpg
-width: 1289
-height: 1920
+width: 644
+height: 960
 alt: 'Grizzly Bear "Fish" band t-shirt'
 order: 110
 ---

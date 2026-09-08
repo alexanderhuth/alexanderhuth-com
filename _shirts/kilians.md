@@ -1,8 +1,8 @@
 ---
 title: "Kilians"
 image: /images/shirts/kilians.jpg
-width: 1920
-height: 1440
+width: 960
+height: 720
 alt: "Kilians band shirt"
 order: 230
 ---

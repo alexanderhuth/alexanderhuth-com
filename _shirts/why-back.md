@@ -1,8 +1,8 @@
 ---
 title: "WHY? (back)"
 image: /images/shirts/why-back.jpg
-width: 1440
-height: 1920
+width: 720
+height: 960
 alt: "WHY? concert shirt, back"
 order: 410
 ---

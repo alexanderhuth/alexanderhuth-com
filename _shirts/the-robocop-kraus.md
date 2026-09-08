@@ -1,8 +1,8 @@
 ---
 title: "The Robocop Kraus"
 image: /images/shirts/the-robocop-kraus.jpg
-width: 1280
-height: 1920
+width: 640
+height: 960
 alt: "The Robocop Kraus band t-shirt"
 order: 340
 ---

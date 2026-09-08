@@ -1,8 +1,8 @@
 ---
 title: 'Menomena "Menomenaa"'
 image: /images/shirts/menomena.jpg
-width: 1289
-height: 1920
+width: 644
+height: 960
 alt: 'Menomena "Menomenaa" band shirt'
 order: 250
 ---

@@ -30,8 +30,10 @@ Optional fields:
 
 `_shirts/` holds one document per shirt, rendered as the flip-tile grid
 on `/shirts/` (`output: false` — no per-shirt pages). The filename is the
-image slug (`images/shirts/<slug>.jpg`, with `480/` and `720/` variants).
-Front matter: `title`, `image`, `width`/`height` (full-size file), `alt`
+image slug (`images/shirts/<slug>.jpg`, long edge 960 — the largest size
+kept in the repo; larger originals live outside it — with `480/` and
+`720/` variants).
+Front matter: `title`, `image`, `width`/`height` (of that 960 file), `alt`
 (also the tile's flip label), `order` (grid position, spaced by 10), and
 optional `note_id` (div id when one note covers several shirts). The
 document body is the shirt's note in the page's Notes section; leave it

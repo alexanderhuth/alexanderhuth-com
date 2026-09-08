@@ -1,8 +1,8 @@
 ---
 title: 'Hype Machine "Green Phonograph Tee"'
 image: /images/shirts/hype-machine.jpg
-width: 1440
-height: 1920
+width: 720
+height: 960
 alt: '"Green Phonograph Tee" Hype Machine merch'
 order: 130
 ---

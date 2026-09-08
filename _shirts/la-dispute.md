@@ -1,8 +1,8 @@
 ---
 title: 'La Dispute "Wildlife"'
 image: /images/shirts/la-dispute.jpg
-width: 1440
-height: 1920
+width: 720
+height: 960
 alt: 'La Dispute "Wildlife" shirt'
 order: 240
 ---

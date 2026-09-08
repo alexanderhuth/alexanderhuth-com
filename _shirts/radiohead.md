@@ -1,8 +1,8 @@
 ---
 title: "Radiohead (bootleg)"
 image: /images/shirts/radiohead.jpg
-width: 1440
-height: 1920
+width: 720
+height: 960
 alt: "Bootleg Radiohead concert shirt"
 order: 270
 ---

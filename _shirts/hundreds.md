@@ -6,4 +6,4 @@ height: 644
 alt: "Hundreds band t-shirt"
 order: 120
 ---
-**Hundreds** — Bought at one of their earliest shows.
+Bought at one of their earliest shows.

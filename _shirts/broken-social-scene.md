@@ -6,4 +6,4 @@ height: 960
 alt: "Broken Social Scene band t-shirt"
 order: 60
 ---
-**Broken Social Scene** — Got this during the "20 Years of City Slang" weekend.
+Got this during the "20 Years of City Slang" weekend.

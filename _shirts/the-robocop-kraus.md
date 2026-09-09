@@ -6,4 +6,4 @@ height: 960
 alt: "The Robocop Kraus band t-shirt"
 order: 340
 ---
-**The Robocop Kraus** — Who do they think they are? The Robocop Kraus!
+Who do they think they are? The Robocop Kraus!

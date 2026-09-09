@@ -35,10 +35,14 @@ kept in the repo; larger originals live outside it — with `480/` and
 `720/` variants).
 Front matter: `title` (the plain band/festival name, shown on the tile's
 flip card), `image`, `width`/`height` (of that 960 file), `alt` (the full
-shirt description), `order` (grid position, spaced by 10), and
-optional `note_id` (div id when one note covers several shirts). The
-document body is the shirt's note in the page's Notes section; leave it
-empty for shirts without one.
+shirt description), and `order` (grid position, spaced by 10). A shirt
+photographed from both sides is one document: `back`/`back_alt` name the
+back-side image (same dimensions as the front), which the flip shows
+under the label scrim in place of the front. The
+document body is the shirt's note in the page's Notes section, printed
+under a `###` heading of the shirt's `title`; leave it empty for shirts
+without one, and don't repeat the name in the note. Only one document
+per band should carry a note.
 
 ## Markdown
 

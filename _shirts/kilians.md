@@ -6,4 +6,4 @@ height: 720
 alt: "Kilians band shirt"
 order: 230
 ---
-**Kilians** — Bought at their 2013 farewell show in Berlin. Quality-wise, probably the worst band shirt I've ever owned.
+Bought at their 2013 farewell show in Berlin. Quality-wise, probably the worst band shirt I've ever owned.

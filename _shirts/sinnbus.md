@@ -6,4 +6,4 @@ height: 644
 alt: "Sinnbus shirt"
 order: 280
 ---
-**Sinnbus** — Sinnbus ❤️
+Sinnbus ❤️

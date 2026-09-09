@@ -6,7 +6,7 @@ height: 720
 alt: "Dendemann t-shirt"
 order: 100
 ---
-**Dendemann** — Way too big, way too orange, and way too offensive to some people. Still, always loved this cartoon version of one of Dendemann's smartest lines:
+Way too big, way too orange, and way too offensive to some people. Still, always loved this cartoon version of one of Dendemann's smartest lines:
 
 > Vielleicht hab ich 'n Stock im Arsch und führ' 'n Spießerleben,  
 > doch mein Zeige- und dein Mittelfinger würden "Peace" ergeben.

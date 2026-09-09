@@ -14,6 +14,9 @@
     href     link target (ignored with flip=true)
     flip     render the flip-card <label> variant
     label    flip card text (default: the alt text)
+    back     back-side image path, revealed by the flip (flip=true
+             only; assumed to share the front's dimensions)
+    back_alt alt text for the back-side image
     full     also offer the full-size file in the srcset
     loading  "eager" for above-the-fold tiles (default "lazy")
 {%- endcomment -%}
@@ -26,7 +29,12 @@
 {%- capture srcset -%}{% include image-srcset.html dir=dir fn=fn w=include.w h=include.h steps="480,720" full=include.full %}{%- endcapture -%}
 {%- capture img -%}<img src="{{ dir }}/480/{{ fn }}" srcset="{{ srcset }}" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ include.alt | escape }}" width="{{ include.w }}" height="{{ include.h }}" loading="{{ loading }}" decoding="async"{% if loading == "eager" %} fetchpriority="high"{% endif %}>{%- endcapture -%}
 {%- if include.flip -%}
-<label class="{{ shape }}"><input type="checkbox" class="shirt-toggle" aria-label="Toggle shirt info">{{ img }}<span class="shirt-label" aria-hidden="true">{{ include.label | default: include.alt | escape }}</span></label>
+{%- if include.back -%}
+{%- assign back_fn = include.back | split: "/" | last -%}
+{%- capture back_srcset -%}{% include image-srcset.html dir=dir fn=back_fn w=include.w h=include.h steps="480,720" full=include.full %}{%- endcapture -%}
+{%- capture back_img -%}<img class="shirt-back" src="{{ dir }}/480/{{ back_fn }}" srcset="{{ back_srcset }}" sizes="(max-width: 40rem) 50vw, 240px" alt="{{ include.back_alt | escape }}" width="{{ include.w }}" height="{{ include.h }}" loading="lazy" decoding="async">{%- endcapture -%}
+{%- endif -%}
+<label class="{{ shape }}"><input type="checkbox" class="shirt-toggle" aria-label="Toggle shirt info">{{ img }}{% if include.back %}{{ back_img }}{% endif %}<span class="shirt-label" aria-hidden="true">{{ include.label | default: include.alt | escape }}</span></label>
 {%- else -%}
 <a href="{{ include.href }}" class="{{ shape }}">{{ img }}</a>
 {%- endif -%}

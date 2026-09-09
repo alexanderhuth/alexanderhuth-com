@@ -6,4 +6,4 @@ height: 960
 alt: '"Green Phonograph Tee" Hype Machine merch'
 order: 130
 ---
-**Hype Machine** — While I don't obsess over finding new tracks anymore, I'm glad that [Hype Machine](https://hypem.com/popular) is still alive and kicking.
+While I don't obsess over finding new tracks anymore, I'm glad that [Hype Machine](https://hypem.com/popular) is still alive and kicking.

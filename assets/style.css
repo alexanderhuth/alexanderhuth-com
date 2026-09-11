@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px;
+  font-size: var(--text-base);
   line-height: 1.6;
   color: var(--text-color);
   background: var(--bg-color);
@@ -33,6 +33,12 @@ body {
   --border-color: #d9d3ca;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
+  /* type scale: heading sizes are base × ratio^step with positive
+     steps only, so no heading can be smaller than the body text it
+     introduces; --font-size-sm is the hand-picked detail size for
+     captions and the footer, never a negative step on the scale */
+  --text-base: 1.125rem;
+  --text-ratio: 1.15;
   --font-size-sm: 0.90rem;
 }
 
@@ -207,29 +213,36 @@ h6 {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: calc(var(--text-base) * pow(var(--text-ratio), 5));
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: calc(var(--text-base) * pow(var(--text-ratio), 4));
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: calc(var(--text-base) * pow(var(--text-ratio), 3));
 }
 
 h4 {
-  font-size: 1.4rem;
+  font-size: calc(var(--text-base) * pow(var(--text-ratio), 2));
 }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: calc(var(--text-base) * pow(var(--text-ratio), 1));
 }
 
 h6 {
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  /* body-sized, so the weight drop (not size) sets it apart from
+     both the body text and inline <strong> */
+  font-size: var(--text-base);
+  font-weight: 500;
+}
+
+h5,
+h6 {
+  /* color only reinforces the hierarchy; it must survive without */
+  color: color-mix(in srgb, var(--text-color) 85%, var(--bg-color) 15%);
 }
 
 blockquote {

@@ -3,6 +3,14 @@
     "label": "2026",
     "items": [
       {
+        "emoji": "⚽️",
+        "venue": "Karl-Liebknecht-Stadion",
+        "city": "Potsdam",
+        "date": "2026-09-19",
+        "match": "SV Babelsberg 03 0 – 2 Hertha BSC II",
+        "competition": "Regionalliga Nordost"
+      },
+      {
         "emoji": "🏀",
         "venue": "Uber Arena",
         "city": "Berlin",

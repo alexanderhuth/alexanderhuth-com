@@ -37,7 +37,7 @@ See [docs/media-sync.md](../../../docs/media-sync.md) for sources, schema, and d
   - `SERIALIZD_TOKEN` — JWT for the Serializd diary API (optional; fall back to user paste if absent)
 - Primary entrypoint: `scripts/sync_media.rb`
 - Secondary scripts (same `scripts/` folder):
-  - `scripts/sync_recordclub.rb` — Record Club RSS (primary music source)
+  - `scripts/sync_recordclub.rb` — Record Club RSS (primary music source; reads the diary and reviews feeds and merges by GUID, because listens with review text only appear in the reviews feed)
   - `scripts/sync_lastfm.rb` — Last.fm API (fallback when Record Club returns no new entries)
   - `scripts/sync_letterboxd.rb` — Letterboxd RSS (films)
   - `scripts/musicbrainz.rb` — shared MusicBrainz lookup utilities
@@ -91,6 +91,7 @@ All entries have a `pub_ts` field. The template sorts by `date` descending (prim
 - Only add a new row when the media was actually consumed as a distinct event.
 - For music, repeat listens of the same album are valid when the underlying listen window is different.
 - For films and TV, use the existing item identity and date data to avoid duplicate rows for the same watch.
+- Series logged on Letterboxd arrive as film rows but are already tracked as TV via Serializd. `sync_letterboxd.rb` skips the slugs listed in its `TV_ON_LETTERBOXD` constant. Whenever you remove such a duplicate film row by hand, add its Letterboxd slug (the part after `/film/` in the entry URL) to that list in the same change so it stays gone.
 - `sync_media.rb` runs `dedupe_tv.rb` after every sync as a safety net: TV rows sharing `(show_title, season_number, episode_number, date)` are collapsed to the earliest `pub_ts`. Music/film dedupe stays a manual check.
 
 ## Lookup Rules

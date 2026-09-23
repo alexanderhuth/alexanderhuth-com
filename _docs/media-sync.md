@@ -19,9 +19,12 @@ ruby .claude/skills/media-sync/scripts/sync_media.rb
 #   --dry-run   preview changes without writing
 ```
 
-Record Club and Letterboxd import everything new in their RSS feeds. Last.fm only
-runs as a fallback when Record Club returns no new entries, fetching from the
-timestamp of the most recent existing Last.fm entry (or 90 days back if none exist).
+Record Club and Letterboxd import everything new in their RSS feeds. Record Club
+is read from two feeds, `/diary/rss` and `/reviews/rss`, merged by GUID: the diary
+feed silently omits listens that carry review text, but the reviews feed includes
+them in the same item format. Last.fm only runs as a fallback when Record Club
+returns no new entries, fetching from the timestamp of the most recent existing
+Last.fm entry (or 90 days back if none exist).
 
 ## Workflow
 
@@ -55,5 +58,6 @@ Entries are sorted at build time by `date` descending (primary), then `pub_ts` d
 - Do not create duplicates for existing entries.
 - Reuse existing metadata from `media.json` before looking anything up.
 - Keep nullable fields `null` rather than inventing values.
-- Record Club entries use the diary entry URL as GUID (unique per listen, `/2` suffix for repeats).
+- Series logged on Letterboxd are skipped by slug via `TV_ON_LETTERBOXD` in `sync_letterboxd.rb`, since they are tracked as TV. Add the slug there whenever such a duplicate is removed by hand.
+- Record Club entries use the diary entry URL as GUID (unique per listen, `/2` suffix for repeats, identical across the diary and reviews feeds).
 - Last.fm entries use `lastfm-album-set-{album_key}|{start_uts}|{end_uts}` as GUID.

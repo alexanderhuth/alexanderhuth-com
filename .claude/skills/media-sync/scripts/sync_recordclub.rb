@@ -10,7 +10,13 @@ require "time"
 require "uri"
 require_relative "musicbrainz"
 
-DEFAULT_RSS_URL = "https://record.club/alexanderh/diary/rss"
+# Record Club leaves listens that carry review text out of the diary feed, but
+# they do appear in the reviews feed with the same item format. Fetch both and
+# merge by GUID so reviewed listens are not lost.
+DEFAULT_RSS_URLS = [
+  "https://record.club/alexanderh/diary/rss",
+  "https://record.club/alexanderh/reviews/rss"
+].freeze
 DEFAULT_TIMEZONE = "Europe/Berlin"
 MEDIA_PATH = "_data/media.json"
 
@@ -24,18 +30,19 @@ end
 
 def parse_options
   options = {
-    rss_url: DEFAULT_RSS_URL,
+    rss_urls: [],
     timezone: DEFAULT_TIMEZONE,
     dry_run: false
   }
 
   OptionParser.new do |opts|
     opts.banner = "Usage: ruby scripts/sync_recordclub.rb [options]"
-    opts.on("--rss-url URL", "Record Club RSS URL (default: #{DEFAULT_RSS_URL})") { |v| options[:rss_url] = v }
+    opts.on("--rss-url URL", "Record Club RSS URL, repeatable (default: #{DEFAULT_RSS_URLS.join(', ')})") { |v| options[:rss_urls] << v }
     opts.on("--timezone TZ", "Timezone for listen day (default: #{DEFAULT_TIMEZONE})") { |v| options[:timezone] = v }
     opts.on("--dry-run", "Do not write _data/media.json") { options[:dry_run] = true }
   end.parse!
 
+  options[:rss_urls] = DEFAULT_RSS_URLS.dup if options[:rss_urls].empty?
   options
 end
 
@@ -44,7 +51,11 @@ def fetch_feed(rss_url)
   response = Net::HTTP.get_response(uri)
   abort("Record Club request failed: HTTP #{response.code}") unless response.is_a?(Net::HTTPSuccess)
 
-  response.body
+  # Record Club sometimes appends an HTML <script> block after </rss>, which
+  # REXML rejects as trailing content. Keep only the XML document.
+  body = response.body
+  rss_end = body.index("</rss>")
+  rss_end ? body[0..rss_end + "</rss>".length - 1] : body
 end
 
 def text_at(element, path)
@@ -83,14 +94,21 @@ def canonical_release_url(url)
 end
 
 
-def parse_feed_items(xml, timezone:, existing_entries:)
-  doc = REXML::Document.new(xml)
+# Accepts one or more feed XML strings. Items sharing a GUID across feeds are
+# parsed once, so MusicBrainz lookups are not repeated for overlapping items.
+def parse_feed_items(xmls, timezone:, existing_entries:)
   items = []
+  seen_guids = {}
   album_year_cache = build_existing_album_year_index(existing_entries)
 
-  doc.elements.each("rss/channel/item") do |item|
+  Array(xmls).each do |xml|
+    doc = REXML::Document.new(xml)
+    doc.elements.each("rss/channel/item") do |item|
     guid = text_at(item, "guid")
     next unless guid
+    next if seen_guids[guid]
+
+    seen_guids[guid] = true
 
     link = text_at(item, "link")
     raw_title = text_at(item, "title")
@@ -123,6 +141,7 @@ def parse_feed_items(xml, timezone:, existing_entries:)
       "url" => canonical_release_url(link),
       "pub_ts" => pub_ts
     }
+    end
   end
 
   items
@@ -152,9 +171,9 @@ def run
   data = load_media_data(MEDIA_PATH)
   existing_entries = data["entries"] || []
 
-  xml = fetch_feed(options[:rss_url])
+  xmls = options[:rss_urls].map { |url| fetch_feed(url) }
   new_items = parse_feed_items(
-    xml,
+    xmls,
     timezone: options[:timezone],
     existing_entries: existing_entries
   )
@@ -166,7 +185,7 @@ def run
   end
   merged = existing_entries + added_items
 
-  puts "Record Club items in feed: #{new_items.length}"
+  puts "Record Club items across #{xmls.length} feed(s): #{new_items.length}"
   puts "Added Record Club entries: #{added_items.length}"
   puts "Appending only new entries in #{MEDIA_PATH}"
 

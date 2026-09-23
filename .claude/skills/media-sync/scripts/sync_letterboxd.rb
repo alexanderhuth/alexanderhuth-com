@@ -12,6 +12,23 @@ require_relative "musicbrainz"
 DEFAULT_RSS_URL = "https://letterboxd.com/alexanderh/rss/"
 MEDIA_PATH = "_data/media.json"
 
+# Letterboxd film slugs (the segment after /film/ in the diary link) that are
+# really series tracked as TV via Serializd. They keep reappearing in the feed,
+# so they are skipped here instead of being removed by hand after every sync.
+# When a sync adds another Letterboxd row that duplicates a TV show, delete the
+# row from _data/media.json and record its slug here.
+TV_ON_LETTERBOXD = %w[
+  hostage-2025
+  legends-2026
+  his-hers-2026
+  kylie-2026
+  state-of-play-2003-1
+].freeze
+
+def letterboxd_film_slug(link)
+  link.to_s[%r{/film/([^/?#]+)}, 1]
+end
+
 def month_label(date)
   date.strftime("%B %Y")
 end
@@ -84,7 +101,7 @@ def existing_director_for(link:, title:, year:, by_url:, by_title_year:)
   by_title_year[[normalize_text(title), year.to_i]]
 end
 
-def parse_feed_items(xml, existing_entries:)
+def parse_feed_items(xml, existing_entries:, skipped: [])
   doc = REXML::Document.new(xml)
   items = []
   existing_directors_by_url, existing_directors_by_title_year = build_existing_director_indexes(existing_entries)
@@ -107,6 +124,11 @@ def parse_feed_items(xml, existing_entries:)
     link = text_at(item, "link")
     pub_date = text_at(item, "pubDate")
     next if title.to_s.empty?
+
+    if TV_ON_LETTERBOXD.include?(letterboxd_film_slug(link))
+      skipped << title
+      next
+    end
 
     normalized_year = year.to_s.match?(/^\d{4}$/) ? year.to_i : nil
     director = existing_director_for(
@@ -163,7 +185,8 @@ def run
   existing_entries = data["entries"] || []
 
   xml = fetch_feed(options[:rss_url])
-  all_items = parse_feed_items(xml, existing_entries: existing_entries)
+  skipped = []
+  all_items = parse_feed_items(xml, existing_entries: existing_entries, skipped: skipped)
   all_items = all_items.uniq { |item| item["guid"] }
 
   existing_guids = existing_entries.map { |entry| entry["guid"] }.compact.to_h { |guid| [guid, true] }
@@ -174,6 +197,7 @@ def run
   merged = existing_entries + added_items
 
   puts "Letterboxd watch items in feed: #{all_items.length}"
+  puts "Skipped TV-on-Letterboxd items: #{skipped.uniq.join(', ')}" unless skipped.empty?
   puts "Added Letterboxd entries: #{added_items.length}"
   puts "Appending only new entries in #{MEDIA_PATH}"
 

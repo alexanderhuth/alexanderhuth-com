@@ -4,7 +4,7 @@ title: Uses
 permalink: /uses/
 ---
 
-Tools, gear, and software I rely on. Inspired by [uses.tech](https://uses.tech).
+Tools and gear I rely on. Inspired by [uses.tech](https://uses.tech).
 
 ## Making coffee
 
@@ -28,20 +28,7 @@ Tools, gear, and software I rely on. Inspired by [uses.tech](https://uses.tech).
 
 - 2016 Bose QuietComfort 35
 - 2008 Canon PowerShot G10
-- 2016 Raspberry Pi 3 (running Homebridge)
+- 2010 Mac Mini (running Home Assistant)
 - 2015 MacBook Pro Retina 13-inch (as a home server)
 - 2012 Kobo Glo
 - 2005 Nikon D50
-
-## Software, apps and services
-
-- 1Password
-- Overcast
-- Feedbin plus Reeder Classic and Instapaper
-- Obsidian
-- RNI Films, Darkroom and Photomator
-- BBEdit, Byword and Cyberduck
-- Raycast (I'm sorry, Alfred!)
-- Mela and Aeromatic
-- Discographic
-- Hello Weather

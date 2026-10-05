@@ -1,5 +1,38 @@
 [
   {
+    "setlist_id": "237f7c1b",
+    "date": "2026-10-02",
+    "artist": "Postman",
+    "venue": "Private Venue",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/postman/2026/private-venue-berlin-germany-237f7c1b.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "37f11fb",
+    "date": "2026-10-01",
+    "artist": "Strawberry Guy",
+    "venue": "Frannz Club",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/strawberry-guy/2026/kulturbrauerei-frannz-club-berlin-germany-37f11fb.html",
+    "festival_parent": null
+  },
+  {
+    "setlist_id": "1b7f11f4",
+    "date": "2026-10-01",
+    "artist": "Malena Zavala",
+    "venue": "Frannz Club",
+    "city": "Berlin",
+    "country": "Germany",
+    "festival": null,
+    "setlist_url": "https://www.setlist.fm/setlist/malena-zavala/2026/kulturbrauerei-frannz-club-berlin-germany-1b7f11f4.html",
+    "festival_parent": null
+  },
+  {
     "setlist_id": "6377e233",
     "date": "2026-09-24",
     "artist": "WU LYF",

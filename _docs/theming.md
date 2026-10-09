@@ -6,7 +6,7 @@ Single CSS file: `assets/style.css`. No preprocessor. Mobile-first, responsive.
 
 Layout tokens on `:root`: `--text-width` (`72ch` text column) and `--gutter` (`1.5rem` side padding).
 
-Type tokens on `:root`: `--text-base` (`1.125rem` body size — rem so browser font-size settings apply) and `--text-ratio` (`1.15`). Heading sizes are computed as `base × ratio^step` via `pow()` with positive steps only (h6 = step 0 = body size), so a heading can never be smaller than the text it introduces. `--font-size-sm` is the hand-picked detail size (captions, footer) — small sizes are curated, never derived as negative steps. Figures and the photo grid bleed into the gutter via `calc(-1 * var(--gutter))` margins; the `sizes` default in `_includes/photo-figure.html` mirrors `--text-width + 2 * --gutter` and must be kept in sync by hand.
+Type tokens on `:root`: `--text-base` (`1.125rem` body size — rem so browser font-size settings apply) and `--text-ratio` (`1.15`). Heading sizes are computed as `base × ratio^step` via `pow()` with non-negative steps only, so a heading can never be smaller than the text it introduces: h1 4, h2 2, h3 1, h4 0.5, h5 0.25, h6 0 (= body size). The steps are compressed so h1–h3, the levels pages actually use, stay clearly apart while section headings stay modest. `--font-size-sm` is the hand-picked detail size (captions, footer) — small sizes are curated, never derived as negative steps. Figures and the photo grid bleed into the gutter via `calc(-1 * var(--gutter))` margins; the `sizes` default in `_includes/photo-figure.html` mirrors `--text-width + 2 * --gutter` and must be kept in sync by hand.
 
 ## Themes
 

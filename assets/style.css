@@ -33,7 +33,7 @@ body {
   --border-color: #d9d3ca;
   --link-color: var(--text-color);
   --link-hover: var(--text-color);
-  /* type scale: heading sizes are base × ratio^step with positive
+  /* type scale: heading sizes are base × ratio^step with non-negative
      steps only, so no heading can be smaller than the body text it
      introduces; --font-size-sm is the hand-picked detail size for
      captions and the footer, never a negative step on the scale */
@@ -213,23 +213,23 @@ h6 {
 }
 
 h1 {
-  font-size: calc(var(--text-base) * pow(var(--text-ratio), 5));
-}
-
-h2 {
   font-size: calc(var(--text-base) * pow(var(--text-ratio), 4));
 }
 
-h3 {
-  font-size: calc(var(--text-base) * pow(var(--text-ratio), 3));
-}
-
-h4 {
+h2 {
   font-size: calc(var(--text-base) * pow(var(--text-ratio), 2));
 }
 
-h5 {
+h3 {
   font-size: calc(var(--text-base) * pow(var(--text-ratio), 1));
+}
+
+h4 {
+  font-size: calc(var(--text-base) * pow(var(--text-ratio), 0.5));
+}
+
+h5 {
+  font-size: calc(var(--text-base) * pow(var(--text-ratio), 0.25));
 }
 
 h6 {

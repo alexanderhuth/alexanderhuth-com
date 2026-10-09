@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Colophon
+description: "How this site is made and served."
 permalink: /colophon/
 ---
 

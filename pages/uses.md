@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Uses
+description: "The tools and gear I rely on."
 permalink: /uses/
 ---
 

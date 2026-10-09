@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Follow
+description: "Where to find and follow Alexander Huth online."
 permalink: /follow/
 ---
 

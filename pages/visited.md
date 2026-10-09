@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Visited
+description: "All the countries and territories I've been to."
 permalink: /visited/
 seo_title: Countries and Territories I have visited
 ---

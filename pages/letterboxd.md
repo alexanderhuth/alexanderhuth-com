@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Letterboxd
+description: "My film lists and stats from Letterboxd."
 permalink: /letterboxd/
 theme: letterboxd
 ---

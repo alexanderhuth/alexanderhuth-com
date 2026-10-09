@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Concerts
+description: "An archive of every concert I've been to, from bands and venues to dates."
 permalink: /concerts/
 ---
 

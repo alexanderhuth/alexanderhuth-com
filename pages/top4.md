@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Top4
+description: "My definitive Top 4s of albums, films, songs and more."
 heading: Top 4
 seo_title: Top 4s
 permalink: /top4/

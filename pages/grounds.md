@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Grounds
+description: "Stadiums and grounds I've visited for professional sporting events."
 permalink: /grounds/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Alexander Huth
+description: "Alexander Huth is a Berlin-based marketing consultant helping companies grow organically. He's also into bikes, pourovers, films, music and list-making."
 heading: Hello 👋
 ---
 

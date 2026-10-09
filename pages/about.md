@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: "Alexander Huth's career, life, and the things he loves."
 heading: About Me
 seo_title: About Alexander
 permalink: /about/

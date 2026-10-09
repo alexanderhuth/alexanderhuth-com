@@ -1,6 +1,7 @@
 {% assign entries_by_pts = site.data.media.entries | sort: "pub_ts" | reverse %}
 {% assign dates = entries_by_pts | map: "date" | uniq | sort | reverse %}
 {% assign months = entries_by_pts | map: "month" | uniq %}
+{% assign cinema_guids = site.data.cinema | map: "guid" %}
 
 <div class="media-filters" aria-label="Filter media entries">
   <span class="media-filters-label">Filter by:&nbsp;</span>
@@ -53,7 +54,9 @@
             {% assign entry_meta = tv_meta | strip %}
           {% endif %}
           <tr data-media-type="{{ entry.type }}">
-            <td class="media-table-emoji" aria-hidden="true">{{ entry.emoji }}</td>
+            {% assign entry_emoji = entry.emoji %}
+            {% if entry.type == 'film' and cinema_guids contains entry.guid %}{% assign entry_emoji = '🍿' %}{% endif %}
+            <td class="media-table-emoji" aria-hidden="true">{{ entry_emoji }}</td>
             <td class="media-table-title">{{ entry_title }}</td>
             <td class="media-table-meta{% if entry.type == 'tv' %} media-table-meta-tv{% endif %}">
               {% if entry_meta %}

@@ -88,3 +88,9 @@ Stored in `_data/`. The concerts schema:
 ```
 
 Keep nullable fields `null` rather than inventing values.
+
+`cinema.json` lists films seen at the cinema, maintained by hand
+(Letterboxd tags aren't in the RSS feed). Each entry has `date`,
+`title`, `year` and the Letterboxd `guid` of the matching film in
+`media.json`. Matching is by `guid` only, since titles can differ.
+Matched films get 🍿 instead of 🎬 on `/media/`.

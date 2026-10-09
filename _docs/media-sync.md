@@ -33,7 +33,7 @@ still skips same-day Record Club duplicates when run by hand.
 
 1. Check [Serializd diary](https://www.serializd.com/user/alexanderh/diary) for new TV entries.
 2. Run the sync script.
-3. Review the diff; resolve any missing directors via web search.
+3. Review the diff; resolve any missing directors via web search (never by fetching letterboxd.com pages — only its RSS feed is read).
 4. Add TV entries manually.
 
 ## Output Schema

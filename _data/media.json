@@ -9543,20 +9543,6 @@
       "pub_ts": 1790837826
     },
     {
-      "guid": "letterboxd-watch-1524703466",
-      "source": "letterboxd",
-      "type": "film",
-      "emoji": "🎬",
-      "date": "2025-09-25",
-      "date_display": "Sep 25",
-      "month": "September 2025",
-      "title": "Listers: A Glimpse Into Extreme Birdwatching",
-      "year": 2025,
-      "director": null,
-      "url": "https://letterboxd.com/alexanderh/film/listers-a-glimpse-into-extreme-birdwatching/",
-      "pub_ts": 1791186927
-    },
-    {
       "guid": "letterboxd-watch-1523835360",
       "source": "letterboxd",
       "type": "film",
@@ -9641,6 +9627,20 @@
       "episode_number": 3,
       "episode_title": "Resurrection",
       "pub_ts": 1790780593
+    },
+    {
+      "guid": "letterboxd-watch-1525009224",
+      "source": "letterboxd",
+      "type": "film",
+      "emoji": "🎬",
+      "date": "2026-10-05",
+      "date_display": "Oct 5",
+      "month": "October 2026",
+      "title": "Fatherland",
+      "year": 2026,
+      "director": "Paweł Pawlikowski",
+      "url": "https://letterboxd.com/alexanderh/film/fatherland-2026/",
+      "pub_ts": 1791214321
     }
   ]
 }

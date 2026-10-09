@@ -52,6 +52,11 @@ def run_sync(script_name, dry_run:)
   abort("Sync failed: #{File.basename(script_name)}") if exit_code == 1
 end
 
+# The Last.fm fallback is paused: it re-reads everything since its last entry
+# and mostly re-adds listens Record Club already has (often a day apart).
+# Set to true to re-enable it, or run sync_lastfm.rb by hand.
+LASTFM_FALLBACK = false
+
 # Runs Record Club as primary music source; falls back to Last.fm if Record Club
 # returns no entries (exit 2) — e.g. when the RSS doesn't reach far enough back.
 def sync_music(dry_run:)
@@ -62,8 +67,12 @@ def sync_music(dry_run:)
   when 0
     # Record Club had entries — done.
   when 2
-    puts "No new Record Club entries, falling back to Last.fm..."
-    run_sync("sync_lastfm.rb", dry_run: dry_run)
+    if LASTFM_FALLBACK
+      puts "No new Record Club entries, falling back to Last.fm..."
+      run_sync("sync_lastfm.rb", dry_run: dry_run)
+    else
+      puts "No new Record Club entries (Last.fm fallback paused)."
+    end
   else
     abort("Sync failed: sync_recordclub.rb")
   end

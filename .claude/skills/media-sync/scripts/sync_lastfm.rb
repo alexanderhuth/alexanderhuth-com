@@ -276,6 +276,18 @@ def load_dotenv(path)
   end
 end
 
+# Albums Record Club already has on the same day, keyed by date and
+# normalized album title. Last.fm re-reads everything since its own last
+# entry whenever it runs as the fallback, so without this it re-adds
+# listens that Record Club imported in earlier syncs.
+def recordclub_listen_index(entries)
+  entries.each_with_object({}) do |entry, index|
+    next unless entry["source"] == "recordclub" && entry["type"] == "music"
+
+    index[[entry["date"], normalize_text(entry["album"])]] = true
+  end
+end
+
 def run
   options = parse_options
   load_dotenv(File.expand_path(".env"))
@@ -308,12 +320,18 @@ def run
     timezone: options[:timezone],
     existing_album_years: existing_album_years
   )
-  added_entries = new_entries.reject { |entry| existing_guids[entry["guid"]] }
+  recordclub_listens = recordclub_listen_index(existing_entries)
+  new_entries = new_entries.reject { |entry| existing_guids[entry["guid"]] }
+  added_entries, recordclub_duplicates = new_entries.partition do |entry|
+    !recordclub_listens[[entry["date"], normalize_text(entry["album"])]]
+  end
   merged = existing_entries + added_entries
 
   puts "Fetched tracks: #{tracks.length} (from #{raw_tracks.length} raw API items)"
   puts "Detected album sets: #{album_sets.length}"
+  puts "Skipped same-day Record Club duplicates: #{recordclub_duplicates.length}"
   puts "Added Last.fm entries: #{added_entries.length}"
+  added_entries.each { |entry| puts "  + #{entry["date"]} #{entry["album"]} by #{entry["artist"]} (#{entry["set_track_count"]} tracks)" }
   puts "Appending only new entries in #{MEDIA_PATH}"
 
   unless options[:dry_run]

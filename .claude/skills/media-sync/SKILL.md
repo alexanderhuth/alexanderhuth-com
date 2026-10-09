@@ -6,7 +6,7 @@ compatibility: Requires Ruby 3.4+. Run from the Jekyll repo root. Needs internet
 
 # Media Sync
 
-Use this skill to import new media activity. It runs `sync_media.rb`, which updates `_data/media.json` from Record Club (primary), Last.fm (fallback), and Letterboxd sources.
+Use this skill to import new media activity. It runs `sync_media.rb`, which updates `_data/media.json` from Record Club and Letterboxd. The Last.fm fallback is currently paused (`LASTFM_FALLBACK` in `sync_media.rb`).
 
 ## When To Use It
 

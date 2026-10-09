@@ -25,6 +25,10 @@ TV_ON_LETTERBOXD = %w[
   state-of-play-2003-1
 ].freeze
 
+# Diary entries watched before this date are never imported, even when they
+# are logged (backdated) later and show up in the feed as new.
+MIN_WATCHED_DATE = Date.new(2026, 1, 1)
+
 def letterboxd_film_slug(link)
   link.to_s[%r{/film/([^/?#]+)}, 1]
 end
@@ -101,7 +105,7 @@ def existing_director_for(link:, title:, year:, by_url:, by_title_year:)
   by_title_year[[normalize_text(title), year.to_i]]
 end
 
-def parse_feed_items(xml, existing_entries:, skipped: [])
+def parse_feed_items(xml, existing_entries:, skipped: [], backdated: [])
   doc = REXML::Document.new(xml)
   items = []
   existing_directors_by_url, existing_directors_by_title_year = build_existing_director_indexes(existing_entries)
@@ -124,6 +128,11 @@ def parse_feed_items(xml, existing_entries:, skipped: [])
     link = text_at(item, "link")
     pub_date = text_at(item, "pubDate")
     next if title.to_s.empty?
+
+    if date < MIN_WATCHED_DATE
+      backdated << "#{title} (#{date.iso8601})"
+      next
+    end
 
     if TV_ON_LETTERBOXD.include?(letterboxd_film_slug(link))
       skipped << title
@@ -186,7 +195,8 @@ def run
 
   xml = fetch_feed(options[:rss_url])
   skipped = []
-  all_items = parse_feed_items(xml, existing_entries: existing_entries, skipped: skipped)
+  backdated = []
+  all_items = parse_feed_items(xml, existing_entries: existing_entries, skipped: skipped, backdated: backdated)
   all_items = all_items.uniq { |item| item["guid"] }
 
   existing_guids = existing_entries.map { |entry| entry["guid"] }.compact.to_h { |guid| [guid, true] }
@@ -198,6 +208,7 @@ def run
 
   puts "Letterboxd watch items in feed: #{all_items.length}"
   puts "Skipped TV-on-Letterboxd items: #{skipped.uniq.join(', ')}" unless skipped.empty?
+  puts "Skipped items watched before #{MIN_WATCHED_DATE}: #{backdated.uniq.join(', ')}" unless backdated.empty?
   puts "Added Letterboxd entries: #{added_items.length}"
   puts "Appending only new entries in #{MEDIA_PATH}"
 

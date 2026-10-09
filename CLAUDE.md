@@ -21,3 +21,4 @@ bundle exec jekyll clean
 - [Meet booking system](_docs/meet.md)
 - [Media sync workflow](_docs/media-sync.md)
 - [Photos feed](_docs/photos.md)
+- [Log (/log/)](_docs/log.md)

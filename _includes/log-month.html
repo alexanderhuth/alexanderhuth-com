@@ -1,0 +1,55 @@
+<p>Everything I posted, watched, listened to and went to in {{ page.month_label }}.</p>
+
+<div class="h-feed">
+{% for day in page.days %}
+<article class="log-day" id="{{ day.date }}">
+  <h2><time datetime="{{ day.date }}">{{ day.label }}</time></h2>
+
+  <ul class="emoji-list log-lines">
+    {% if day.posts.size > 0 %}
+    <li>Published {% for post in day.posts %}{% include log-join.html %}<a class="h-entry u-url p-name" href="{{ post.url }}">{{ post.title }}</a>{% endfor %}.</li>
+    {% endif %}
+
+    {% if day.photos.size > 0 %}
+    <li>Posted {% if day.photos.size == 1 %}a photo{% else %}photos{% endif %}: {% for photo in day.photos %}{% include log-join.html %}<a class="h-entry u-url" href="{{ photo.url }}">{{ photo.title }}</a>{% endfor %}.</li>
+    {% endif %}
+
+    {% for show in day.concerts %}
+    <li class="h-entry">Saw {% for a in show.artists %}{% include log-join.html %}{{ a.title }}{% endfor %} at {{ show.place }}.</li>
+    {% endfor %}
+
+    {% for g in day.grounds %}
+    <li class="h-entry">{{ g.title }} at {{ g.venue }}{% if g.city %}, {{ g.city }}{% endif %}{% if g.competition %} <span class="log-aside">({{ g.competition }})</span>{% endif %}.</li>
+    {% endfor %}
+
+    {% for f in day.flights %}
+    <li class="h-entry">Flew from {{ f.from }} to {{ f.to }}{% if f.airline != "" %} <span class="log-aside">({{ f.airline }})</span>{% endif %}.</li>
+    {% endfor %}
+
+    {% if day.cinema.size > 0 %}
+    <li>Watched {% for film in day.cinema %}{% include log-join.html %}<em>{{ film.title }}</em>{% if film.by %} by {{ film.by }}{% endif %}{% endfor %} at the cinema.</li>
+    {% endif %}
+
+    {% if day.films.size > 0 %}
+    <li>Watched {% for film in day.films %}{% include log-join.html %}<em>{{ film.title }}</em>{% if film.by %} by {{ film.by }}{% endif %}{% endfor %}.</li>
+    {% endif %}
+
+    {% if day.shows.size > 0 %}
+    <li>Binged {% for show in day.shows %}{% include log-join.html %}{% if show.episodes.size > 0 %}{% for ep in show.episodes %}{% include log-join.html %}{{ ep }}{% endfor %} of {% endif %}<em>{{ show.title }}</em>{% endfor %}.</li>
+    {% endif %}
+
+    {% if day.albums.size > 0 %}
+    <li>Listened to {% for album in day.albums %}{% include log-join.html %}<em>{{ album.title }}</em>{% if album.by %} by {{ album.by }}{% endif %}{% endfor %}.</li>
+    {% endif %}
+  </ul>
+</article>
+{% endfor %}
+</div>
+
+<h2>Older logs</h2>
+<p class="section-index">{%- for m in page.archive -%}{% if forloop.index0 > 0 %}, {% endif %}{% if m.key == page.month %}<strong aria-current="page">{{ m.label }}</strong>{% else %}<a href="{{ m.url }}">{{ m.label }}</a>{% endif %}{%- endfor -%}</p>
+
+<nav class="log-pager" aria-label="Months">
+  {% if page.newer %}<a href="{{ page.newer.url }}" rel="prev">← {{ page.newer.label }}</a>{% else %}<span></span>{% endif %}
+  {% if page.older %}<a href="{{ page.older.url }}" rel="next">{{ page.older.label }} →</a>{% endif %}
+</nav>

@@ -1,0 +1,4 @@
+{%- comment -%}
+  Separator for "a, b and c" lists inside a for loop.
+{%- endcomment -%}
+{%- unless forloop.first -%}{%- if forloop.last %} and {% else %}, {% endif -%}{%- endunless -%}

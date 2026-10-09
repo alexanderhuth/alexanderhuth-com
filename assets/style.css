@@ -456,6 +456,25 @@ pre code {
   color: color-mix(in srgb, currentColor 72%, transparent 28%);
 }
 
+.log-day {
+  margin: 0 0 3rem;
+}
+
+.log-lines li {
+  margin: 0 0 0.6rem;
+}
+
+.log-aside {
+  color: color-mix(in srgb, currentColor 72%, transparent 28%);
+}
+
+.log-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0 0;
+}
+
 .section-index {
   margin: 0 0 1rem;
 }

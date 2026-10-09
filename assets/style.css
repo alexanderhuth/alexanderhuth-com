@@ -456,11 +456,11 @@ pre code {
   color: color-mix(in srgb, currentColor 72%, transparent 28%);
 }
 
-.concert-index {
+.section-index {
   margin: 0 0 1rem;
 }
 
-.concert-meta {
+.section-meta {
   margin: 0 0 0.5rem;
 }
 

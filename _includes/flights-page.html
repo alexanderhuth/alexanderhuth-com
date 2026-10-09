@@ -30,7 +30,7 @@
 {% assign flight_label = 'flights' %}
 {% if section.flights == 1 %}{% assign flight_label = 'flight' %}{% endif %}
 <h2>{{ section.label }}</h2>
-<p class="concert-meta"><em>{{ section.flights }} {{ flight_label }} · {{ section.distance_formatted }}</em></p>
+<p class="section-meta"><em>{{ section.flights }} {{ flight_label }} · {{ section.distance_formatted }}</em></p>
 
 {% assign sorted_items = section.items | sort: "sort_key" | reverse %}
 <table class="media-table" aria-label="{{ section.label }} flights">

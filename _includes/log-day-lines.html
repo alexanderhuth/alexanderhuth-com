@@ -1,0 +1,14 @@
+{%- comment -%}
+  The lines for one log day. Shared by the month pages and log.xml;
+  pass base=site.url to get absolute links for the feed.
+{%- endcomment -%}
+  <p>
+    {%- assign day = include.day -%}
+    {%- assign base = include.base | default: "" -%}
+    {%- for post in day.posts %}<span class="h-entry log-line">Published <a class="u-url p-name" href="{{ base }}{{ post.url }}">{{ post.title }}</a>.</span>{% endfor %}
+    {%- if day.photos.size == 1 %}{% assign photo = day.photos.first %}<span class="h-entry log-line">Posted the photo <a class="u-url p-name" href="{{ base }}{{ photo.url }}">{{ photo.title }}</a>.</span>
+    {%- elsif day.photos.size > 1 %}<span class="log-line">Posted <a href="{{ base }}/photos/">{{ day.photos.size }} photos</a>.</span>{% endif %}
+    {%- for show in day.concerts %}<span class="h-entry log-line">Saw {% if show.festival %}{{ show.artists.size }} {% if show.artists.size == 1 %}band{% else %}bands{% endif %}{% else %}{% for a in show.artists %}{% include log-join.html %}<em>{{ a.title }}</em>{% endfor %}{% endif %} at {{ show.place }}.</span>{% endfor %}
+    {%- for f in day.flights %}<span class="h-entry log-line">Flew from {{ f.from }} to {{ f.to }}.</span>{% endfor %}
+    {%- for line in day.summary %}<span class="log-line">{{ line }}</span>{% endfor -%}
+  </p>

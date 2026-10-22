@@ -1,0 +1,38 @@
+---
+layout: null
+permalink: /log.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | escape }}'s Log</title>
+  <id>{{ "/log/" | absolute_url }}</id>
+  <link href="{{ "/log.xml" | absolute_url }}" rel="self" />
+  <link href="{{ "/log/" | absolute_url }}" />
+  <author>
+    <name>{{ site.author | escape }}</name>
+  </author>
+  {% assign days = site.data.log_days %}
+  {% if days and days.size > 0 %}
+    <updated>{{ days.first.updated }}</updated>
+  {% else %}
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+  {% endif %}
+  {% for day in days limit: 30 %}
+    {%- capture lines -%}{% include log-day-lines.html day=day base=site.url %}{%- endcapture -%}
+    {%- comment -%} Readers don't get the site CSS that puts each line on
+    its own row, so break between lines explicitly. {%- endcomment -%}
+    {%- assign html = lines | replace: "</span><span", "</span><br><span" | strip %}
+    <entry>
+      <title>{{ day.date | date: "%A, %B %-d, %Y" }}</title>
+      {%- comment -%} The tag URI stays the same when the day moves from
+      /log/ to its month's archive page. {%- endcomment %}
+      <id>tag:{{ site.url | remove: "https://" | remove: "http://" }},{{ day.date }}:log</id>
+      <link href="{{ day.url | absolute_url }}" rel="alternate" type="text/html" />
+      <updated>{{ day.updated }}</updated>
+      <summary>{{ html | replace: "<br>", " " | strip_html | normalize_whitespace | escape }}</summary>
+      <content type="html">
+        <![CDATA[{{ html }}]]>
+      </content>
+    </entry>
+  {% endfor %}
+</feed>

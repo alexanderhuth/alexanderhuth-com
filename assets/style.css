@@ -460,8 +460,12 @@ pre code {
   margin: 0 0 3rem;
 }
 
-.log-lines li {
-  margin: 0 0 0.6rem;
+.log-day p {
+  margin: 0 0 0.75rem;
+}
+
+.log-line {
+  display: block;
 }
 
 .log-aside {

@@ -26,3 +26,4 @@ Subscribe via RSS:
 - [Full feed](/feed.xml) — posts and photos
 - [Posts](/posts.xml) — blog posts only
 - [Photos](/photos.xml) — photos only
+- [Log](/log.xml) — daily activity

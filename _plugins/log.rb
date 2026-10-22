@@ -40,13 +40,16 @@ module SiteLog
         { "key" => m, "label" => Date.strptime(m, "%Y-%m").strftime("%B %Y"), "url" => month_url(m, latest) }
       end
 
+      all_days = []
+
       months.each_with_index do |month, idx|
         newer = idx.positive? ? months[idx - 1] : nil
         older = months[idx + 1]
         days = by_month[month]
           .group_by { |i| i["date"] }
           .sort.reverse
-          .map { |date, day_items| day(date, day_items) }
+          .map { |date, day_items| day(date, day_items).merge("url" => "#{month_url(month, latest)}##{date}") }
+        all_days.concat(days)
 
         data = {
           "month" => month,
@@ -61,6 +64,9 @@ module SiteLog
 
         site.pages << MonthPage.new(site, month_url(month, latest).delete_prefix("/"), month, data)
       end
+
+      # Newest first, for log.xml (one entry per day).
+      site.data["log_days"] = all_days
     end
 
     private
@@ -78,12 +84,22 @@ module SiteLog
       films = kind.("film").uniq { |i| i["url"] || i["title"] }
 
       concerts = kind.("concert").group_by { |i| i["place"] }.map do |place, shows_at|
-        { "place" => place, "artists" => shows_at }
+        { "place" => place, "artists" => shows_at, "festival" => shows_at.first["festival"] }
       end
+
+      albums = kind.("music").uniq { |i| i["url"] || i["title"] }
+      episodes = kind.("tv").map { |i| [i["title"], i["episode"]] }.uniq
+
+      # Latest timestamp of the day's items, so feed readers see a day as
+      # updated when a later sync adds to it; noon when nothing has one.
+      latest_ts = day_items.map { |i| i["sort"].to_i }.max
+      y, m, d = date.split("-").map(&:to_i)
+      updated = latest_ts.positive? ? Time.at(latest_ts) : Time.new(y, m, d, 12)
 
       {
         "date" => date,
         "label" => Date.parse(date).strftime("%A, %B %-d"),
+        "updated" => updated.iso8601,
         "posts" => kind.("post"),
         "photos" => kind.("photo"),
         "concerts" => concerts,
@@ -92,8 +108,31 @@ module SiteLog
         "films" => films.reject { |i| i["cinema"] },
         "cinema" => films.select { |i| i["cinema"] },
         "shows" => shows,
-        "albums" => kind.("music").uniq { |i| i["url"] || i["title"] }
+        "albums" => albums,
+        "summary" => summary(
+          grounds: kind.("ground").size,
+          films: films.size,
+          cinema: films.count { |i| i["cinema"] },
+          episodes: episodes.size, albums: albums.size
+        )
       }
+    end
+
+    # Everything but posts, photos, concerts and flights (own lines)
+    # as one line of counts per type: "Binged 3 episodes."
+    def summary(grounds:, films:, cinema:, episodes:, albums:)
+      count = ->(n, word, plural = "#{word}s") { "#{n} #{n == 1 ? word : plural}" }
+      film_line = if films.zero? then nil
+                  elsif cinema == films then "Watched #{count.(films, "film")} at the cinema."
+                  elsif cinema.positive? then "Watched #{count.(films, "film")} (#{cinema} at the cinema)."
+                  else "Watched #{count.(films, "film")}."
+                  end
+      [
+        grounds.positive? && "Went to #{count.(grounds, "match", "matches")}.",
+        film_line,
+        episodes.positive? && "Binged #{count.(episodes, "episode")}.",
+        albums.positive? && "Listened to #{count.(albums, "album")}."
+      ].select { |line| line }
     end
 
     # Consecutive episodes of a season collapse into a range:
@@ -147,7 +186,8 @@ module SiteLog
       Array(site.data["concerts"]).each do |c|
         place = c["festival"] || [c["venue"], c["city"]].compact.join(", ")
         items << item("concert", c["date"], 0,
-                      "title" => c["artist"], "place" => place, "url" => c["setlist_url"])
+                      "title" => c["artist"], "place" => place, "festival" => !c["festival"].nil?,
+                      "url" => c["setlist_url"])
       end
 
       Array(site.data["grounds"]).each do |section|

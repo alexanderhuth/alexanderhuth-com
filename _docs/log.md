@@ -7,9 +7,21 @@ months live at `/log/YYYY/MM/`. Only months with entries get a page.
 
 Built by `_plugins/log.rb` (a generator — no front matter page in
 `pages/`), rendered by `_includes/log-month.html` as one `<article>` per
-day, with one sentence per kind ("Listened to A by X and B by Y.").
-Only posts and photos link (to their own pages); nothing links out. `_includes/log-join.html` supplies the ", " / " and "
-separators.
+day, as a single block of lines:
+
+- Posts: "Published <title>." (linked)
+- Photos: "Posted the photo <title>." (linked), or "Posted 4 photos."
+  linking to `/photos/` when there are several
+- Concerts: "Saw *A* and *B* at Venue, City." — band names in italics,
+  joined by `_includes/log-join.html`; festivals show a count instead:
+  "Saw 6 bands at Festival."
+- Flights: "Flew from X to Y."
+- Everything else: one line of counts per type, built by `summary` in
+  the plugin ("Watched 1 film at the cinema.", "Binged 3 episodes.",
+  "Listened to 4 albums.")
+
+Links are never italic or bold. Only posts and photos link (to their
+own pages); nothing links out.
 
 Sources: `_posts/`, `_photos/`, `_data/media.json` (film, tv, music),
 `_data/cinema.json` (marks films seen at the cinema),
@@ -31,3 +43,13 @@ tags aren't in the RSS feed). Each entry: `date`, `title`, `year`, and
 the Letterboxd `guid` of the matching `media.json` film entry — matching
 is by `guid` only, since titles can differ. Matched films read "Watched
 … at the cinema." on `/log/` and get 🍿 instead of 🎬 on `/media/`.
+
+## Feed
+
+`log.xml` has one Atom entry per day (30 most recent), built from
+`site.data.log_days`, which the plugin fills. The entry content is the
+same `_includes/log-day-lines.html` the page uses, with absolute links
+and `<br>` between lines (feed readers don't get the CSS). Entry ids
+are tag URIs so they survive a day moving from `/log/` to its month
+page; `updated` is the latest item timestamp of the day. The log is
+deliberately not part of `feed.xml`.

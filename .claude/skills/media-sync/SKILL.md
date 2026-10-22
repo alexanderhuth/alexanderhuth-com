@@ -70,10 +70,13 @@ ruby .claude/skills/media-sync/scripts/sync_media.rb --dry-run
    - Reuse existing values from `_data/media.json` first.
    - For any newly added film entry whose `director` is still null, do a web search using the title and year.
    - Use primary or otherwise authoritative sources. Do not trust RSS-level film-director fields or feed-author fields as director data.
+   - Never fetch letterboxd.com pages (film pages, tag pages, anything besides the RSS feed the sync script reads): Letterboxd's robots.txt blocks AI crawlers and tag pages for everyone. Use WebSearch results only, and don't cite Letterboxd as the source.
    - Patch `_data/media.json` with the confirmed director and cite the source in the response.
    - If the director still cannot be verified, leave it null and say so explicitly.
 
 8. If the user supplied new Serializd diary entries, add the missing TV rows to `_data/media.json` without duplicating existing watches.
+
+9. **Ask about cinema for every newly added film.** Use AskUserQuestion to ask which were watched at the cinema: with two or more new films, one multi-select question with one option per film (title and watch date); with a single film, a yes/no question. For each one confirmed, append `{ "date", "title", "year", "guid" }` to `_data/cinema.json` (newest first, `guid` copied from the film's `media.json` row). Films not selected need no entry. Skip this step when no films were added.
 
 ## Entry Ordering Rules
 
@@ -99,7 +102,7 @@ All entries have a `pub_ts` field. The template sorts by `date` descending (prim
 - Check `media.json` first before doing any web research.
 - If the same film already exists in `media.json` with `director` populated, reuse that value.
 - If an album year is already known from an existing matching entry, reuse it rather than querying MusicBrainz again.
-- Only fall back to web lookup when the field is still missing after checking existing data.
+- Only fall back to a web search when the field is still missing after checking existing data. Never fetch letterboxd.com pages for lookups.
 - Keep nullable fields null rather than inventing values.
 
 After editing `media.json` directly (not via the sync script), restart the Jekyll server or `touch _data/media.json` to trigger a rebuild — auto-regeneration does not always pick up manual edits.
@@ -141,3 +144,4 @@ After a sync, report:
 5. Any directors resolved manually via web search, with source links.
 6. Whether the user provided Serializd diary entries for TV updates.
 7. Any nullable lookup fields that remain unresolved.
+8. Which new films were added to `_data/cinema.json`.
